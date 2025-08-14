@@ -1,0 +1,1036 @@
+[
+    {
+        "id":"Stanwickquest",
+        "name":"No rest for the wicked",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"I arrived at Brightport's school, only to be told that Stanwick is under investigation and that he is not allowed visitors."
+            },
+            {
+                "progress":10,
+                "logText":"Janwick, Stanwick's grandfather mistook me for Andor and asked me to deliver some fresh fruit to Stanwick."
+            },
+            {
+                "progress":15,
+                "logText":"I was allowed to visit Stanwick."
+            },
+            {
+                "progress":16,
+                "logText":"Stanwick is currently under investigation as the main suspect in the disappearance of an important scroll from the school library."
+            },
+            {
+                "progress":20,
+                "logText":"Stanwick has something important to tell me about Andor, but I must help him first."
+            },
+            {
+                "progress":25,
+                "logText":"I agreed to help Stanwick find the culprit of the theft, I should look for clues around the school."
+            },
+            {
+                "progress":30,
+                "logText":"Milena, the school cook, had told me that she noticed a student from the living quarters sneaking off at night months prior."
+            },
+            {
+                "progress":31,
+                "logText":"Dibella the Lady from the desk at the entrance. Had told me that Stanwick's reputation is respectable, but as the library supervisor he must be considered a suspect."
+            },
+            {
+                "progress":35,
+                "logText":"Oswald, the Headmaster, has expressed his disbelief in Stanwick being guilty of the theft, and told me of the importance of the stolen scroll and that it must be returned to him."
+            },
+            {
+                "progress":40,
+                "logText":"Frederich the history teacher, who moved in from Feygard, believes Stanwick is associated with Those Nor city savages and was told by them to steal the document."
+            },
+            {
+                "progress":45,
+                "logText":"Franz the math teacher had told me that the most logical thing to do is to investigate the library, which is sealed. I must find a way to access it."
+            },
+            {
+                "progress":46,
+                "logText":"I asked the headmaster for access to the library, and he denied me."
+            },
+            {
+                "progress":47,
+                "logText":"I stole the library's key from a shelf while the headmaster was distracted. Hopefully there will be no consequences."
+            },
+            {
+                "progress":50,
+                "logText":"Counterfeit, a thieves guild member in the basement of the Brightport warehouse gave me a copy of the library key. "
+            },
+            {
+                "progress":55,
+                "logText":"In the library's basement archive I found a record of a now retired baker requesting to read the secret scroll, but having been denied. I should seek out their whereabouts."
+            },
+            {
+                "progress":60,
+                "logText":"Richimor, the old man sitting by the lake shore in Brightport was an acquittance of Bryma, he said she left Brightport many years ago and did not inform him of her destination, but she left a large part of her research material at his house, I should check it."
+            },
+            {
+                "progress":65,
+                "logText":"Inside Richimor's house, I found a bundle of papers left by Bryma, In there amongst the trivial writings, one paper stood out to as it talked about four strange statues in the vicinity of brightport."
+            },
+            {
+                "progress":66,
+                "logText":"I discovered a strange statue in the forest south of Brightport.With several undecipherable symbols. Perhaps this is one of the statues mentioned in the writings of Bryma."
+            },
+            {
+                "progress":70,
+                "logText":"I examined a statue north of Brightport. Carved onto the statue were the symbols for the letters L and H."
+            },
+            {
+                "progress":75,
+                "logText":"I examined a statue southeast of Brightport. Carved onto the statue were the symbols for the letters T and E."
+            },
+            {
+                "progress":80,
+                "logText":"I examined a statue far southwest of brightport. Carved onto the statue were the symbols for the letters A G, and R."
+            },
+            {
+                "progress":85,
+                "logText":"I spoke the activation word to the statue in the forest and can now move further."
+            },
+            {
+                "progress":86,
+                "logText":"Inside the forest was a cabin, in which I found Bryma and some strange creature made of bread."
+            },
+            {
+                "progress":92,
+                "logText":"I received the secret scroll from Bryma I should return it to the headmaster now."
+            },
+            {
+                "progress":95,
+                "logText":"I threatened Bryma to hand me over the scroll, she gave it to me as she did not intend to keep it."
+            },
+            {
+                "progress":96,
+                "logText":"I returned the secret scroll to the Headmaster, and Stanwick was cleared of all accusations.",
+                "finishesQuest":1
+            },
+            {
+                "progress":97,
+                "logText":"Although, I did not receive any reward."
+            },
+            {
+                "progress":100,
+                "logText":"I received a reward from the Headmaster for having returned the scroll."
+            }
+        ]
+    },
+    {
+        "id":"brightport_nondisplay",
+        "name":"brightport_nondisplay",
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Talked with othinus"
+            },
+            {
+                "progress":10,
+                "logText":"Stiyl story"
+            },
+            {
+                "progress":15,
+                "logText":"met silvear"
+            },
+            {
+                "progress":20,
+                "logText":"gained access from silvear"
+            },
+            {
+                "progress":25,
+                "logText":"bought acess from silvear"
+            },
+            {
+                "progress":30,
+                "logText":"talked with silvear"
+            },
+            {
+                "progress":31,
+                "logText":"Silvear andor paid"
+            },
+            {
+                "progress":33,
+                "logText":"met  Freya"
+            },
+            {
+                "progress":35,
+                "logText":"spoke with hortensia"
+            },
+            {
+                "progress":40,
+                "logText":"History class over"
+            },
+            {
+                "progress":42,
+                "logText":"franz asked"
+            },
+            {
+                "progress":45,
+                "logText":"note given"
+            },
+            {
+                "progress":50,
+                "logText":"stanwick entrance done"
+            },
+            {
+                "progress":55,
+                "logText":"paper ink check passed"
+            },
+            {
+                "progress":60,
+                "logText":"note written"
+            },
+            {
+                "progress":61,
+                "logText":" #1"
+            },
+            {
+                "progress":62,
+                "logText":"#2"
+            },
+            {
+                "progress":63,
+                "logText":"#3"
+            },
+            {
+                "progress":64,
+                "logText":"first step done"
+            },
+            {
+                "progress":65,
+                "logText":"second step done"
+            },
+            {
+                "progress":66,
+                "logText":"Dibella incident asked"
+            },
+            {
+                "progress":70,
+                "logText":"stanwick found told"
+            },
+            {
+                "progress":75,
+                "logText":"denied key"
+            },
+            {
+                "progress":80,
+                "logText":"principal distracted"
+            },
+            {
+                "progress":85,
+                "logText":"returned scroll"
+            },
+            {
+                "progress":86,
+                "logText":"richimor story"
+            },
+            {
+                "progress":87,
+                "logText":"fiamma shop"
+            },
+            {
+                "progress":88,
+                "logText":"statue puzzle req"
+            },
+            {
+                "progress":89,
+                "logText":"L"
+            },
+            {
+                "progress":90,
+                "logText":"E"
+            },
+            {
+                "progress":91,
+                "logText":"T"
+            },
+            {
+                "progress":92,
+                "logText":"H"
+            },
+            {
+                "progress":93,
+                "logText":"G"
+            },
+            {
+                "progress":94,
+                "logText":"A"
+            },
+            {
+                "progress":95,
+                "logText":"R"
+            },
+            {
+                "progress":96,
+                "logText":"L correct"
+            },
+            {
+                "progress":97,
+                "logText":"E correct"
+            },
+            {
+                "progress":98,
+                "logText":"T correct"
+            },
+            {
+                "progress":99,
+                "logText":"H correct"
+            },
+            {
+                "progress":100,
+                "logText":"G correct"
+            },
+            {
+                "progress":101,
+                "logText":"A correct"
+            },
+            {
+                "progress":102,
+                "logText":"R correct"
+            },
+            {
+                "progress":103,
+                "logText":"got library key"
+            },
+            {
+                "progress":104,
+                "logText":"got scroll"
+            },
+            {
+                "progress":105,
+                "logText":"andor story"
+            },
+            {
+                "progress":106,
+                "logText":"bryma bonemeal"
+            },
+            {
+                "progress":107,
+                "logText":"bryma baking story"
+            },
+            {
+                "progress":108,
+                "logText":"mordred dog"
+            },
+            {
+                "progress":109,
+                "logText":"dog girl"
+            },
+            {
+                "progress":110,
+                "logText":"bryma tomb"
+            },
+            {
+                "progress":111,
+                "logText":"bryma bonemeal theory"
+            },
+            {
+                "progress":112,
+                "logText":"bryma quest end"
+            },
+            {
+                "progress":113,
+                "logText":"basement lizard"
+            },
+            {
+                "progress":114,
+                "logText":"lizard statue activated"
+            },
+            {
+                "progress":115,
+                "logText":"emyro talk"
+            },
+            {
+                "progress":116,
+                "logText":"burial tomb done\n"
+            },
+            {
+                "progress":117,
+                "logText":"lizard spawned"
+            },
+            {
+                "progress":118,
+                "logText":"king room"
+            },
+            {
+                "progress":119,
+                "logText":"king slain check"
+            },
+            {
+                "progress":120,
+                "logText":"rest of the lizards killed check"
+            },
+            {
+                "progress":121,
+                "logText":"crystal chant"
+            },
+            {
+                "progress":122,
+                "logText":"crystal1"
+            },
+            {
+                "progress":123,
+                "logText":"crystal2"
+            },
+            {
+                "progress":124,
+                "logText":"crystal 2 shattered"
+            },
+            {
+                "progress":125,
+                "logText":"crystal 1 shattered"
+            },
+            {
+                "progress":126,
+                "logText":"charwood path unlocked"
+            },
+            {
+                "progress":127,
+                "logText":"dominio told"
+            },
+            {
+                "progress":128,
+                "logText":"goons quest started"
+            },
+            {
+                "progress":129,
+                "logText":"benbyr gang met"
+            },
+            {
+                "progress":130,
+                "logText":"elysa introduction"
+            },
+            {
+                "progress":131,
+                "logText":"Barthold introduction"
+            },
+            {
+                "progress":132,
+                "logText":"check for sequence"
+            },
+            {
+                "progress":133,
+                "logText":"greedy XD"
+            },
+            {
+                "progress":135,
+                "logText":"thieve caught"
+            },
+            {
+                "progress":136,
+                "logText":"thieve caught and spoke to gunfryk"
+            },
+            {
+                "progress":137,
+                "logText":"commander hide check"
+            },
+            {
+                "progress":138,
+                "logText":"gunfryk timer"
+            },
+            {
+                "progress":139,
+                "logText":"barthold quest done"
+            },
+            {
+                "progress":140,
+                "logText":"sequence check gufnryk"
+            },
+            {
+                "progress":141,
+                "logText":"crate1"
+            },
+            {
+                "progress":142,
+                "logText":"crate2"
+            },
+            {
+                "progress":143,
+                "logText":"crate3"
+            },
+            {
+                "progress":144,
+                "logText":"hide over"
+            },
+            {
+                "progress":145,
+                "logText":"caught outside"
+            },
+            {
+                "progress":146,
+                "logText":"hide n seek option"
+            },
+            {
+                "progress":147,
+                "logText":"brother option"
+            },
+            {
+                "progress":148,
+                "logText":"hide failure"
+            },
+            {
+                "progress":149,
+                "logText":"hide success"
+            },
+            {
+                "progress":150,
+                "logText":"blackmail route"
+            },
+            {
+                "progress":151,
+                "logText":"barthold and dynes not guild"
+            },
+            {
+                "progress":152,
+                "logText":"new guy in town."
+            },
+            {
+                "progress":153,
+                "logText":"new commander script"
+            },
+            {
+                "progress":154,
+                "logText":"crate opened"
+            },
+            {
+                "progress":155,
+                "logText":"benbyr arrest"
+            },
+            {
+                "progress":156,
+                "logText":"gunfryk met"
+            },
+            {
+                "progress":157,
+                "logText":"eatloni work"
+            },
+            {
+                "progress":158,
+                "logText":"locked the door for the crate quest"
+            },
+            {
+                "progress":159,
+                "logText":"arrested by the guards."
+            },
+            {
+                "progress":160,
+                "logText":"arrest escape"
+            },
+            {
+                "progress":161,
+                "logText":"dirt"
+            },
+            {
+                "progress":162,
+                "logText":"dirt removed 3"
+            },
+            {
+                "progress":163,
+                "logText":"dirt removed 2"
+            },
+            {
+                "progress":164,
+                "logText":"dirt removed 1"
+            },
+            {
+                "progress":165,
+                "logText":"sweep 3"
+            },
+            {
+                "progress":166,
+                "logText":"sweep 2"
+            },
+            {
+                "progress":167,
+                "logText":"sweep 1"
+            },
+            {
+                "progress":168,
+                "logText":"sift over"
+            },
+            {
+                "progress":169,
+                "logText":"1sift"
+            },
+            {
+                "progress":170,
+                "logText":"2sift"
+            },
+            {
+                "progress":171,
+                "logText":"3sift"
+            },
+            {
+                "progress":172,
+                "logText":"4sift"
+            },
+            {
+                "progress":173,
+                "logText":"arrested #2"
+            },
+            {
+                "progress":174,
+                "logText":"arrested 3"
+            },
+            {
+                "progress":175,
+                "logText":"Arulir spawn"
+            },
+            {
+                "progress":176,
+                "logText":"arulir1"
+            },
+            {
+                "progress":177,
+                "logText":"arulir2"
+            },
+            {
+                "progress":178,
+                "logText":"arulir3"
+            },
+            {
+                "progress":179,
+                "logText":"arulir4"
+            },
+            {
+                "progress":180,
+                "logText":"arulir5"
+            },
+            {
+                "progress":181,
+                "logText":"arulir6"
+            },
+            {
+                "progress":182,
+                "logText":"forenza reward"
+            },
+            {
+                "progress":183,
+                "logText":"forenza bed"
+            },
+            {
+                "progress":184,
+                "logText":"brom savepoint"
+            },
+            {
+                "progress":185,
+                "logText":"broom savepoint 2"
+            },
+            {
+                "progress":186,
+                "logText":"broom savepoint 3"
+            },
+            {
+                "progress":187,
+                "logText":"chef recipe"
+            },
+            {
+                "progress":188,
+                "logText":"butter  and dough"
+            },
+            {
+                "progress":189,
+                "logText":"cooked once"
+            },
+            {
+                "progress":190,
+                "logText":"sweeping locked in 1"
+            },
+            {
+                "progress":191,
+                "logText":"sweeping locked in 2"
+            },
+            {
+                "progress":192,
+                "logText":"sweeping locked in 3"
+            },
+            {
+                "progress":193,
+                "logText":"peace in sweeping"
+            },
+            {
+                "progress":194,
+                "logText":"mess in sweeping"
+            },
+            {
+                "progress":195,
+                "logText":"Sweeping started"
+            },
+            {
+                "progress":196,
+                "logText":"elysa quest done"
+            },
+            {
+                "progress":197,
+                "logText":"hey apple"
+            },
+            {
+                "progress":198,
+                "logText":"apples returned to eatloni"
+            },
+            {
+                "progress":199,
+                "logText":"5sift"
+            },
+            {
+                "progress":200,
+                "logText":"6sift"
+            },
+            {
+                "progress":201,
+                "logText":"7sift"
+            },
+            {
+                "progress":202,
+                "logText":"8sift"
+            },
+            {
+                "progress":203,
+                "logText":"9sift"
+            },
+            {
+                "progress":204,
+                "logText":"10sift"
+            },
+            {
+                "progress":205,
+                "logText":"deebo question"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard",
+        "name":"The balance of scales",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble."
+            },
+            {
+                "progress":5,
+                "logText":"When I questioned Bryma about the creature, she explained that they live in the caves beneath her house and have been bothering her for some time."
+            },
+            {
+                "progress":10,
+                "logText":"I agreed to help Bryma with her problem. She shared the activation phrase for another statue leading deeper into the forest."
+            },
+            {
+                "progress":15,
+                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman again."
+            },
+            {
+                "progress":20,
+                "logText":"Emyro regarded me suspiciously, calling me an intruder. He claimed Bryma had been stealing bones from their ancestral tomb, which his people were trying to recover."
+            },
+            {
+                "progress":25,
+                "logText":"I attacked the lizardman, but my attack merely grazed it, before fleeing deeper into the caves."
+            },
+            {
+                "progress":30,
+                "logText":"I tried to calm Emyro\u2019s worries. He hesitated but told me to visit their leader before disappearing into the shadows."
+            },
+            {
+                "progress":32,
+                "logText":"I tracked down and killed the lizardmen's leader, Elyzard."
+            },
+            {
+                "progress":35,
+                "logText":"I killed the rest of those slimy lizards. Bryma can now rest free.",
+                "finishesQuest":1
+            },
+            {
+                "progress":45,
+                "logText":"As a reward, Bryma taught me another activation phrase that opens a shortcut between Charwood and Brightport."
+            },
+            {
+                "progress":40,
+                "logText":"To earn the trust of the tribe\u2019s leader, Elyzard, I swore to return the stolen bones."
+            },
+            {
+                "progress":50,
+                "logText":"To my astonishment, I discovered that Bryma had ground the bones into dust for her research and fertilizer experiments."
+            },
+            {
+                "progress":55,
+                "logText":"Bryma suggested I retrieve replacement bones from other sources. She advised hunting the hostile red lizardmen in the nearby area until I could gather the 20 bones I promised."
+            },
+            {
+                "progress":60,
+                "logText":"I delivered the bones to Elyzard, who acknowledged my effort but requested one more task. He instructed me to visit the Shadow Chaplain\u2019s cave for further guidance."
+            },
+            {
+                "progress":65,
+                "logText":"From Dominio, the Shadow Chaplain, I learned that beasts of darkness were attacking the tribe from an ancient ruin on the western side of the cave."
+            },
+            {
+                "progress":70,
+                "logText":"To stop the attacks, I was tasked with destroying two crystals within the ruins. I set out to find them immediately."
+            },
+            {
+                "progress":75,
+                "logText":"I destroyed the first crystal."
+            },
+            {
+                "progress":80,
+                "logText":"I destroyed the second crystal."
+            },
+            {
+                "progress":95,
+                "logText":"With the crystals destroyed, the lizardmen accepted my cooperation and agreed to supply bryma with bones from animals as a sign of mutual respect."
+            },
+            {
+                "progress":100,
+                "logText":"Bryma agreed to stop intruding on the lizardmen\u2019s tomb. As they promised to supply her with bones for her research.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma",
+        "name":"Too hot to handle",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Fiamma, the swordsmith of Brightport, is willing to forge me a sword if I can bring him the materials."
+            },
+            {
+                "progress":10,
+                "logText":"In the mountains near the road to Remgard lies a dangerous area overrun by Arulirs, beasts with skin as tough as steel."
+            },
+            {
+                "progress":15,
+                "logText":"Fiamma has asked for a strip of Arulir skin, coveted for its durability and flexibility. He also requires 15 lava rocks from the mountain cave, which burn hotter than any ordinary coal."
+            },
+            {
+                "progress":20,
+                "logText":"The final material is a red crystal from a Gornaud, a ferocious beast that sometimes forms these rare crystals on its body."
+            },
+            {
+                "progress":25,
+                "logText":"I brought Fiamma the arulir skin and lava rocks."
+            },
+            {
+                "progress":30,
+                "logText":"I brought Fiamma the red crystal."
+            },
+            {
+                "progress":35,
+                "logText":"I gave all the materials to Fiamma. He thanked me and told me to come back later when it\u2019s finished."
+            },
+            {
+                "progress":40,
+                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
+            },
+            {
+                "progress":45,
+                "logText":"I don't usually use two-handed swords, so I asked Fiamma to give me something else, and he gave me a sharp glaive.",
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I thanked Fiamma and went on my merry way.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons",
+        "name":"Priceful vengeance",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Inside a house in Brightport, I met two people named Benvys and Barthold, turns out they are the friends Benbyr told me to visit, with a rather lacking hospitality I was offered to work for them."
+            },
+            {
+                "progress":20,
+                "logText":"Barthold said he is hesitant because any job I could do for them would put me at odds with gunfryk the guard commander, taking that into account I offered to rid them of their problem."
+            },
+            {
+                "progress":30,
+                "logText":"I was told not to kill him, but surely it won't be a problem if I do, eitherway I'll smooth things over for them."
+            },
+            {
+                "progress":40,
+                "logText":"From silvear I received some records that could be useful as blackmail againt Gunfryk."
+            },
+            {
+                "progress":50,
+                "logText":"I lied to the commander that there are some lizardmen in the derelict house east, I should go there and prepare an ambush. "
+            },
+            {
+                "progress":60,
+                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to give my friends some leeway."
+            },
+            {
+                "progress":70,
+                "logText":"I ambushed and killed Gunfryk in the house east along with the two guards he brought."
+            },
+            {
+                "progress":80,
+                "logText":"I informed the commander on Barthold and Dynes'es scheme, he requested that I find some incriminating evidence on their part. "
+            },
+            {
+                "progress":90,
+                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more. ",
+                "finishesQuest":1
+            },
+            {
+                "progress":100,
+                "logText":"Barthold was a little dissapointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"I found some of the duo's merchandise in the smuggling cave east of brightport. "
+            },
+            {
+                "progress":120,
+                "logText":"Gunfryk was happy with my work, the duo will soo be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
+                "finishesQuest":1
+            },
+            {
+                "progress":130,
+                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers.",
+                "finishesQuest":1
+            },
+            {
+                "progress":135,
+                "logText":"I was not up to the task and gave up.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_thieves",
+        "name":"Crate expectations",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"The Guild is due to receive a package but the guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
+            },
+            {
+                "progress":20,
+                "logText":"I met the courier from Nor city inside the house."
+            },
+            {
+                "progress":30,
+                "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
+            },
+            {
+                "progress":32,
+                "logText":"I received the package."
+            },
+            {
+                "progress":35,
+                "logText":"Thanks to some previous interactions I've had with the commander, I convinced the guards to let me go."
+            },
+            {
+                "progress":40,
+                "logText":"I got caught and the guards took the package."
+            },
+            {
+                "progress":45,
+                "logText":"I managed to hide inside a crate and waited. Eventually, the guards left. "
+            },
+            {
+                "progress":50,
+                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future.",
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
+                "finishesQuest":1
+            },
+            {
+                "progress":70,
+                "logText":"I failed to deliver the package to Elysa. She was not happy.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery",
+        "name":"Delon's bakery errands",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I\u2019ve started some work for Allares at the bakery in Brightport. He asked me to help Delon down in the storage area."
+            },
+            {
+                "progress":5,
+                "logText":"I spoke with Delon and He's a real slacker. He wants me to do all sort of work, all by myself."
+            },
+            {
+                "progress":10,
+                "logText":"He told me to start by sweeping the floor, and to do that I must find a broom."
+            },
+            {
+                "progress":15,
+                "logText":"Floor\u2019s all swept. I wouldn\u2019t say I did it all by myself, but Delon\u2019s \u201Chelp\u201D was more of a nuisance than anything."
+            },
+            {
+                "progress":16,
+                "logText":"No wonder it got so quiet, Delon snuck away to sleep on some flour sacks. And now I have a new task, sift through some flour."
+            },
+            {
+                "progress":20,
+                "logText":"One last errand. An apple delivery hasn\u2019t arrived. I should ask Allares about it."
+            },
+            {
+                "progress":22,
+                "logText":"Allares refused to accept my help until I bring him some Deer meat to show my capabilities."
+            },
+            {
+                "progress":23,
+                "logText":"After bringing the deer meat to Allares, he accepted my help, I should speak to Eatloni outside."
+            },
+            {
+                "progress":25,
+                "logText":"According to Eatloni the order of 30 apples never arrived. I could go looking for them, or just head straight to the orchard myself."
+            },
+            {
+                "progress":30,
+                "logText":"I went to see Deebo at the orchard. Apparently, the merchant sent by Eatloni already picked up the apples."
+            },
+            {
+                "progress":35,
+                "logText":"I found some half eaten apples in the woods north of the duleian."
+            },
+            {
+                "progress":40,
+                "logText":"I found two crates of apples. One was intact, but the other was empty. Did the mountain cats attack the merchant for food to feed their cubs?"
+            },
+            {
+                "progress":45,
+                "logText":"I paid for a new shipment out of my own pocket. Deebo promised to hurry his workers and get them picked quickly."
+            },
+            {
+                "progress":50,
+                "logText":"I got the apples from Deebo."
+            },
+            {
+                "progress":60,
+                "logText":"I brought the apples back to Eatloni and he reimbursed me for half the cost of the apples. Time to let Allares know I\u2019m done with everything."
+            },
+            {
+                "progress":65,
+                "logText":"I brought the apples back to Eatloni. Surprisingly the merchant responsible for the apples arrived too. Time to let Allares know I\u2019m done with everything."
+            },
+            {
+                "progress":70,
+                "logText":"I completed all the tasks at the bakery."
+            }
+        ]
+    }
+]
