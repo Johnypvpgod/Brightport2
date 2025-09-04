@@ -1869,17 +1869,35 @@
     },
     {
         "id":"brightport_dibella9",
-        "message":"I take it you are looking to help your friend Stanwick? Very well.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_dibella10"
+                "nextPhraseID":"brightport_dibella9_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":35
+                    }
+                ]
             }
         ]
     },
     {
         "id":"brightport_dibella10",
-        "message":"Stanwick is an honor student. But the importance of a secret document passed down to each generation's headmaster far outweighs his merits.",
+        "message":"He is an honor student and the library's supervisor. Unfortunately the importance of a secret document passed down to each generation's headmaster far outweighs his merits.",
         "replies":[
             {
                 "text":"N",
@@ -1889,7 +1907,7 @@
     },
     {
         "id":"brightport_dibella11",
-        "message":"As the library supervisor, he performed his duties very well. Unfortunately, that put him closest to the theft. Both his grandfather and the town council approved of the decision. That is all I can say.",
+        "message":"Being the supervisor it put him closest to the theft. Regardless of how his reputation might be ruined the Headmaster and town council had to put him on room arrest. ",
         "replies":[
             {
                 "text":"Interesting, thanks.",
@@ -1926,7 +1944,7 @@
     },
     {
         "id":"brightport_milena3",
-        "message":"A long time ago, last year, one evening I was preparing the soup stock for the next day, when I noticed a dark figure going outside from the direction of the dormitory.",
+        "message":"A long time ago, last year. One evening I was preparing the soup stock for the next day, when I noticed a dark figure going outside from the direction of the dormitory.",
         "replies":[
             {
                 "text":"N",
@@ -3074,7 +3092,7 @@
     },
     {
         "id":"brightport_oswald9",
-        "message":"[The headmaster look in the direction of the window. For a moment he is distracted.]",
+        "message":"[The headmaster looks in the direction of the window. For a moment he is distracted.]",
         "replies":[
             {
                 "text":"[Grab the key.]",
@@ -3690,7 +3708,7 @@
     },
     {
         "id":"brightport_fiamma2",
-        "message":"All the metal we're getting now is lower quality scraps. There's a shortage, but Feygard has also been deliberately affecting the trade, so that blacksmiths in towns which were affiliated with Nor City can't forge quality weapons. Keeping all the good ore to themselves.",
+        "message":"All the metal we're getting now is lower quality scraps. There's a shortage and Feygard has been deliberately affecting the trade, so that blacksmiths in towns like vilegard and ours which were affiliated with Nor City can't forge quality weapons. Keeping all the good ore to themselves.",
         "replies":[
             {
                 "text":"What would you say if I brought you some quality materials?",
@@ -9372,7 +9390,7 @@
     },
     {
         "id":"brightport_goons19",
-        "message":"He is the guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, his men pay no heed to bribes or the Shadow, save for some enlisted locals.",
+        "message":"He is the guard captain, we used to make a killing with our trade. Well, we're still in business but Gunfryk has significantly decreased it, his men pay no heed to bribes or the Shadow, save for some enlisted locals.",
         "replies":[
             {
                 "text":"N",
@@ -9392,7 +9410,7 @@
     },
     {
         "id":"brightport_goons20",
-        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to some of the merchandise I've hid away in a cave.",
+        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to a cave I use to hide some merchandise.",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -9728,17 +9746,12 @@
     },
     {
         "id":"brightport_gunfryk5",
-        "message":"Have it your way! just don't tell my men about my hobbies, my reputation would be ruined. But don't think this will last for long!",
+        "message":"Have it your way, and keep those papers away from my subordinates. If word got out my reputation would be ruined! But don't think this will last for long..",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":60
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":139
             }
         ]
     },
@@ -10172,7 +10185,7 @@
     },
     {
         "id":"brightport_goons30",
-        "message":"Show me that! [Barthold skips through some of the pages with a confound expression.]",
+        "message":"Give me that! [Barthold skips through some of the pages with a confound expression.]",
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
@@ -10183,7 +10196,7 @@
     },
     {
         "id":"brightport_goons31",
-        "message":"Ha ha ha ha! - That's soo funny, who would have guessed that stern Feygard dog would have such hobbies, and in Nor city nonetheless! - Feygardians and their pride, he surely wants to avoid his men from finding out.",
+        "message":"Ha ha ha ha!  That's soo funny, who would have guessed that stern Feygard dog would have such hobbies, and in Nor city nonetheless! Feygardians and their pride, he surely wants to avoid his men from finding out.",
         "replies":[
             {
                 "text":"N",
@@ -11978,7 +11991,7 @@
     },
     {
         "id":"brightport_gunfryk8",
-        "message":" If you came here to tell me there may be some truth to your words kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for, but don't stick your neck out too much, those savages would stop at nothing. ",
+        "message":" If you came here to tell me there may be some truth to your words, kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for, but don't stick your neck out too much, those savages would stop at nothing. ",
         "replies":[
             {
                 "text":"I'll do my best, Glory to feygard!",
@@ -12099,7 +12112,7 @@
     },
     {
         "id":"brightport_gunfryk13",
-        "message":"We sure need more brave law upholding youngsters you like you around! - I'll make sure to write to my superiors about you, after graduating the academy here be sure to give the military academy a try. Glory to Feygard!",
+        "message":"We sure need more brave law upholding youngsters you like you around! I'll make sure to write to my superiors about you, after graduating the academy here be sure to give the military academy a try. Glory to Feygard!",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -19093,6 +19106,26 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_broom25"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella9_1",
+        "message":"Now that you spoke to the Headmaster we can talk. But there is not much I know about the stolen document. Only why Stanwick had to be involved.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella9_2",
+        "message":"I take it you are looking to help your friend Stanwick? Very well, but I will need you to ask the headmaster first for permission. ",
+        "replies":[
+            {
+                "text":"Fine.",
+                "nextPhraseID":"X"
             }
         ]
     }
