@@ -241,9 +241,9 @@
    eJxjYBgFo2AUjIJRMApGwWAGzOID7QLywWcx2tvxmA52fKKDHaNgFBACAFa6AyU=
   </data>
  </layer>
- <layer name="Walkable" width="25" height="30" visible="0">
+ <layer name="Walkable" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdk8ENwCAMA5mi+6/ERn1VqhA2ITn6aKQ+oOCLDfSrtX7ge+qE9ptB9LgqStv9pzzs9kEwxrNwaxyfzkP1WGHsFNG/01yNMz5Wme16i+xRjGyGUUb1LijGqEvqj1pUVjMdlRmRv+JmGbOiztdpqzXVuznTqTJUNmqOyMlldIJRzSmiQ/hw7yLiMcOIeP0DI6tP7P+KcQNsOey+
+   eJzdk1EOgCAMQzmF978SN/LLxBBatq7zwyV8qNC3ljmvMWbDeqpD+81w9Hgqlzb77vKQ7cPBWO+C7WF8dx6oxwojU47+mebpWfFxyizrLXIGMdQMo4zqLCDGqtvhI5OvMg8sM0f+qH+VsSvX/TJtll9lNnc6VQbKBr1z5MQy6mBUc4roOHyw/yLiUWFEvP6Boeo7zn/FuAHKEey+
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -302,7 +302,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="brightport_rock3" type="script" x="320" y="704" width="32" height="32">
+  <object name="brightport_rock3" type="script" x="288" y="640" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>

@@ -760,7 +760,8 @@
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
         "movementAggressionType":"none",
-        "faction":"lizardifght"
+        "faction":"lizardifght",
+        "phraseID":"brightport_genericlizard_selector"
     },
     {
         "id":"brightport_cat",

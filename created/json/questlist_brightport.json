@@ -698,6 +698,14 @@
             {
                 "progress":205,
                 "logText":"deebo question"
+            },
+            {
+                "progress":206,
+                "logText":"sweep stage 1"
+            },
+            {
+                "progress":207,
+                "logText":"sweep stage 2"
             }
         ]
     },

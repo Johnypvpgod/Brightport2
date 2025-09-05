@@ -8084,7 +8084,7 @@
     },
     {
         "id":"brightport_tyliad2",
-        "message":"Carry out your task, outsider. Don't dissapoint."
+        "message":"Carry out your purpose, outsider. Don't dissapoint."
     },
     {
         "id":"brightport_tyliad3",
@@ -8752,7 +8752,19 @@
         "replies":[
             {
                 "text":"I found those crystals and shattered them.",
-                "nextPhraseID":"brightport_dominio13"
+                "nextPhraseID":"brightport_dominio13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":75
+                    }
+                ]
             },
             {
                 "text":"What am I supposed to do again?",
@@ -10109,7 +10121,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"brightport_guardfight",
+                "rewardID":"guard",
                 "mapName":"brightport_abandoned"
             },
             {
@@ -10396,7 +10408,7 @@
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"brightport_agent",
+                "rewardID":"agent",
                 "mapName":"brightport_abandoned"
             }
         ]
@@ -12128,16 +12140,27 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":139
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":120
             }
         ]
     },
     {
         "id":"brightport_gunfryk_help",
-        "message":"It's good to see you around kid, glory to Feygard. "
+        "message":"It's good to see you around kid, glory to Feygard. ",
+        "replies":[
+            {
+                "text":"Can you tell me more about your job?",
+                "nextPhraseID":"brightport_gunfryk0"
+            }
+        ]
     },
     {
         "id":"brightport_gunfryk_selector_after",
-        "message":"It sours my day to see a treacherous criminal rat. You and yours friends will regret this one day."
+        "message":"It sours my day to see a treacherous criminal rat. You and your friends will regret this one day."
     },
     {
         "id":"brightport_goons33",
@@ -14235,7 +14258,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":164,
+                        "value":206,
                         "negate":true
                     }
                 ]
@@ -14246,13 +14269,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":163,
+                        "value":207,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":164
+                        "value":206
                     }
                 ]
             },
@@ -14262,13 +14285,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":162,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":163
+                        "value":207
                     }
                 ]
             }
@@ -15262,6 +15279,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":190
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":206
             }
         ]
     },
@@ -15278,6 +15300,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":191
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":206
             }
         ]
     },
@@ -15294,6 +15321,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":192
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":206
             }
         ]
     },
@@ -16677,6 +16709,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":190
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":207
             }
         ]
     },
@@ -16693,6 +16730,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":191
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":207
             }
         ]
     },
@@ -16709,6 +16751,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":192
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":207
             }
         ]
     },
@@ -18331,6 +18378,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":169
+            }
         ]
     },
     {
@@ -18339,6 +18393,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":170
             }
         ]
     },
@@ -18349,6 +18410,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":171
+            }
         ]
     },
     {
@@ -18357,6 +18425,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":172
             }
         ]
     },
@@ -18367,6 +18442,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":199
+            }
         ]
     },
     {
@@ -18375,6 +18457,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":200
             }
         ]
     },
@@ -18385,6 +18474,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":201
+            }
         ]
     },
     {
@@ -18394,6 +18490,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":202
+            }
         ]
     },
     {
@@ -18402,6 +18505,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_random_sift"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":203
             }
         ]
     },
@@ -18462,7 +18572,8 @@
                     },
                     {
                         "requireType":"factionScore",
-                        "requireID":"25",
+                        "requireID":"sift",
+                        "value":25,
                         "negate":true
                     }
                 ]
