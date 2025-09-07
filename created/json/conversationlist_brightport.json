@@ -10873,7 +10873,7 @@
             },
             {
                 "rewardType":"deactivateSpawnArea",
-                "rewardID":"agent",
+                "rewardID":"brightport_agent",
                 "mapName":"brightport_abandoned"
             },
             {
@@ -12516,6 +12516,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_sword0",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":110
             }
         ]
     },
@@ -15497,7 +15502,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"50"
+                        "requireID":"15"
                     }
                 ]
             },
@@ -18033,7 +18038,7 @@
         "rewards":[
             {
                 "rewardType":"alignmentChange",
-                "rewardID":"brightport_sift",
+                "rewardID":"sift",
                 "value":1
             }
         ]
@@ -18047,7 +18052,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14",
+                        "requireID":"1/12",
                         "negate":false
                     }
                 ]
@@ -18058,7 +18063,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/11"
                     }
                 ]
             },
@@ -18068,7 +18073,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/10"
                     }
                 ]
             },
@@ -18078,7 +18083,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/9"
                     }
                 ]
             },
@@ -18088,7 +18093,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/8"
                     }
                 ]
             },
@@ -18098,7 +18103,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/7"
                     }
                 ]
             },
@@ -18108,7 +18113,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/6"
                     }
                 ]
             },
@@ -18118,7 +18123,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/5"
                     }
                 ]
             },
@@ -18128,7 +18133,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/4"
                     }
                 ]
             },
@@ -18138,7 +18143,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/3"
                     }
                 ]
             },
@@ -18148,7 +18153,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
+                        "requireID":"1/2"
                     }
                 ]
             },
@@ -18158,7 +18163,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"100"
+                        "requireID":"1/1"
                     }
                 ]
             }
@@ -19237,6 +19242,48 @@
             {
                 "text":"Fine.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_caughtoutside",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_caughtoutside0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightporthide",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_caughtoutside0",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":145
+            },
+            {
+                "rewardType":"spawnAll",
+                "mapName":"brightport_abandoned"
             }
         ]
     }

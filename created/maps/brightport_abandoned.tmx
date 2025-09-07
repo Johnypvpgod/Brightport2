@@ -233,6 +233,11 @@
   </object>
   <object name="chimney" type="mapchange" x="288" y="96" width="32" height="32"/>
   <object name="crate" type="mapchange" x="64" y="192" width="64" height="64"/>
+  <object name="brightport_caughtoutside" type="script" x="32" y="96" width="448" height="256">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="guard" type="spawn" x="160" y="160" width="256" height="128">

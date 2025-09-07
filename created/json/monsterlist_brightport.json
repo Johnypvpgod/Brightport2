@@ -864,11 +864,6 @@
         "iconID":"monsters_ld1:95"
     },
     {
-        "id":"brightportguardcrate",
-        "name":"Brightport guard",
-        "iconID":"monsters_ld1:95"
-    },
-    {
         "id":"brightportguardcrate1",
         "name":"Guard 1",
         "iconID":"monsters_ld1:94"
