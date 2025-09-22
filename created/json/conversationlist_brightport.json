@@ -16,25 +16,12 @@
                 ]
             },
             {
-                "text":"Never mind, that's quite a hassle.",
-                "nextPhraseID":"X"
+                "text":"Could you tell me what know about the library theft?",
+                "nextPhraseID":"brightport_franz6"
             },
             {
-                "text":"[Guess I'll find some paper and ink...]",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Stanwickquest",
-                        "value":25
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Stanwickquest",
-                        "value":45,
-                        "negate":true
-                    }
-                ]
+                "text":"Never mind, that's quite a hassle.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -3443,7 +3430,7 @@
     },
     {
         "id":"brightport_richimor_archive2",
-        "message":"You read another writing, which immediately strikes your attention.\n\n[My findings of four mysterious statues, outside Brightport. in the north south and soutwest. upon the utterrance of the activation phrase..]\n\nThe writing abruptly ends and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
+        "message":"You read another writing, which immediately strikes your attention.\n\n[My findings of four mysterious statues, outside Brightport. in the north south and southwest. upon the utterrance of the activation phrase..]\n\nThe writing abruptly ends and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -8386,7 +8373,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":121
             },
@@ -10516,12 +10503,14 @@
         "id":"brightport_hide_script_fireplace",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_hide_script_fireplace1",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
-                        "value":35
+                        "value":35,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -10540,6 +10529,11 @@
                         "requireID":"brightport_nondisplay",
                         "value":145,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
                     }
                 ]
             }
@@ -17038,7 +17032,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_bakery",
-                "value":22
+                "value":23
             }
         ]
     },
@@ -19286,5 +19280,8 @@
                 "mapName":"brightport_abandoned"
             }
         ]
+    },
+    {
+        "id":"brightport_franz6"
     }
 ]

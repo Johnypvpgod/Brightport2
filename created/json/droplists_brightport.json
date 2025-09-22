@@ -131,7 +131,11 @@
             },
             {
                 "itemID":"brightport_bakery2",
-                "chance":"100"
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":3
+                }
             }
         ]
     },

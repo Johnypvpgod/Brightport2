@@ -292,7 +292,7 @@
   </object>
   <object name="arulircave1_loot1" type="container" x="640" y="512" width="32" height="32"/>
   <object name="arulircave1_loot2" type="container" x="576" y="352" width="32" height="32"/>
-  <object name="brightport_rock1" type="script" x="96" y="288" width="32" height="32">
+  <object name="brightport_rock3" type="script" x="96" y="288" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -302,7 +302,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="brightport_rock3" type="script" x="288" y="640" width="32" height="32">
+  <object name="brightport_rock1" type="script" x="288" y="640" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -461,7 +461,7 @@
   </object>
   <object name="brightport_rock_remove1" type="replace" x="288" y="640" width="32" height="32">
    <properties>
-    <property name="Objects" value="Obejcts_brightportrockremoved2"/>
+    <property name="Objects" value="Objects_brightportrockremoved1"/>
     <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>

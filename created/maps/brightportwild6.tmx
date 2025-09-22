@@ -208,7 +208,7 @@
  </layer>
  <layer id="2" name="Objects" width="16" height="4">
   <data encoding="base64" compression="zlib">
-   eJyrlWdgqAPiB0D8EIizlRDsowoMDMeA2FEBVRzE3gukkYGNAoL9So6BIQHKt1VA6ItGUgMTA4FCJHFcZjYC2U1IZsFoEL4lC1EDcq8DmlnI9qDrBQEAyHIiBw==
+   eJyrlWdgqAPiB0D8EIizlRDsowoMDMeA2FEBVRzE3gukQSBOAULbQGkQeCXHwJAA5dsqIPRFI6mBiYFAIZI4CFhjMbMRyG5CMgtGg/AtWYgakHsd0MxCtgddLwgAAE0lIuA=
   </data>
  </layer>
  <layer id="3" name="Above" width="16" height="4">

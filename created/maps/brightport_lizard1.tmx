@@ -208,7 +208,7 @@
     <property name="place" value="lizard1"/>
    </properties>
   </object>
-  <object name="brightport_lizardkingcheck" type="script" x="128" y="128" width="128" height="64">
+  <object name="brightport_lizardkingcheck" type="script" x="128" y="128" width="128" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
