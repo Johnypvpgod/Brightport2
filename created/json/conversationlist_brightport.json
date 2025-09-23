@@ -8189,6 +8189,11 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
+                "value":122
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
                 "value":123
             }
         ]
@@ -8378,9 +8383,14 @@
                 "value":121
             },
             {
-                "rewardType":"removeQuestProgress",
+                "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":123
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":122
             }
         ]
     },
