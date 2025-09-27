@@ -255,7 +255,7 @@
     <property name="Objects" value="Objects_crystaldestroyed"/>
     <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="124"/>
+    <property name="requireValue" value="125"/>
    </properties>
   </object>
  </objectgroup>

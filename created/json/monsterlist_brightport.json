@@ -896,7 +896,7 @@
         "id":"brightport_gunfrykassistant",
         "name":"Leorio",
         "iconID":"monsters_ld1:11",
-        "phraseID":"brightport_leorio"
+        "phraseID":"brightport_leorio_selector"
     },
     {
         "id":"brightport_guardbase",
@@ -909,10 +909,5 @@
         "name":"Brightport guard",
         "iconID":"monsters_karvis2:2",
         "phraseID":"brightport_jailguard"
-    },
-    {
-        "id":"$playername",
-        "name":"$playername",
-        "iconID":"monsters_fatboy73:64"
     }
 ]

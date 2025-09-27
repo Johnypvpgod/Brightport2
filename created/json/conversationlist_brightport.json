@@ -8189,12 +8189,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":122
+                "value":123
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":123
+                "value":122
             }
         ]
     },
@@ -8385,12 +8385,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":123
+                "value":122
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":122
+                "value":123
             }
         ]
     },
@@ -8460,16 +8460,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave20"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave20"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystaldestroyed",
-                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8491,16 +8481,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave6"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystaldestroyed",
-                "mapName":"brightport_cave20"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8521,16 +8501,6 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
-                "mapName":"brightport_cave6"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave6"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystaldestroyed",
                 "mapName":"brightport_cave6"
             }
         ]
@@ -10405,7 +10375,7 @@
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"agent",
+                "rewardID":"brightport_agent",
                 "mapName":"brightport_abandoned"
             }
         ]
@@ -13597,12 +13567,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":163
+                        "value":207
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":162,
+                        "value":206,
                         "negate":true
                     }
                 ]
@@ -13614,13 +13584,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":163,
+                        "value":207,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":164
+                        "value":206
                     }
                 ]
             },
@@ -13636,7 +13606,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":164,
+                        "value":206,
                         "negate":true
                     }
                 ]
@@ -13844,6 +13814,7 @@
     {
         "id":"brightport_sift1",
         "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":".",
@@ -15138,14 +15109,7 @@
     },
     {
         "id":"brightport_broom5",
-        "message":"[Delon yanks the broom out of your hands and sweeps chaotically, spreading the dust all across the floor.]",
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":186
-            }
-        ]
+        "message":"[Delon yanks the broom out of your hands and sweeps chaotically, spreading the dust all across the floor.]"
     },
     {
         "id":"brightport_broom6",
@@ -15460,6 +15424,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_broom5"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":186
+            }
         ]
     },
     {
@@ -15502,21 +15473,21 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_broom23",
+                "nextPhraseID":"brightport_broom22",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"15"
+                        "requireID":"10"
                     }
                 ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_broom22",
+                "nextPhraseID":"brightport_broom23",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"100/100"
+                        "requireID":"100"
                     }
                 ]
             }
@@ -17915,6 +17886,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"deebo_apples",
                 "value":15
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":40
             }
         ]
     },
@@ -17946,6 +17922,7 @@
     },
     {
         "id":"brightport_sift1_1",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -17982,6 +17959,7 @@
     {
         "id":"brightport_sift1_2",
         "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"*",
@@ -18008,6 +17986,7 @@
     {
         "id":"brightport_sift1_3",
         "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":".",
@@ -19050,7 +19029,26 @@
         "replies":[
             {
                 "text":"Can I get a new batch of apples?",
-                "nextPhraseID":"brightport_deebo_selector"
+                "nextPhraseID":"brightport_deebo_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"A little too late now. [Leave.]",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":40
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -19293,5 +19291,56 @@
     },
     {
         "id":"brightport_franz6"
+    },
+    {
+        "id":"brightport_leorio_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_leorio",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_leorio",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":152
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_leorio_1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_leorio_1",
+        "message":"What is it kid, can't you see im plenty busy already? ",
+        "replies":[
+            {
+                "text":"You don't look that busy.",
+                "nextPhraseID":"brightport_leorio_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_leorio_2",
+        "message":"My senior, Commander Gunfryk, was slain by a lizardman. It was an honorable death, but now I carry his duties. So, if you would kindly excuse yourself out."
     }
 ]

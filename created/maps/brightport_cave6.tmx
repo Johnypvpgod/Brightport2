@@ -201,7 +201,7 @@
  </layer>
  <layer name="Objects_crystaldestroyed" width="7" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOlLExMNQyYZdrA8oJsGGK97AyMHwUYGBQwCL3R4iBgUOYgYFJGFMOmxi9AQB+WwSp
+   eJxjYCAOlLExMNQyYZdrA8oJsGGK97AyMHwUYGBQwCIHAhzCDAxMwpji2MToDQDVngOb
   </data>
  </layer>
  <layer name="Above" width="7" height="10">
@@ -209,7 +209,7 @@
    eJxjYMAPPovhlnsMlOOWQ/ALJVHlQOAjGg2T+4jD3McE7CNXDpd9uAAAdwoMqA==
   </data>
  </layer>
- <layer name="Walkable" width="7" height="10" visible="0">
+ <layer name="Walkable" width="7" height="10">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcJEGGASQaWzyMIBLHF0eFyDFXHxuQsYAjo4rUQ==
   </data>
@@ -248,7 +248,7 @@
     <property name="Objects" value="Objects_crystaldestroyed"/>
     <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="125"/>
+    <property name="requireValue" value="124"/>
    </properties>
   </object>
  </objectgroup>

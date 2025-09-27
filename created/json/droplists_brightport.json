@@ -99,7 +99,7 @@
         "items":[
             {
                 "itemID":"brightport_bakery",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":5,
                     "max":5
@@ -107,7 +107,7 @@
             },
             {
                 "itemID":"brightport_bakery1",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":2,
                     "max":2
@@ -115,7 +115,7 @@
             },
             {
                 "itemID":"bread",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":10,
                     "max":10
@@ -123,7 +123,7 @@
             },
             {
                 "itemID":"cake",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -131,7 +131,7 @@
             },
             {
                 "itemID":"brightport_bakery2",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":3,
                     "max":3
@@ -144,7 +144,7 @@
         "items":[
             {
                 "itemID":"brightport_meat",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":5,
                     "max":5
@@ -152,7 +152,7 @@
             },
             {
                 "itemID":"meat",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":5,
                     "max":5
@@ -160,7 +160,7 @@
             },
             {
                 "itemID":"sword_villains",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -168,7 +168,7 @@
             },
             {
                 "itemID":"brightport_dagger",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -176,7 +176,7 @@
             },
             {
                 "itemID":"brightport_rawmeat",
-                "chance":"100",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
