@@ -477,5 +477,31 @@
                 }
             ]
         }
+    },
+    {
+        "id":"brightport_kingsword",
+        "iconID":"items_weapons_3:27",
+        "name":"Razor fang",
+        "displaytype":"rare",
+        "category":"lsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":3
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":15
+        }
+    },
+    {
+        "id":"brightport_kingarmor",
+        "iconID":"items_tometik2:77",
+        "name":"King's hide",
+        "displaytype":"extraordinary",
+        "category":"bdy_hide",
+        "equipEffect":{
+            "increaseBlockChance":30,
+            "increaseDamageResistance":6
+        }
     }
 ]

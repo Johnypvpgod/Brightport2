@@ -10846,7 +10846,7 @@
                 "value":1
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"brightport_agent",
                 "mapName":"brightport_abandoned"
             },
@@ -10921,8 +10921,8 @@
                 "value":1
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"agent",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_agent",
                 "mapName":"brightport_abandoned"
             },
             {
@@ -14872,7 +14872,7 @@
     },
     {
         "id":"brightport_sylvester2",
-        "message":"You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now, if you don't mind.",
+        "message":"You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now.",
         "switchToNPC":"brightportforenza"
     },
     {
@@ -14905,7 +14905,7 @@
     },
     {
         "id":"brightport_florencia3",
-        "message":"Please feel free to rest at our house any time you're in Brightport. And yes, father did mention a reward, you may go into the vault and take some gold. Mindfully.",
+        "message":"Please feel free to rest at our house any time you're in Brightport. And father mention a reward, you may go into the vault and take some gold. Mindfully.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -14921,7 +14921,7 @@
     },
     {
         "id":"brightport_florencia4",
-        "message":"Hello, might you be $playername? I received a letter from my father, Forenza, about your assistance to him during his travels.",
+        "message":"Hello, might you be $playername? I received a letter from my father Forenza, about your great help to him.",
         "replies":[
             {
                 "text":"N",
@@ -14942,7 +14942,13 @@
     },
     {
         "id":"brightport_florencia6",
-        "message":"When my father Forenza returned from Feygard, he brought a collection he stored in there. But now my Husband. Who is the Bakery's accountant, keeps most of his paperwork there."
+        "message":"My husband, who is the Bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his collections of coins.",
+        "replies":[
+            {
+                "text":"I see, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_broom0",

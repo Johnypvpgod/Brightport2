@@ -227,7 +227,7 @@
     <property name="spawngroup" value="brightportthieves2"/>
    </properties>
   </object>
-  <object id="3" name="brightportthieves6" type="spawn" x="480" y="320" width="96" height="32">
+  <object id="3" name="brightportthieves6" type="spawn" x="544" y="320" width="64" height="32">
    <properties>
     <property name="spawngroup" value="brightportthieves6"/>
    </properties>

@@ -461,14 +461,34 @@
         "id":"brightportchapelguard",
         "name":"Brightport guard",
         "iconID":"monsters_ld1:95",
-        "phraseID":"brightport_guard"
+        "maxHP":120,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "phraseID":"brightport_guard",
+        "attackCost":5,
+        "attackChance":160,
+        "blockChance":130
     },
     {
         "id":"brightportguardcaptain",
         "name":"Gunfryk",
         "iconID":"monsters_ld1:74",
+        "maxHP":300,
+        "maxAP":12,
+        "moveCost":8,
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":12,
+            "max":30
+        },
         "faction":"gunfryk",
-        "phraseID":"brightport_gunfryk_selector0"
+        "phraseID":"brightport_gunfryk_selector0",
+        "attackCost":6,
+        "attackChance":140,
+        "blockChance":150,
+        "damageResistance":5
     },
     {
         "id":"brightport_sickfawn",
@@ -514,56 +534,128 @@
         "id":"brightport_lizardking",
         "name":"Three-fang-elyzard",
         "iconID":"monsters_johny:28",
+        "maxHP":400,
+        "maxAP":15,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":35,
+            "max":50
+        },
         "faction":"lizardman",
-        "phraseID":"brightport_lizardking"
+        "phraseID":"brightport_lizardking",
+        "droplistID":"brightport_greenlizardking",
+        "attackCost":5,
+        "attackChance":230,
+        "criticalSkill":2,
+        "criticalMultiplier":1.0,
+        "blockChance":200,
+        "damageResistance":8
     },
     {
         "id":"brightport_lizardpriest",
         "name":"Long-tail-dominio",
         "iconID":"monsters_johny:30",
+        "maxHP":160,
+        "maxAP":12,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":14,
+            "max":36
+        },
         "faction":"lizardfight",
-        "phraseID":"brightport_dominio"
+        "phraseID":"brightport_dominio",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":6,
+        "attackChance":180,
+        "blockChance":160,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizard",
         "name":"Green-claw-emyro",
         "iconID":"monsters_johny:27",
+        "maxHP":160,
+        "maxAP":12,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":14,
+            "max":36
+        },
         "spawnGroup":"lizard2",
         "faction":"lizardfight",
-        "phraseID":"brightport_emyro_selector"
+        "phraseID":"brightport_emyro_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":4,
+        "attackChance":180,
+        "blockChance":160,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizard1",
         "name":"Three-head-arminio",
         "iconID":"monsters_johny:26",
+        "maxHP":250,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
         "faction":"lizardman",
-        "phraseID":"brightport_genericlizard_selector"
+        "phraseID":"brightport_genericlizard_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizardadvisor",
         "name":"Tail-swing-tyliad",
         "iconID":"monsters_johny:27",
+        "maxHP":160,
+        "maxAP":12,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":14,
+            "max":36
+        },
         "faction":"lizardman",
-        "phraseID":"brightport_tyliad"
+        "phraseID":"brightport_tyliad",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":6,
+        "attackChance":180,
+        "blockChance":190,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizard3",
         "name":"Green-blade-remio",
         "iconID":"monsters_johny:26",
+        "maxHP":250,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
         "faction":"lizardman",
-        "phraseID":"brightport_genericlizard_selector"
+        "phraseID":"brightport_genericlizard_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightportstoragenpc",
@@ -677,7 +769,7 @@
         },
         "droplistID":"brightport_redlizard",
         "attackCost":5,
-        "attackChance":225,
+        "attackChance":180,
         "criticalSkill":4,
         "criticalMultiplier":1.0,
         "blockChance":170,
@@ -694,11 +786,11 @@
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":20,
-            "max":35
+            "max":30
         },
         "droplistID":"brightport_redlizard",
         "attackCost":4,
-        "attackChance":240,
+        "attackChance":230,
         "criticalSkill":4,
         "criticalMultiplier":1.0,
         "blockChance":180,
@@ -744,24 +836,58 @@
         "id":"brightport_goblin",
         "name":"Charwood goblin hogrider",
         "iconID":"monsters_newb_1:48",
+        "maxHP":280,
+        "maxAP":12,
+        "moveCost":3,
         "monsterClass":"humanoid",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":15,
+            "max":35
+        },
+        "attackCost":6,
+        "attackChance":200,
+        "criticalSkill":5,
+        "criticalMultiplier":1.0,
+        "blockChance":110,
+        "damageResistance":4
     },
     {
         "id":"brightport_goblin2",
-        "name":"Charwood goblin raider",
+        "name":"Charwood hobgoblin",
         "iconID":"monsters_newb_1:92",
+        "maxHP":310,
+        "maxAP":12,
         "monsterClass":"humanoid",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":35,
+            "max":40
+        },
+        "attackCost":8,
+        "attackChance":220,
+        "blockChance":120,
+        "damageResistance":5
     },
     {
         "id":"brightport_lizard4",
         "name":"Green-fang-tylmio",
         "iconID":"monsters_johny:26",
+        "maxHP":250,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
         "faction":"lizardifght",
-        "phraseID":"brightport_genericlizard_selector"
+        "phraseID":"brightport_genericlizard_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightport_cat",
@@ -782,11 +908,11 @@
             "max":25
         },
         "attackCost":3,
-        "attackChance":250,
+        "attackChance":220,
         "criticalSkill":15,
         "criticalMultiplier":3.0,
-        "blockChance":205,
-        "damageResistance":2
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightport_emyro",
@@ -798,46 +924,115 @@
         "id":"brightport_scorpion",
         "name":"Cave scorpion",
         "iconID":"monsters_tometik3:76",
-        "monsterClass":"insect"
+        "maxHP":180,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":18,
+            "max":42
+        },
+        "attackCost":4,
+        "attackChance":230,
+        "criticalSkill":5,
+        "criticalMultiplier":1.0,
+        "blockChance":160,
+        "damageResistance":6,
+        "hitEffect":{
+            
+        }
     },
     {
         "id":"brightport_wraith",
         "name":"Wraith",
         "iconID":"monsters_newb_1:67",
-        "criticalMultiplier":0.0
+        "maxHP":150,
+        "moveCost":5,
+        "monsterClass":"undead",
+        "attackDamage":{
+            "min":19,
+            "max":31
+        },
+        "attackCost":5,
+        "criticalMultiplier":0.0,
+        "blockChance":140,
+        "damageResistance":3
     },
     {
         "id":"brightport_lizard00",
         "name":"Lizard warrior",
         "iconID":"monsters_johny:26",
+        "maxHP":250,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizard5",
         "name":"Tough-scale-artorio",
         "iconID":"monsters_johny:26",
+        "maxHP":250,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
         "spawnGroup":"lizard2",
         "faction":"lizardfight",
-        "phraseID":"brightport_genericlizard_selector"
+        "phraseID":"brightport_genericlizard_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180
     },
     {
         "id":"brightport_lizard6",
         "name":"Speak-funny-vyro",
         "iconID":"monsters_johny:26",
+        "maxHP":220,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
         "spawnGroup":"lizard1",
         "faction":"lizardfight",
-        "phraseID":"brightport_vyro"
+        "phraseID":"brightport_vyro",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":180,
+        "damageResistance":4
     },
     {
         "id":"brightport_beast",
         "name":"Darkness beast",
         "iconID":"monsters_newb_1:657",
-        "monsterClass":"demon"
+        "maxHP":300,
+        "maxAP":15,
+        "moveCost":5,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":24,
+            "max":45
+        },
+        "attackCost":5,
+        "attackChance":220,
+        "blockChance":220,
+        "damageResistance":6
     },
     {
         "id":"brightport_cat3",
@@ -850,7 +1045,20 @@
         "id":"brightport_snake",
         "name":"Cavern snake",
         "iconID":"monsters_tometik4:23",
-        "monsterClass":"reptile"
+        "maxHP":150,
+        "maxAP":12,
+        "moveCost":6,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":16,
+            "max":38
+        },
+        "attackCost":6,
+        "attackChance":230,
+        "criticalSkill":15,
+        "criticalMultiplier":1.0,
+        "blockChance":150,
+        "damageResistance":4
     },
     {
         "id":"brightport_agent",
@@ -861,7 +1069,19 @@
     {
         "id":"brightport_guardfight",
         "name":"Brightport guard",
-        "iconID":"monsters_ld1:95"
+        "iconID":"monsters_ld1:95",
+        "maxHP":120,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":10,
+            "max":25
+        },
+        "attackCost":5,
+        "attackChance":140,
+        "blockChance":130,
+        "damageResistance":3
     },
     {
         "id":"brightportguardcrate1",
