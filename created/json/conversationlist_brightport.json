@@ -7413,7 +7413,7 @@
     {
         "id":"brightport_emyrocave5",
         "message":"No! But.. I am only Emyro, the scout. I refuse, but leader must decide. Find our home, and leader Elyzard will tell...\n[The lizard cautiously steps back, then leaps out the entrance of the burial cave.]",
-        "switchToNPC":"brightport_lizard",
+        "switchToNPC":"brightport_emyro",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -8137,13 +8137,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_lizard",
-                        "value":75
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_lizard",
-                        "value":80
+                        "requireID":"brightport_nondisplay",
+                        "value":127
                     }
                 ]
             }
@@ -8763,7 +8758,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"brightport_lizard"
+                "rewardID":"brightport_nondisplay",
+                "value":127
             }
         ]
     },
@@ -13513,6 +13509,7 @@
         "id":"brightport_delon_selector",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_delon18",
                 "requires":[
                     {
@@ -13568,12 +13565,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":207
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":206,
-                        "negate":true
                     }
                 ]
             },
@@ -14905,7 +14896,7 @@
     },
     {
         "id":"brightport_florencia3",
-        "message":"Please feel free to rest at our house any time you're in Brightport. And father mention a reward, you may go into the vault and take some gold. Mindfully.",
+        "message":"Please feel free to rest at our house any time you're in Brightport. And father mentioned a reward, you may go into the vault and take some gold. Mindfully.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -15572,11 +15563,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_bakery",
                         "value":70
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":187
                     }
                 ]
             },
@@ -16509,6 +16495,7 @@
     {
         "id":"brightport_broom34",
         "message":"This spot right here. My underling, $playername.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
