@@ -206,9 +206,9 @@
    eJxjYBgFhEARGwNDMRSDAIweDgAAk88B5A==
   </data>
  </layer>
- <layer name="Walkable" width="16" height="8" visible="0">
+ <layer name="Walkable" width="16" height="8">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGYY3QAEyOkDlktNnFi9JLqRnzmETKXVDtBGABEV1hv
+   eJxjYGBguCg2vDE6gIkRUoesFps4MXpJdSM+8wiZS6qdIAwAdk9XiA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -226,7 +226,7 @@
   </object>
   <object name="brightport_jail_escape" type="script" x="320" y="96" width="96" height="64">
    <properties>
-    <property name="when" value="round"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
   <object name="jail" type="mapchange" x="320" y="96" width="96" height="64"/>

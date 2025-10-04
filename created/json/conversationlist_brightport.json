@@ -1778,7 +1778,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"franz_note_read_timer",
-                        "value":15,
+                        "value":6,
                         "negate":true
                     },
                     {
@@ -1806,7 +1806,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"franz_note_read_timer",
-                        "value":15,
+                        "value":6,
                         "negate":false
                     },
                     {
@@ -3911,7 +3911,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"fiamma_forge",
-                        "value":11
+                        "value":6
                     },
                     {
                         "requireType":"questProgress",
@@ -3928,7 +3928,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"fiamma_forge",
-                        "value":11,
+                        "value":6,
                         "negate":true
                     },
                     {
@@ -7413,7 +7413,7 @@
     {
         "id":"brightport_emyrocave5",
         "message":"No! But.. I am only Emyro, the scout. I refuse, but leader must decide. Find our home, and leader Elyzard will tell...\n[The lizard cautiously steps back, then leaps out the entrance of the burial cave.]",
-        "switchToNPC":"brightport_emyro",
+        "switchToNPC":"brightport_lizard",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10949,7 +10949,7 @@
                 ]
             },
             {
-                "text":"[Get inside.",
+                "text":"[Get inside.]",
                 "nextPhraseID":"brightport_hide_script_teleport_success",
                 "requires":[
                     {
@@ -11095,7 +11095,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brightporthide",
-                        "value":5
+                        "value":3
                     },
                     {
                         "requireType":"questProgress",
@@ -11146,7 +11146,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":143,
+                        "value":142,
                         "negate":true
                     }
                 ]
@@ -11170,6 +11170,7 @@
     },
     {
         "id":"brightport_hide_script_crate3alt",
+        "message":"Just a crate, no reason to look at it anymore.",
         "replies":[
             {
                 "text":"[Get inside.]",
@@ -11460,7 +11461,7 @@
     },
     {
         "id":"brightport_crate_failure10",
-        "message":"Then go take a look, If we return without scouring the place he'll say we slacked off.",
+        "message":"Then go take a look, If we return without scouring the place the commander will say we slacked off.",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -12812,7 +12813,14 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_cratelockedroom1"
+                "nextPhraseID":"brightport_cratelockedroom1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145
+                    }
+                ]
             }
         ]
     },
@@ -13314,6 +13322,7 @@
         "id":"brightport_crate_arrest",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_failure19arrest",
                 "requires":[
                     {
@@ -13323,6 +13332,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_failure19",
                 "requires":[
                     {
@@ -13356,7 +13366,6 @@
     },
     {
         "id":"brightport_jail_escape",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -13371,7 +13380,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brightport_jail",
-                        "value":5
+                        "value":3
                     }
                 ]
             }
@@ -19262,7 +19271,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brightporthide",
-                        "value":5
+                        "value":3
                     }
                 ]
             }
@@ -19278,6 +19287,7 @@
             },
             {
                 "rewardType":"spawnAll",
+                "rewardID":"brightport_guardcrate",
                 "mapName":"brightport_abandoned"
             }
         ]

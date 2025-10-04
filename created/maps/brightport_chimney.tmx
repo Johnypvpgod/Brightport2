@@ -200,9 +200,9 @@
    eJxjYGBgeCTGAAfIbHTQKInKBwBqdwKL
   </data>
  </layer>
- <layer id="5" name="Walkable" width="3" height="5" visible="0">
+ <layer id="5" name="Walkable" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJEIDALobACXCQu8
+   eJy7KMYABhfFIBiZjYyxqQEAPPkJ7g==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -213,7 +213,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="3" name="brightportguardcrate1" type="spawn" x="32" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brightportguardcrate1"/>
