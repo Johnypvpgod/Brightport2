@@ -8932,10 +8932,6 @@
                 ]
             },
             {
-                "text":"I feel like I'm not up to the task. ",
-                "nextPhraseID":"brightport_dynes_medium3"
-            },
-            {
                 "text":"No, not really.",
                 "nextPhraseID":"X"
             }
@@ -9832,6 +9828,22 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_commanderkill_script2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
                         "value":10,
                         "negate":true
                     }
@@ -10391,19 +10403,18 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_hide_script_crate_1",
+                "nextPhraseID":"brightport_cratehide_nopackage",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":32,
-                        "negate":false
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":60,
-                        "negate":true
+                        "requireID":"brightport_nondisplay",
+                        "value":208
                     },
                     {
                         "requireType":"questProgress",
@@ -10421,12 +10432,51 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"brightport_hide_script_crate_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_hide_script_crate1alt",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":144
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208
                     }
                 ]
             }
@@ -10520,6 +10570,35 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_cratehide_nopackage",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_hide_script_crate2_1",
                 "requires":[
                     {
@@ -10529,9 +10608,9 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":60,
-                        "negate":true
+                        "requireID":"brightport_nondisplay",
+                        "value":208,
+                        "negate":false
                     },
                     {
                         "requireType":"questProgress",
@@ -10544,6 +10623,11 @@
                         "requireID":"brightport_nondisplay",
                         "value":145,
                         "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1
                     }
                 ]
             },
@@ -10555,6 +10639,11 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":144
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208
                     }
                 ]
             }
@@ -10598,29 +10687,29 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_hide_script_crate3_1",
+                "nextPhraseID":"brightport_cratehide_nopackage",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":32
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":60,
+                        "requireID":"brightport_nondisplay",
+                        "value":208
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":144,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":145,
                         "negate":true
                     }
                 ]
@@ -10633,6 +10722,45 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":144
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_hide_script_crate3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":208,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1
                     }
                 ]
             }
@@ -10684,6 +10812,22 @@
     {
         "id":"brightport_agent",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_agent6alt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":30
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_agent6_alt",
@@ -10854,6 +10998,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":158
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":208
             }
         ]
     },
@@ -10862,12 +11011,29 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_agent6alt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_agent6",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120,
                         "negate":true
                     }
                 ]
@@ -11472,8 +11638,8 @@
     },
     {
         "id":"brightport_crate_failure11",
-        "message":"[The sound of footsteps gets louder as the guard approaches. You hear a crate being opened, then the guard moves to the next one. They stop right next to yours.].",
-        "switchToNPC":"$playername",
+        "message":"The sound of footsteps gets louder as the guard approaches. You hear a crate being opened, then the guard moves to the next one. They stop right next to yours.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Uh oh.]",
@@ -11487,7 +11653,8 @@
     },
     {
         "id":"brightport_crate_failure12",
-        "message":"[With a wooden creak the spot you entered the crate through opens.]",
+        "message":"With a wooden creak the spot you entered the crate through opens.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -11669,8 +11836,8 @@
     },
     {
         "id":"brightport_crate_failure22",
-        "message":"[The guards leave. Along with the package you were sent here for, in this moment you wonder if it was anything important.]",
-        "switchToNPC":"$playername",
+        "message":"The guards leave. Along with the package you were sent here for, in this moment you wonder if it was anything important.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Those guards were dumb as bricks, time to get out of this crate.",
@@ -11682,6 +11849,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":144
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
             }
         ]
     },
@@ -12798,7 +12970,6 @@
     },
     {
         "id":"brightport_cratelockedroom",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -12818,7 +12989,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":145
+                        "value":145,
+                        "negate":true
                     }
                 ]
             }
@@ -12829,13 +13001,19 @@
         "message":"Halt! What are you doing here, kid?",
         "replies":[
             {
-                "text":"Nothing.",
+                "text":"I'm searching for my brother Andor, have you seen him?",
                 "nextPhraseID":"brightport_crateguard8",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120,
                         "negate":true
                     }
                 ]
@@ -12982,11 +13160,39 @@
     },
     {
         "id":"brightport_crateguard8",
-        "message":""
+        "message":"And we're supposed to believe that?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard9"
+            }
+        ]
     },
     {
         "id":"brightport_crateguard_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":210
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":209
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_crateguard_arrest3",
@@ -13310,7 +13516,7 @@
     },
     {
         "id":"brightport_crate_failure19alt",
-        "message":"Bhahahah, so we came here to search and found only an old request to the bakery, the commander will laugh his behind off.",
+        "message":"So we came here to search and found only an old request to the bakery. Bhahaha, the commander will laugh his behind off.",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -13384,12 +13590,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"brightport_jail"
-            }
         ]
     },
     {
@@ -13448,7 +13648,7 @@
     },
     {
         "id":"brightport_crate_failure_arrest",
-        "message":"[The guards grab you by your shoulders and restrain you. You try shaking around but you can't resist them. They put a blindfold over your eyes, and next thing you know, you're in a jail cell.]",
+        "message":"The guards grab you by your shoulders and restrain you. You try shaking around but you can't resist them. They put a blindfold over your eyes, and next thing you know, you're in a jail cell.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -13469,6 +13669,10 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brightport_guardcrate",
                 "mapName":"brightport_abandoned"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_jail"
             }
         ]
     },
@@ -13926,7 +14130,26 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest"
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -13968,7 +14191,26 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest"
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -14085,51 +14327,6 @@
                 "nextPhraseID":"X"
             }
         ]
-    },
-    {
-        "id":"brightport_dynes_medium3",
-        "message":"That makes sense, we weren't betting on you to fix our problems or anything. ",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_dynes_medium4"
-            }
-        ]
-    },
-    {
-        "id":"brightport_dynes_medium4",
-        "message":"If you want to give up that's fine. ",
-        "switchToNPC":"brightportgoons1",
-        "replies":[
-            {
-                "text":"Yes I would like to give up. ",
-                "nextPhraseID":"brightport_dynes_medium5"
-            },
-            {
-                "text":"I suddenly got motivated, I can do it!",
-                "nextPhraseID":"brightport_dynes_medium6"
-            }
-        ]
-    },
-    {
-        "id":"brightport_dynes_medium5",
-        "message":"Better than disappearing without a word. You can still hang around here if you want though.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_goons",
-                "value":135
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":139
-            }
-        ]
-    },
-    {
-        "id":"brightport_dynes_medium6",
-        "message":"That's the true warrior spirit of a Dhayavarian speaking. Just remember, we need the commander out of the picture."
     },
     {
         "id":"brightport_goons_gaveup",
@@ -17069,7 +17266,26 @@
         "replies":[
             {
                 "text":"The guards came in after I got it from the Agent, I tried hiding but they found me and took the package with them. ",
-                "nextPhraseID":"brightport_elysa_caught1"
+                "nextPhraseID":"brightport_elysa_caught1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The guards came in after I got it from the Agent, I tried hiding but they found me, I kept package but they took what was inside with them.",
+                "nextPhraseID":"brightport_elysa_caught_alt",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -17080,6 +17296,17 @@
             {
                 "text":"For how much?",
                 "nextPhraseID":"brightport_elysa_jail1"
+            },
+            {
+                "text":"I actually have the package here!",
+                "nextPhraseID":"brightport_elysa_jail0",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -17263,6 +17490,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_thieves",
                 "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":196
             }
         ]
     },
@@ -19345,5 +19577,221 @@
     {
         "id":"brightport_leorio_2",
         "message":"My senior, Commander Gunfryk, was slain by a lizardman. It was an honorable death, but now I carry his duties. So, if you would kindly excuse yourself out."
+    },
+    {
+        "id":"brightport_crateguard9",
+        "message":"Calm down, our duty is to protect the citizens of this town. Maybe that cloaked figure was his brother.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate10",
+        "message":"Hmph, fine. We'll ask you a few questions then kid. What would your brother be doing here?",
+        "replies":[
+            {
+                "text":"We were playing hide and seek.",
+                "nextPhraseID":"brightport_guardcrate11"
+            },
+            {
+                "text":"I don't know, i've been looking everywhere I can.",
+                "nextPhraseID":"brightport_guardcrate15"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate11",
+        "message":"\u2026Hide and seek. In an abandoned structure, ways from town?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate12"
+            }
+        ]
+    },
+    {
+        "id":"brightport_cratehide_nopackage",
+        "message":"I can't hide here now, I need to take the package from where I dropped it."
+    },
+    {
+        "id":"brightport_agent6alt",
+        "message":"That was my partner on the lookout, the signal means the guards are coming.",
+        "replies":[
+            {
+                "text":"I'll be fine, I'm on good standing with the guards.",
+                "nextPhraseID":"brightport_agent8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught_alt",
+        "message":"And they haven't arrested you, at least that's good. Have they examined the contents of the package?",
+        "replies":[
+            {
+                "text":"Yes. [Tell her what happened.]",
+                "nextPhraseID":"brightport_elysa_caught2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_jail0",
+        "message":"You've pleasantly surprised me $playername! I didn't think you would get to keep it after your failure.",
+        "replies":[
+            {
+                "text":"Here you go. [Give her the package.]",
+                "nextPhraseID":"brightport_elysa_jail2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_jail2",
+        "message":"[Elysa takes the package, opens it and takes a long look at you.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_jail3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_jail3",
+        "message":"Have you come to make a fool of yourself $playername? The package is empty. ",
+        "replies":[
+            {
+                "text":"Uh oh.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate13",
+        "message":"The guards both laugh.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate14",
+        "message":"Enough games, kid. You\u2019re coming with us.",
+        "switchToNPC":"brightport_guardcrate",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":209
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate12",
+        "message":"And I suppose your friends are hiding in the jail cell too, huh?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate15",
+        "message":"You expect us to believe your brother\u2019s been the one wandering around this ruin?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate16",
+        "message":"Sounds like an excuse to me. No one just \u201Cwanders\u201D in here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guardcrate17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardcrate17",
+        "message":"Agreed. You\u2019re coming with us. The commander can sort this out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":210
+            }
+        ]
     }
 ]

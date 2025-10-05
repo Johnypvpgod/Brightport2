@@ -513,7 +513,7 @@
             },
             {
                 "progress":159,
-                "logText":"arrested by the guards."
+                "logText":"arrested #1"
             },
             {
                 "progress":160,
@@ -706,6 +706,18 @@
             {
                 "progress":207,
                 "logText":"sweep stage 2"
+            },
+            {
+                "progress":208,
+                "logText":"valid to interact with crate"
+            },
+            {
+                "progress":209,
+                "logText":"arrested #3"
+            },
+            {
+                "progress":210,
+                "logText":"arrested #4"
             }
         ]
     },
@@ -907,11 +919,6 @@
             {
                 "progress":130,
                 "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers.",
-                "finishesQuest":1
-            },
-            {
-                "progress":135,
-                "logText":"I was not up to the task and gave up.",
                 "finishesQuest":1
             }
         ]

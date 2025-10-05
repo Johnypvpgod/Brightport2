@@ -235,7 +235,7 @@
   <object name="crate" type="mapchange" x="64" y="192" width="64" height="64"/>
   <object name="brightport_caughtoutside" type="script" x="32" y="96" width="448" height="256">
    <properties>
-    <property name="when" value="round"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>
