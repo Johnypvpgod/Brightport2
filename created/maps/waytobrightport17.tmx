@@ -194,31 +194,31 @@
  </tileset>
  <layer id="1" name="Base" width="22" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILhB6zlETSMTU1zLdFoWgCYXQE0tIMWgJZhMpwBADJCAzo=
+   eJxjYBgFo2AUjILhB6zlETSMTU1zLdFoWgCYXQE0tIMWgB5hMxwBAJqjA5I=
   </data>
  </layer>
  <layer id="2" name="Ground" width="22" height="22">
   <data encoding="base64" compression="zlib">
-   eJwLkGdgCBhGuIlx4N0wikfxKCaMrWlkJgxfE4OIsYpDMCXmWiJhmLmP5CD8x3LUMRebWJ4cxC+fSLTDkkhMahwQay6pYUKsuaS6mRRzB0P4AgB+HM5+
+   eJwLkGdgCBhGuIlx4N0wikfxKCaMrWlkJgxfE4OIsYpDMCXmWiJhmLmP5CD8x3LUMRebWJ4cxC+fSLTDkkh8mROBX0AxNcwFAZj51DQXhi8iuZla5oLMHGhzAbtC1hc=
   </data>
  </layer>
  <layer id="3" name="Objects" width="22" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPmhgZGJoZCSgiA9DKXBZ+iLmJaJhSUAg0owSIi5EwiH9LjnKzR8EoGKzgHTB9fwDij1RO55+h5n2igdkwwCgPcT/IfEr98QikD2jeY6gZ54G4ShYiViML8Qc55oPcGAA1D2QGKFwuyCHEQHZUy0LsINXsQKD6f1B3gzDIrq+yCDGQX4qg9hEL8qBq/dD0BED5/lA7q2TJj1uYWUFyEPOQwXkon1g3B6KpK0Lj+0HTBijcQXEMCiNigJ4QA0O+HMKtyG4vQDIzkcTwBQBUmz7Y
+   eJxjYMAPmhgZGJoZCSgiA9DKXBZ+iLmJaJhSUAg0owSIi5EwiH9LjnKzR8EoGKzgHTB9fwDij1RO55+h5n2igdkwwCgPcT/IfEr98QikD2jeY6gZ54G4ShYiViML8Qc55oPcGAA1D2QGKFwuyCHEQHZUy0Ls+ECiHYFAdf+g7gZhkF1fZRFij5HM4RKC2EsI5EHV+KGpDYDy/eVQza+SJT2OYWYFyUHMQwY/BSHmw9xOyM2BaPJFeNQ/E4SEOTHm6gHDK18O4VZ0t3MIIcTeQeMV5HZC5gIA6hFDGg==
   </data>
  </layer>
  <layer id="4" name="Above" width="22" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOnJYjUiGJgFbmooPbFNrzVQw3HgWjYBSQB5LpkP+zZBkYsoE4R5Z6ZhYA3V0FNK8aiGtkqWvHE6AZT6HmVEHpGiqY+wWLGbQIGxiAhc0oIB4AANABFy0=
+   eJxjYCAOnJYjUiGJgFbmooPbFNrzVQw3HgWjYBSQB5LpkP+zZBkYsoE4R5Z6ZhZA3V0tS307ngDNeAo1pwpK11DB3C94zKBFGMEAKIyo4f6RAAD6zhX9
   </data>
  </layer>
  <layer id="5" name="Walkable" width="22" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKcfAsBMPhgF8asjBtDYXHVDbnlE8ikcKHqr5n5r+wGYujE2JX4gB5LgdXxlISdlICqCGeyk1n1Qw0HEHAGmYTXs=
+   eJzbKcfAsBMPhgF8asjBtDYXHVDbnlE8ikcKHqr5n5r+wGYujE2JX4gBhPxFrLmE7KSWe6llLjZxXGLUdC+x7ibHPELmAgBnVEKQ
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
-  <object id="1" name="south" type="mapchange" x="0" y="672" width="384" height="32">
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="32" y="672" width="448" height="32">
    <properties>
     <property name="map" value="waytobrightport18"/>
     <property name="place" value="north"/>
@@ -238,7 +238,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
-  <object id="3" name="lizardcorsair" type="spawn" x="64" y="448" width="288" height="192">
+  <object id="3" name="lizardcorsair" type="spawn" x="64" y="448" width="352" height="192">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_redlizard"/>

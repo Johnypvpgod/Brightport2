@@ -718,6 +718,14 @@
             {
                 "progress":210,
                 "logText":"arrested #4"
+            },
+            {
+                "progress":211,
+                "logText":"commander evidence given"
+            },
+            {
+                "progress":212,
+                "logText":"commander evidence received"
             }
         ]
     },
@@ -899,7 +907,7 @@
             },
             {
                 "progress":90,
-                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more. ",
+                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more work like this in Nor City. ",
                 "finishesQuest":1
             },
             {
@@ -913,12 +921,21 @@
             },
             {
                 "progress":120,
-                "logText":"Gunfryk was happy with my work, the duo will soo be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
+                "logText":"Gunfryk was happy with my work, the duo will soon be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
                 "finishesQuest":1
             },
             {
                 "progress":130,
-                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers.",
+                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers."
+            },
+            {
+                "progress":140,
+                "logText":"I told the commander I couldn't find anything, even though I had the blade I blackmailed Barthold and Dynes with, ",
+                "finishesQuest":1
+            },
+            {
+                "progress":150,
+                "logText":"I gave the commander the blade even though I already got paid not to. If there's any honor among Nor city's thieves then they will surely have none to spare for me.",
                 "finishesQuest":1
             }
         ]

@@ -214,7 +214,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="hole" type="mapchange" x="224" y="32" width="32" height="32">
+  <object name="hole" type="mapchange" x="224" y="64" width="32" height="32">
    <properties>
     <property name="map" value=""/>
     <property name="place" value=""/>

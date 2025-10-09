@@ -226,7 +226,7 @@
   </object>
   <object name="brightport_jail_escape" type="script" x="320" y="96" width="96" height="64">
    <properties>
-    <property name="when" value="always"/>
+    <property name="when" value="round"/>
    </properties>
   </object>
   <object name="jail" type="mapchange" x="320" y="96" width="96" height="64"/>

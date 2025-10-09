@@ -222,27 +222,27 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJydVcFOwkAQ3WDikaBVL+oCpZ9jKPyAJsAZCPALfIAmHtQ/UI/+jF6Id4OePDsT9qXDdNoik2za7c7Om3nzduucc1+Xzq1psNUS59qJy9l3Z7PWonFA45jGUfB79Jvninx69F6n71GSxfJhj4z9HDv3QuM13sx/OnlMNi/2eIHdCINzWHWyHCOVvzfqmVOOV23nlt6utSwPmQPjNkKtE5/xYdlpnL2PKnzLcmgF3JbBqWUn8fa8iOddDDxbnGr7JX4HVOcNjZnf1su+uLsY88y8SH3tW7PErVfkz7jvVOcHjSGN8T+0hdj1oGnGxTxKyrnj/kZhbRLOofZFXMSUsXGmpa6grakv5o7rvfbZfGT02Loz5L0AA8+pz59xXQvrqhZ8cKaGPvPncx2JNS/qk5isSdnfy2bmy7F13czzWZzlxzj8jXHw5L36vLFN/fZc61nemVozzCuwb2nfXWfDATD5HbpLA85Y4UncnlrjHk2N++gt4BwGbGAs1X4dT3/rCp4RY1HQZ+aA7wxgosZBQT3dgu/A/wy4M5UPsNmgSeQGTBkb3yxjjlKVx7rkvpF6RA5F8WXduqcLo3apK+bgnDR90bRzsHiVefB+rSttffHfZ7P6Mae1RdAd+iJxJsaeJ4N7S2fA1T59w1fyq/PkHsJwVrs+z4fGLeIF8VNfnL9VT5WV/QdnKp7WUxUe1qXfg+ov1nEP6b339PwDZ5OIHQ==
+   eJydVUtOAkEQ7WDikqCjbpQGZuY4hs8FNAHWQIArcABNNFFvoC69jG6Ie4OuXFsV+mWKmpoBqaTDdHd1vapXrxvnnPuqO7eiwVZJnWulLmffyXqvSeOAxjGNo+D36Ne/S/Lp0neV1qM0i+XDGRn7OXbuhcZrvJ7/JHlMNi/OeIFdC4NzWCZZjpHK3xv1zCjHy5ZzC2/XWpaHzIFxa6HWsc/4sOw0zr6HW3zLcmgG3KbBqWUn8ea8iOddDDxbnGr7JX77VOc1janf1Mu+uLsY88y8SH3tW7PErW7Jn3Hfqc4PGgMao39oC7GrQdOMi3mUlnPH/Y3C3jjcQ+2LuIgpY+NOS11BWxNfzB3Xe+Wz+dDosfVmyHcBBp47Pn/HdS2sq0rwwZ0a+Myf73Uk9ryoT2KyJmV/643Ml2PrupnnszjLj3F4jXHwy2f1fWOb+M251rN8M7VmmFdg39C522TNATD5G7rrBJyRwpO4XbXHPZoY79FbwDkM2MBYqPM6nl5rC54RY17QZ+aA3wxgosZ+QT3tgnXgfwbcqcoH2GzQJHIDpoyNNcuYo47KY1Xy3kg9Ioei+LJu3dO5UbvUFXNwTpq+aNg5WLzKPPi81pW2nvjfZ7P6MaO9edAd+iJxxsaZJ4N7S2fA1T49w1fyq/PkHsJwV9s+z4fGLeIF8Tu+OH+rnm1W9j84VfG0nrbhYV/6Paj+Yh/v0B1934u+8vwPgJOJhA==
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzrUmJg6AbiHiAmFdyUY2C4JYdd7qcg6ebRA7CS4U9qABYl6tr9W5k4dc8UGRhEqWjvayLthfm1i4L0Ra69O4FpcheOdEkre6kdv79I8C8145dYAEpXIIDP3zC5Q0B8GElNCp64+QuU+4dHHmamiBKmGLIcjJ1MQjqQk0ewcekDmdkIjJsmZUgYwOwBsWHpjprxsUQZEdbUStvEmsGC5A96lZvIbkO3E19ag4URKQA9HVI7D8PAT6A9v/CkJ3SA7g5qxHkyMB2loJUppPiXGLXEqMEnjysOqREvtIpbQoCWdsLKIWzgIVpYElNOE6seHwAAnRs0eg==
+   eJzrUmJg6AbiHiAmFdyUY2C4JYdd7qcg6ebRA7CS4U9qABYl6tr9W5k4dc8UGRhEqWjvayLthfm1i4L0Ra69O4FpcheOdEkre6kdv79I8C8145dYAEpXIIDP3zC5Q0B8GElNCp64+QuU+4dHHmamiBKmGLIcjJ1MQjqQk0ewcekDmdkIjJsmZUgYwOwBsWHpjprxsUQZEdbUStvEmsGC5A96lZvIbkO3E19ag4URKQA9HVI7D8PAT6A9v/CkJ3SA7g5qxHkyMB2loJUppPiXGLXEqMEnjysOqREvtIpbQoCWdsLKIWzgIVpYElNOE6seBHClSQDB5zYp
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9k8ERwCAIBO0l/ReUbvwTILcg3owvgT0Q1/rqffJj4zwpNWzuX07EImzqk3igc6seOzvi+QS3Oqfb3G7fNz1HuXS3CFeVyvRio146bK9mxiacjEvmXFV1ZzpMwj3BoOwpZe+t+LY1Oj4m+qS+oz9w2gOpq8SqMfRucuenNf1vov3ZgfItSA==
+   eJy9k9ENgDAIRLuL+w/kNsZfBLwHpZc0MSnlHQhrfXVf+bFxnpQc9u3fm4hF2NQn8UD7Vj22d8TzDm61T6e53bpPeo7e0tkiXFUq04uNaumwvZwZm3AyLulzVdWZ6TAJdweDsqeU/W/Ft83R8TFRJ/Ud7cBuDySvEqvG0LvJmZ/W9N54u/J+P6UcL0A=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="south1" type="mapchange" x="32" y="672" width="96" height="32">
    <properties>
     <property name="map" value="waytobrightport19"/>
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="2" name="south" type="mapchange" x="864" y="672" width="96" height="32">
+  <object id="2" name="south" type="mapchange" x="864" y="672" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport18"/>
     <property name="place" value="north1"/>
@@ -284,14 +284,8 @@
     <property name="place" value="north4"/>
    </properties>
   </object>
-  <object id="9" name="south5" type="mapchange" x="800" y="672" width="32" height="32">
-   <properties>
-    <property name="map" value="waytobrightport19"/>
-    <property name="place" value="north5"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="10" name="brightport_deer2" type="spawn" x="64" y="448" width="416" height="192">
    <properties>
     <property name="quantity" value="4"/>
