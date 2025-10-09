@@ -450,9 +450,9 @@
     <map id="brightportwild8" x="553" y="414"/>
     <map id="brightportwild9" x="578" y="414"/>
     <map id="brightportwild11" x="574" y="435"/>
-    <map id="brightportwild12" x="591" y="430"/>
-    <map id="brightportwild7" x="585" y="414"/>
-    <map id="brightportwild10" x="612" y="419"/>
+    <map id="brightportwild12" x="602" y="430"/>
+    <map id="brightportwild7" x="596" y="414"/>
+    <map id="brightportwild10" x="623" y="419"/>
     <map id="brightportwild13" x="548" y="446"/>
     <map id="brightportwild14" x="548" y="455"/>
     <map id="brightportwild15" x="565" y="446"/>
@@ -460,6 +460,7 @@
     <map id="brightportwild17" x="591" y="445"/>
     <map id="brightport9" x="661" y="333"/>
     <map id="brightportwild20" x="687" y="359"/>
+    <map id="brightportwild21" x="591" y="430"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
