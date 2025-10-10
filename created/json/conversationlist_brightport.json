@@ -14171,7 +14171,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crateguard_arrest",
+                "nextPhraseID":"brightport_crateguard_packageselector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -14197,26 +14197,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brightportpackage",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightportpackage",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_crateguard_arrest_selector"
             }
         ],
         "rewards":[
@@ -14258,26 +14239,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightportpackage",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brightportpackage",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"brightport_crateguard_packageselector"
             }
         ],
         "rewards":[
@@ -19760,26 +19722,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brightportpackage",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightportpackage",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_crateguard_packageselector"
             }
         ],
         "rewards":[
@@ -19826,26 +19769,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brightportpackage",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightportpackage",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_crateguard_packageselector"
             }
         ],
         "rewards":[
@@ -19957,5 +19881,33 @@
         "id":"brightport_gunfryk20",
         "message":"What is certain, however, is that if there\u2019s any honor among Nor City\u2019s thieves, they\u2019ll surely have none to spare for you.",
         "switchToNPC":"none"
+    },
+    {
+        "id":"brightport_crateguard_packageselector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
