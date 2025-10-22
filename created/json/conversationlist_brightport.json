@@ -7820,7 +7820,7 @@
                 ]
             },
             {
-                "text":"I\u2019ve solved the main problem. That should be the least of your issues now.",
+                "text":"I've solved the main problem. That should be the least of your issues now.",
                 "nextPhraseID":"brightport_bryma53",
                 "requires":[
                     {
@@ -19913,7 +19913,7 @@
     },
     {
         "id":"brightport_guardcrate14",
-        "message":"Enough games, kid. You\u2019re coming with us.",
+        "message":"Enough games, kid. You're coming with us.",
         "switchToNPC":"brightport_guardcrate",
         "replies":[
             {
@@ -19941,7 +19941,7 @@
     },
     {
         "id":"brightport_guardcrate15",
-        "message":"You expect us to believe your brother\u2019s been the one wandering around this ruin?",
+        "message":"You expect us to believe your brother's been the one wandering around this ruin?",
         "replies":[
             {
                 "text":"N",
@@ -19961,7 +19961,7 @@
     },
     {
         "id":"brightport_guardcrate17",
-        "message":"Agreed. You\u2019re coming with us. The commander can sort this out.",
+        "message":"Agreed. You're coming with us. The commander can sort this out.",
         "replies":[
             {
                 "text":"N",
@@ -20075,7 +20075,7 @@
     },
     {
         "id":"brightport_gunfryk20",
-        "message":"What is certain, however, is that if there\u2019s any honor among Nor City\u2019s thieves, they\u2019ll surely have none to spare for you.",
+        "message":"What is certain, however, is that if there's any honor among Nor City's thieves, they'll surely have none to spare for you.",
         "switchToNPC":"none"
     },
     {
@@ -20149,7 +20149,7 @@
     },
     {
         "id":"brightport_bryma52",
-        "message":"If you can pacify those creatures and they\u2019re capable of reason, see if you can come to an understanding. They could supply me with what I need.",
+        "message":"If you can pacify those creatures and they're capable of reason, see if you can come to an understanding. They could supply me with what I need.",
         "rewards":[
             {
                 "rewardType":"questProgress",
