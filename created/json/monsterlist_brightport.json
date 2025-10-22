@@ -251,7 +251,7 @@
         "name":"Oseanpry",
         "iconID":"monsters_ld1:114",
         "unique":1,
-        "phraseID":"brightport_oseanpry",
+        "phraseID":"brightport_oseanpry0",
         "droplistID":"brightport_oseanpry"
     },
     {
@@ -305,7 +305,7 @@
     {
         "id":"brightportstudent9",
         "name":"Evelina",
-        "iconID":"monsters_ld1:152",
+        "iconID":"monsters_ld1:178",
         "phraseID":"brightport_student_4"
     },
     {
@@ -384,6 +384,7 @@
             "min":7,
             "max":18
         },
+        "droplistID":"brightport_sickdeer",
         "attackCost":7,
         "attackChance":90,
         "criticalSkill":10,
@@ -424,6 +425,7 @@
             "min":8,
             "max":19
         },
+        "phraseID":"brightport_sickdeer",
         "attackCost":7,
         "attackChance":105,
         "criticalSkill":15,
@@ -503,6 +505,7 @@
             "min":3,
             "max":13
         },
+        "droplistID":"brightport_deer",
         "attackCost":7,
         "attackChance":70,
         "criticalSkill":0,
@@ -523,6 +526,7 @@
             "min":6,
             "max":16
         },
+        "droplistID":"brightport_deer",
         "attackCost":7,
         "attackChance":80,
         "criticalSkill":10,
@@ -708,6 +712,7 @@
             "min":25,
             "max":35
         },
+        "droplistID":"brightport_elderdeer",
         "attackCost":7,
         "attackChance":150,
         "criticalSkill":3,

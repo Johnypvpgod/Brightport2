@@ -2824,7 +2824,7 @@
         {
             "fileName": "waytobrightport18.tmx",
             "height": 512,
-            "width": 832,
+            "width": 928,
             "x": 18720,
             "y": 12704
         },
@@ -2986,7 +2986,7 @@
             "fileName": "brightportwild7.tmx",
             "height": 480,
             "width": 832,
-            "x": 18720,
+            "x": 19072,
             "y": 13248
         },
         {
@@ -2999,7 +2999,7 @@
         {
             "fileName": "brightportwild9.tmx",
             "height": 480,
-            "width": 192,
+            "width": 544,
             "x": 18496,
             "y": 13248
         },
@@ -3014,14 +3014,14 @@
             "fileName": "brightportwild12.tmx",
             "height": 448,
             "width": 640,
-            "x": 18912,
+            "x": 19264,
             "y": 13760
         },
         {
             "fileName": "brightportwild10.tmx",
             "height": 800,
             "width": 640,
-            "x": 19584,
+            "x": 19968,
             "y": 13408
         },
         {
@@ -4241,6 +4241,13 @@
             "width": 416,
             "x": 21153,
             "y": 10656
+        },
+        {
+            "fileName": "brightportwild21.tmx",
+            "height": 448,
+            "width": 320,
+            "x": 18913,
+            "y": 13760
         }
     ],
     "onlyShowAdjacentMaps": false,

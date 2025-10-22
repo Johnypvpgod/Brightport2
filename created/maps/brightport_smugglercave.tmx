@@ -188,17 +188,17 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYICAc0wMNANe/BBaG2iHGZo9ViTYWyPMwFArDGGzMkPoQ6wMDMzMqOb6CSHUMDPjNm8O0Ky5QNwONOOXOAPDbyj+I45Qwwm174cgA8NuPG6FuUeFH2LWayQzXkHNXEmCXwWh9qKbBXIHzExkgOx/UHijhzPMfzCzGIUx7cQWVtVQdVpo5oHMAbnFEIs5PFAxNX5UM0FhNFsY4Q6YHCzselgxzYIBmHtnI8W/Oj92tQFC2MVhYYcO2LD4G1ntYzHc7sIHsIUxOlgNDNfvONyFDyCnJXUoGz3OYUAOGh7IcYUc1geR2EZIedQczTxupHBF9hso/GDmgegeVvz5jgNH/BADAI+HLGQ=
+   eJxjYICAc0wMNANe/BBaG2iHGZo9ViTYWyPMwFArDGGzMkPoQ6wMDMzMqOb6CSHUMDPjNm8O0Ky5QNwONOOXOAPDbyj+I45Qwwm174cgA8NuPG6FuUeFH2LWayQzXkHNXEmCXwWh9qKbBXIHzExkgOx/UHijhzPMfzCzGIUx7cQWVtVQdVpo5oHMAbnFEIs5PFAxNX5UM0FhNFsY4Q6YHCzselgxzYIBmHtnI8W/Oj92tQFC2MVhYYcO2LD4G1ntYzEIHYbFr/gAtjBGB6uB4fodh7vwAeS0pA5lo8c5DMhBwwM5rpDD+iAS2wgpj5qjmceNFK7IfgOFH8w8EN3Dij/fceCIH2IAAC6nLM0=
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMANPovhkSQCoOt/TIR5+OxE1/+JCPNwqQHZAzPPSZiwOYQAyCxi3EOKedTUBxNXJMGvsDCqFcYuTgyoFkbVAwqjuWjmkRN2+PSQE3b47N/LBKHDiAy7fUyk248NIMcVKXkRl1pHJPOwhRGufEBMeJISf+SmbRAAAH6BJj4=
+   eJxjYMANPovhkSQCoOt/TIR5+OxE1/+JCPNwqQHZAzPPSZiwOYQAyCxi3EOKedTUBxNXJMGvsDCqFcYuTgyoFkbVAwqjuWjmkRN2+PSQE3b47N/LRJpZ+0hUjwsgxxUpeRGXWkck87CFEa58QEx4khJ/5KZtEAAA32El1Q==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="15" visible="0">
+ <layer name="Walkable" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGIYhCgljnEAkrMoba7qO1HcszDZja6PDFxh8ssfG7EJU8qwKeHnDRCyC5y4pkYcwiZhx7uxJhFSpwQYxYp9mLDAHeNmzU=
+   eJy7KMbAcHGIYhCgljnEAErNoba7qO1HcszDZja6PDFxh8ssfG7EJU8qwKeH1DRCjF3kxDMx5hAyDz3ciTGLlDghxixS7MWGAaPAnBw=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -214,12 +214,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="hole" type="mapchange" x="224" y="64" width="32" height="32">
-   <properties>
-    <property name="map" value=""/>
-    <property name="place" value=""/>
-   </properties>
-  </object>
+  <object name="hole" type="mapchange" x="224" y="64" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="brightport_snake" type="spawn" x="448" y="256" width="128" height="128">

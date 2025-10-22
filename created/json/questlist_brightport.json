@@ -726,6 +726,42 @@
             {
                 "progress":212,
                 "logText":"commander evidence received"
+            },
+            {
+                "progress":213,
+                "logText":"spawn crates for apple quest."
+            },
+            {
+                "progress":214,
+                "logText":"Remove rock for arulir cave 1"
+            },
+            {
+                "progress":215,
+                "logText":"Remove rock for arulir cave 2"
+            },
+            {
+                "progress":216,
+                "logText":"Remove rock for arulir cave 3"
+            },
+            {
+                "progress":217,
+                "logText":"Remove rock for arulir cave 4"
+            },
+            {
+                "progress":218,
+                "logText":"Remove rock for arulir cave 5"
+            },
+            {
+                "progress":219,
+                "logText":"Remove rock for arulir cave 6"
+            },
+            {
+                "progress":220,
+                "logText":"taken to jail"
+            },
+            {
+                "progress":221,
+                "logText":"bryma suggest trade"
             }
         ]
     },
@@ -808,12 +844,22 @@
                 "logText":"I destroyed the second crystal."
             },
             {
+                "progress":90,
+                "logText":"The lizardman king recognized my effort and rewarded me with an artefact of their tribe."
+            },
+            {
                 "progress":95,
-                "logText":"With the crystals destroyed, the lizardmen accepted my cooperation and agreed to supply bryma with bones from animals as a sign of mutual respect."
+                "logText":"I offered the lizardmen a deal of cooperation to supply bryma with bones from animals as a sign of mutual respect."
             },
             {
                 "progress":100,
                 "logText":"Bryma agreed to stop intruding on the lizardmen\u2019s tomb. As they promised to supply her with bones for her research.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"Bryma agreed to stop intruding on the lizardmen\u2019s tomb.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             }
@@ -1061,7 +1107,8 @@
             },
             {
                 "progress":70,
-                "logText":"I completed all the tasks at the bakery."
+                "logText":"I completed all the tasks at the bakery.",
+                "finishesQuest":1
             }
         ]
     }
