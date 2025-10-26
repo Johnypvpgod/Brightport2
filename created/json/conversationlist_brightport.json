@@ -3072,7 +3072,8 @@
     },
     {
         "id":"brightport_oswald8",
-        "message":"[You notice a key on a shelf under the desk, if he were distracted for a moment you could steal it]",
+        "message":"You notice a key on a shelf under the desk, if he were distracted for a moment you could steal it",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[I should distract him.]",
@@ -5816,7 +5817,8 @@
     },
     {
         "id":"brightport_oswald12",
-        "message":"[The Headmaster hurriedly grabs the scroll and opens it to confirm its contents. A moment later, he breathes a sigh of relief as he moves it over the flame of a nearby candle.]",
+        "message":"The Headmaster hurriedly grabs the scroll and opens it to confirm its contents. A moment later, he breathes a sigh of relief as he moves it over the flame of a nearby candle.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5834,6 +5836,7 @@
     {
         "id":"brightport_oswald13",
         "message":"You've truly saved my skin- I mean, the people of Brightport! Yes, ahem.",
+        "switchToNPC":"brightportnpc6",
         "replies":[
             {
                 "text":"N",
@@ -6218,7 +6221,7 @@
     },
     {
         "id":"brightport_sign",
-        "message":"[ The upper part of the sign has been scratched off]\nEast: Brightport\nSouth: Duleian road"
+        "message":"The upper part of the sign has been scratched off\nEast: Brightport\nSouth: Duleian road"
     },
     {
         "id":"brightport_library",
@@ -14199,7 +14202,7 @@
     },
     {
         "id":"brightport_sift1",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -17231,7 +17234,7 @@
     },
     {
         "id":"brightport_broom51",
-        "message":"[You sweep all the dust neatly into a pile, ready to be put into the sack for dust and dirt.]",
+        "message":"You sweep all the dust neatly into a pile, ready to be put into the sack for dust and dirt.",
         "replies":[
             {
                 "text":"[Sweep the mound inside of the sack with the dust and dirt.]",
@@ -17878,6 +17881,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_bakery",
                 "value":25
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":213
             }
         ]
     },
@@ -18396,7 +18404,7 @@
     },
     {
         "id":"brightport_sift1_2",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -18423,7 +18431,7 @@
     },
     {
         "id":"brightport_sift1_3",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -18977,12 +18985,12 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"sift",
-                        "value":5
+                        "value":1
                     },
                     {
                         "requireType":"factionScore",
                         "requireID":"sift",
-                        "value":15,
+                        "value":20,
                         "negate":true
                     }
                 ]
@@ -18994,12 +19002,12 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"sift",
-                        "value":15
+                        "value":20
                     },
                     {
                         "requireType":"factionScore",
                         "requireID":"sift",
-                        "value":25,
+                        "value":30,
                         "negate":true
                     }
                 ]
@@ -19011,7 +19019,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"sift",
-                        "value":25
+                        "value":30
                     }
                 ]
             }
@@ -20108,7 +20116,7 @@
     },
     {
         "id":"brightport_oseanpry0",
-        "message":"[The man looks at you with a hunter-like gaze, giving you a slight shiver.]",
+        "message":"The man looks at you with a hunter-like gaze, giving you a slight shiver.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -20330,5 +20338,40 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brightport_frederich_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_frederich_afterlecture"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_frederich_lecture"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_frederich_beforelecture",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":222,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_frederich_beforelecture",
+        "message":"Class is about to begin, please sit down. I will accept questions after the lecture is over."
+    },
+    {
+        "id":"brightport_frederich_lecture"
+    },
+    {
+        "id":"brightport_frederich_afterlecture"
     }
 ]

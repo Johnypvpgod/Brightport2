@@ -35,7 +35,8 @@
     {
         "id":"brightportnpc5",
         "name":"Frederich",
-        "iconID":"monsters_ld1:125"
+        "iconID":"monsters_ld1:125",
+        "phraseID":"brightport_frederich_selector"
     },
     {
         "id":"brightportnpc6",
@@ -426,6 +427,7 @@
             "max":19
         },
         "phraseID":"brightport_sickdeer",
+        "droplistID":"brightport_sickdeer",
         "attackCost":7,
         "attackChance":105,
         "criticalSkill":15,
@@ -542,7 +544,7 @@
         "maxAP":15,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":35,
             "max":50
@@ -565,7 +567,7 @@
         "maxAP":12,
         "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":14,
             "max":36
@@ -586,7 +588,7 @@
         "maxAP":12,
         "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":14,
             "max":36
@@ -607,7 +609,7 @@
         "maxHP":250,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":20,
             "max":35
@@ -628,7 +630,7 @@
         "maxAP":12,
         "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":14,
             "max":36
@@ -648,7 +650,7 @@
         "maxHP":250,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":20,
             "max":35
@@ -881,7 +883,7 @@
         "maxHP":250,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":20,
             "max":35
@@ -988,7 +990,7 @@
         "maxHP":250,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":20,
             "max":35
@@ -1008,7 +1010,7 @@
         "maxHP":220,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":20,
             "max":35
