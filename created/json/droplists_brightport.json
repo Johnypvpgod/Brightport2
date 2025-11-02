@@ -33,6 +33,38 @@
                     "min":1,
                     "max":1
                 }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"mead",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"gloves_fancy",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"soap",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             }
         ]
     },
@@ -70,6 +102,14 @@
                     "min":1,
                     "max":1
                 }
+            },
+            {
+                "itemID":"halberd_iron",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },
@@ -86,6 +126,22 @@
             },
             {
                 "itemID":"spmail2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"brightport_bronzeshield",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"brightport_helmet",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -281,6 +337,13 @@
                     "min":30,
                     "max":45
                 }
+            },
+            {
+                "itemID":"lizard_skin",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },
@@ -304,7 +367,7 @@
                 }
             },
             {
-                "itemID":"brightport_kingsword",
+                "itemID":"brightport_kingarmor",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -312,11 +375,11 @@
                 }
             },
             {
-                "itemID":"brightport_kingarmor",
+                "itemID":"lizard_skin",
                 "chance":"100",
                 "quantity":{
                     "min":1,
-                    "max":1
+                    "max":3
                 }
             }
         ]

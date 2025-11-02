@@ -3,5 +3,6 @@ readme.md
 created
 altered
 .workspace
-altered/maps/worldmap.xml
 *.world
+created/maps/world1.world
+created/maps/Brightport.world

@@ -426,7 +426,6 @@
             "min":8,
             "max":19
         },
-        "phraseID":"brightport_sickdeer",
         "droplistID":"brightport_sickdeer",
         "attackCost":7,
         "attackChance":105,

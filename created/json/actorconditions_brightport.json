@@ -40,5 +40,21 @@
         "abilityEffect":{
             "increaseAttackChance":-10
         }
+    },
+    {
+        "id":"brightport_diadem",
+        "iconID":"actorconditions_1:89",
+        "name":"Incompatible ancestry",
+        "description":"A magical item attempts to draw it's full power but it's wearer is unworthy.",
+        "category":"spiritual",
+        "abilityEffect":{
+            "increaseAttackChance":-5,
+            "increaseMoveCost":1,
+            "increaseUseItemCost":1,
+            "increaseAttackCost":0,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":-5,
+            "increaseDamageResistance":-2
+        }
     }
 ]
