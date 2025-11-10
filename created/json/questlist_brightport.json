@@ -42,7 +42,7 @@
             },
             {
                 "progress":40,
-                "logText":"Frederich the history teacher, who moved in from Feygard, believes Stanwick is associated with Those Nor city savages and was told by them to steal the document."
+                "logText":"Frederich the history teacher, who moved in from Feygard, believes Stanwick is associated with \"Those Nor city savages\" and was told by them to steal the document."
             },
             {
                 "progress":45,
@@ -765,7 +765,39 @@
             },
             {
                 "progress":222,
+                "logText":"lecture starting"
+            },
+            {
+                "progress":223,
+                "logText":"took blades"
+            },
+            {
+                "progress":224,
+                "logText":"lecture over"
+            },
+            {
+                "progress":225,
                 "logText":"lecture started"
+            },
+            {
+                "progress":226,
+                "logText":"lecture warning1"
+            },
+            {
+                "progress":227,
+                "logText":"lecture warning2"
+            },
+            {
+                "progress":228,
+                "logText":"locked lecture room"
+            },
+            {
+                "progress":229,
+                "logText":"regnal"
+            },
+            {
+                "progress":230,
+                "logText":"thaddeus"
             }
         ]
     },
@@ -992,7 +1024,7 @@
     },
     {
         "id":"brightport_thieves",
-        "name":"Crate expectations",
+        "name":"Boxed in",
         "showInLog":1,
         "stages":[
             {
@@ -1042,7 +1074,7 @@
     },
     {
         "id":"brightport_bakery",
-        "name":"Delon's bakery errands",
+        "name":"Bread and Circuses",
         "showInLog":1,
         "stages":[
             {

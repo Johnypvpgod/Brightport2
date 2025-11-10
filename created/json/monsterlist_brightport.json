@@ -279,7 +279,7 @@
     },
     {
         "id":"brightportstudent4",
-        "name":"Brightport student ",
+        "name":"Regnal",
         "iconID":"monsters_ld1:80"
     },
     {
@@ -296,12 +296,12 @@
     {
         "id":"brightportstudent7",
         "name":"Dietrich",
-        "iconID":"monsters_ld1:11"
+        "iconID":"monsters_ld1:86"
     },
     {
         "id":"brightportstudent8",
         "name":"Aurelia",
-        "iconID":"monsters_ld1:193"
+        "iconID":"monsters_ld1:225"
     },
     {
         "id":"brightportstudent9",
@@ -487,7 +487,7 @@
             "max":30
         },
         "faction":"gunfryk",
-        "phraseID":"brightport_gunfryk_selector0",
+        "droplistID":"brightport_gunfryk",
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
@@ -1135,5 +1135,11 @@
         "name":"Brightport guard",
         "iconID":"monsters_karvis2:2",
         "phraseID":"brightport_jailguard"
+    },
+    {
+        "id":"brightport_gunfrykstill",
+        "name":"Gunfryk",
+        "iconID":"monsters_ld1:74",
+        "phraseID":"brightport_gunfryk_selector0"
     }
 ]

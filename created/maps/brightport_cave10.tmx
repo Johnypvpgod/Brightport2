@@ -197,17 +197,17 @@
  </layer>
  <layer id="4" name="Above" width="27" height="11">
   <data encoding="base64" compression="zlib">
-   eJyTYGEgG1wWYmC4IoTgKwqTbxY+gGwHup3EgM9i1HUPPns+AfFNAeLUUgI+kaAfXS0pdtM77MgF7MB0XCSJwDBQKImplhJ7sAGYnawU5KWhCNhw+BeXOC45djQx9HAEAPGQFJs=
+   eJyTYGFgkABicsBlIQaGK0IIvqIweeYQAsh2oNtJDPgsRl334LPnExDfFCBOLSXgEwn60dWSYje9w45cwA5Mw0WSCAwDhZKYaimxBxuA2clKZj4aqoANh39xieOSY0cTQw9HAHMbFLc=
   </data>
  </layer>
  <layer id="5" name="Top" width="27" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPPBZjYPgkRqZmEgCzOMQuegF62kWP8BtI8FlsZIWnovDA2j9cAQCjhAhU
+   eJyTYGFgkABiUsFjMQaGT2Kk6yMVMItD7KIXoKdd9Ai/gQSfxUZWeCoKD6z9wxUAAKb7CIw=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="27" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguChGHkYG5JpBrp30tINWdqIDUsMUXQ+twg0boKddxAB62YNuHyG7qQlwxT8hMUJxAhMn1X5a5QV0OQDrLLZH
+   eJxjYICAi2KkY2RAjn5K7KSnHbSyEx2QGqboemgVbtgAPe0iBtDLHlLtoybAFf+ExAjFCUycWn6mNN7R5QD/27ZH
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -241,7 +241,7 @@
     <property name="spawngroup" value="brightport_scorpion"/>
    </properties>
   </object>
-  <object id="6" name="emyro1" type="spawn" x="608" y="224" width="32" height="32">
+  <object id="6" name="emyro1" type="spawn" x="32" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brightport_lizard"/>
    </properties>

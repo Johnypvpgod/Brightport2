@@ -262,7 +262,7 @@
   </object>
   <object name="brightportguardcaptain" type="spawn" x="640" y="288" width="96" height="32">
    <properties>
-    <property name="spawngroup" value="brightportguardcaptain"/>
+    <property name="spawngroup" value="brightport_gunfrykstill"/>
    </properties>
   </object>
   <object name="brightport_newcommander" type="spawn" x="640" y="256" width="96" height="64">

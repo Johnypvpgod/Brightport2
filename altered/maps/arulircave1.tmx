@@ -191,9 +191,19 @@
    eJy1Vr9rFEEUnr07g5pAvFvd1WCiIGkNNoGgoMZK04uJpZyFdl4l2GgtCqLiJTbiDyxSxvwFRwpLEay9iCalFoKx8X2897y3szN7QvCDx212Z77v/Zo36WfO9StsbtK5m2Q+OjX+3cS6evn7Zt18H2ILAX5wwsCzljv3juxzvfj+r1bA5xue2Rh0/6Fx/vthUjQfFxpFjVhO/NinUudmUn6+nTDHE4rjFj3PSv6uye9OnS2Wk9E0oJMNnpVvjNY9zYvrtFYTsj4Ug+b1XwDdtmjM1YrfmuKnz685ma5xHRX3asV906avgPONwdr5Btfie4vjDfUNgLoeT8v9ktC7U56/v+n9es46j8w39WMhEAMw6/HE3gE/MtZBbWw8CtVQ/kRysX2gvLZLa5bJVsi+So6Qkwcp60OnJ/H8bJY1sO+E52dieqvr9cB2xvyXac0I8e4l25cXdebFLpLGVdFRH21e1PdVTwNxfKSaXieNb/R8f49z+40OoDMAvQudJU9r2XCvBjQ+0b4vLY5hVHoXR32L3r8YZ+7XOftoZ4lqLRnNEL9q3JEYgJdUv6ZoAI9zPv9AbNbqrLL8todRj+eiYUfVltTplcQR0ojNLe27jumLCdJop+z/QcrPDu0/knMMG/mgT4bxY26BHz1wJjDDVBf8z+j7e6r9GzO/Fier7wr/LrBAPrQW6v9b8WHDaJyu0LDcU7IXsVyRs4U5lRHX4Zz5rbZFTEP5j6aD+8jiWFZ+p7NpXfS0FjGND60y95ipxUzGOr7PAPK0JjqoxaWIRr/FvycNr95tyNVZWnvOxKL3omrqneXHUMiV2T8i8wHQ+aJzyAf8R656FRp2dgGYXZnUtBOY63e92dzzzkVIIzS7gF+GC/loR86JRagWVf9Xdc2MRB7tzFyJnJ9YDCENrcGiNy/tzNytRtUe34//qQEMO9+71QidRbv+D2RvKlo=
   </data>
  </layer>
- <layer name="Objects_brightportrock" width="25" height="30" visible="0">
+ <layer name="Objects_brightportrock1" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBawRnigXTAKhhoYTTOjgBQwml5GwSgY2gAAYmICPg==
+   eJxjYBgFo2AUjIJRMApGwUgAa4QH2gWjYBSMAkoAANr/AMA=
+  </data>
+ </layer>
+ <layer name="Objects_brightportrock3" width="25" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6B1sH8DQxrDHZCABGix8z0AAFodIdcAwA==
+  </data>
+ </layer>
+ <layer name="Objects_brightportrock2" width="25" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFTBGuGBdsEoGAWjYBSMAnoBAHztAMA=
   </data>
  </layer>
  <layer name="Objects_brightportrockremoved1" width="25" height="30" visible="0">
@@ -236,7 +246,7 @@
    eJzdk1EOgCAMQzmF978SN/LLxBBatq7zwyV8qNC3ljmvMWbDeqpD+81w9Hgqlzb77vKQ7cPBWO+C7WF8dx6oxwojU47+mebpWfFxyizrLXIGMdQMo4zqLCDGqtvhI5OvMg8sM0f+qH+VsSvX/TJtll9lNnc6VQbKBr1z5MQy6mBUc4roOHyw/yLiUWFEvP6Boeo7zn/FuAHKEey+
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="exit" type="mapchange" x="256" y="928" width="32" height="32">
    <properties>
     <property name="map" value="arulirmountain1"/>
@@ -298,7 +308,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="arulir_2" type="spawn" x="192" y="576" width="224" height="192">
    <properties>
     <property name="quantity" value="2"/>
@@ -440,15 +450,6 @@
     <property name="Above" value="Above_replace"/>
    </properties>
   </object>
-  <object name="brightport_rock3" type="replace" x="96" y="288" width="32" height="32">
-   <properties>
-    <property name="Objects" value="Objects_brightportrock"/>
-    <property name="requireId" value="brightport_nondisplay"/>
-    <property name="requireNegation" value="false"/>
-    <property name="requireType" value="questLatestProgress"/>
-    <property name="requireValue" value="178"/>
-   </properties>
-  </object>
   <object name="brightport_rock_remove1" type="replace" x="288" y="640" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_brightportrockremoved1"/>
@@ -476,22 +477,31 @@
     <property name="requireValue" value="216"/>
    </properties>
   </object>
-  <object name="brightport_rock1" type="replace" x="288" y="640" width="32" height="32">
+  <object name="brightportrock1" type="replace" x="288" y="640" width="32" height="32">
    <properties>
-    <property name="Objects" value="Objects_brightportrock"/>
+    <property name="Objects" value="Objects_brightportrock1"/>
     <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireNegation" value="false"/>
-    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="176"/>
    </properties>
   </object>
-  <object name="brightport_rock2" type="replace" x="608" y="448" width="32" height="32">
+  <object name="brightportrock2" type="replace" x="608" y="448" width="32" height="32">
    <properties>
-    <property name="Objects" value="Objects_brightportrock"/>
+    <property name="Objects" value="Objects_brightportrock2"/>
     <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireNegation" value="false"/>
-    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="177"/>
+   </properties>
+  </object>
+  <object name="brightportrock3" type="replace" x="96" y="288" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_brightportrock3"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="178"/>
    </properties>
   </object>
  </objectgroup>

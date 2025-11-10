@@ -1731,7 +1731,7 @@
                 "nextPhraseID":"brightport_milena1"
             },
             {
-                "text":"Excuse me, could you please tell me what you know about the library theft?",
+                "text":"Could you tell me what know about the library theft?",
                 "nextPhraseID":"brightport_milena2",
                 "requires":[
                     {
@@ -2584,12 +2584,36 @@
                         "value":25
                     }
                 ]
+            },
+            {
+                "text":"Excuse me sir. I was kicked out of the lecture room for misbehaving.",
+                "nextPhraseID":"brightport_oswald23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":228
+                    }
+                ]
             }
         ]
     },
     {
         "id":"oswald_end",
-        "message":"How unfortunate to be stuck inside, when the sun's so dazling."
+        "message":"How unfortunate to be stuck inside, when the sun's so dazling.",
+        "replies":[
+            {
+                "text":"Excuse me sir. I was kicked out of the lecture room for misbehaving.",
+                "nextPhraseID":"brightport_oswald_selector_lecture",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":228
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"oswald_quest",
@@ -2604,6 +2628,17 @@
                         "requireID":"brightport_scroll",
                         "value":1,
                         "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"Excuse me sir. I was kicked out of the lecture room for misbehaving.",
+                "nextPhraseID":"brightport_oswald26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":228
                     }
                 ]
             },
@@ -2870,6 +2905,7 @@
     {
         "id":"brightport_stanwick_end",
         "message":"Thank you $playername. I knew I could entrust this to you.",
+        "switchToNPC":"brightportnpc",
         "replies":[
             {
                 "text":"N",
@@ -2889,7 +2925,8 @@
     },
     {
         "id":"brightport_stanwick16",
-        "message":"[Stanwick lets out a deep breath, his expression softening with visible relief, as he sits down on his bed.]",
+        "message":"Stanwick lets out a deep breath, his expression softening with visible relief, as he sits down on his bed.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -6079,7 +6116,7 @@
     },
     {
         "id":"brightport_bryma5",
-        "message":"It was never my intention to keep it. as It's not particularly useful to me. Here, take it.",
+        "message":"It was never my intention to keep it. As It's not particularly useful to me. Here, take it.",
         "replies":[
             {
                 "text":"Thanks! I will make sure it's returned to it's place.",
@@ -7189,8 +7226,8 @@
     },
     {
         "id":"brightport_lizard1",
-        "message":"[The mysterious creature leaps through the rubble to the other side of the cave.]",
-        "switchToNPC":"brightport_emyro",
+        "message":"The mysterious creature leaps through the rubble to the other side of the cave.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -7413,8 +7450,8 @@
     },
     {
         "id":"brightport_emyrofight",
-        "message":"[As you attempt to strike at the creature, it swiftly evades your blow. But unsurprisingly, your combat experience comes on top, grazing its body. However. The spot it had moved to avoid your attack had put it closer to the entrance, allowing it to leap into the cave opening with precise nimbleness.]\n",
-        "switchToNPC":"brightport_emyro",
+        "message":"As you attempt to strike at the creature, it swiftly evades your blow. But unsurprisingly, your combat experience comes on top, grazing its body. However. The spot it had moved to avoid your attack had put it closer to the entrance, allowing it to leap into the cave opening with precise nimbleness.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -8209,11 +8246,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_lizard",
-                "value":95
+                "value":90
             },
             {
                 "rewardType":"giveItem",
-                "rewardID":"brightport_crown"
+                "rewardID":"brightport_crown",
+                "value":1
             }
         ]
     },
@@ -9031,6 +9069,10 @@
                         "value":80
                     }
                 ]
+            },
+            {
+                "text":"What\u2019s your history with Benbyr?",
+                "nextPhraseID":"brightport_dynes1"
             },
             {
                 "text":"No, not really.",
@@ -11047,7 +11089,8 @@
     },
     {
         "id":"brightport_agent5",
-        "message":"[As the courier is taking something out of his robe you hear a whistle.]",
+        "message":"As the courier is taking something out of his robe you hear a whistle.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -11058,6 +11101,7 @@
     {
         "id":"brightport_agent6",
         "message":"That was my partner on the lookout, the signal means the guards are coming.",
+        "switchToNPC":"brightport_agent",
         "replies":[
             {
                 "text":"N",
@@ -11155,6 +11199,7 @@
     {
         "id":"brightport_agent6_alt",
         "message":"That was my partner on the lookout, the signal means the guards are coming.",
+        "switchToNPC":"brightport_agent",
         "replies":[
             {
                 "text":" I have the captain under my thumb, they can't touch me.",
@@ -11987,7 +12032,7 @@
     },
     {
         "id":"brightport_crate_success",
-        "message":"[After what seems like a minute the footsteps move away, you hear the guards discuss something then silence..]",
+        "message":"After what seems like a minute the footsteps move away, you hear the guards discuss something then silence..",
         "switchToNPC":"$playername",
         "replies":[
             {
@@ -12058,7 +12103,8 @@
     },
     {
         "id":"brightport_elysa8",
-        "message":"[Elysa opens the small box, glances at the item inside, then closes it again.]",
+        "message":"Elysa opens the small box, glances at the item inside, then closes it again.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -12515,8 +12561,8 @@
     },
     {
         "id":"brightport_goons35",
-        "message":"[Dynes begrudgingly takes out a bag of gold and throws it your way.]",
-        "switchToNPC":"brightportgoons",
+        "message":"Dynes begrudgingly takes out a bag of gold and throws it your way.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -12559,6 +12605,23 @@
                         "requireID":"brightport_goons",
                         "value":130,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goonselectorbribe",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":130
                     }
                 ]
             },
@@ -12799,6 +12862,33 @@
                         "requireID":"brightport_nondisplay",
                         "value":154,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_smugglercave0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":154
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":223,
+                        "negate":true
                     }
                 ]
             }
@@ -12826,7 +12916,7 @@
     },
     {
         "id":"brightport_smuggler_selector4",
-        "message":"After smashing the lid open with a rock, you see a dozen unsharpened blades, even at first glance the material seems high quality. You grab one hoping it will be good enough proof for the commander.",
+        "message":"After smashing the lid open with a rock, you see a dozen unsharpened blades, even at first glance the material they're made of seems high quality. You grab one hoping it will be good enough proof for the commander.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -12922,6 +13012,10 @@
         "message":"It's nice to see you around, friend. ",
         "replies":[
             {
+                "text":"What\u2019s your history with Benbyr?",
+                "nextPhraseID":"brightport_dynes"
+            },
+            {
                 "text":"Good to see you too.",
                 "nextPhraseID":"X"
             }
@@ -12940,6 +13034,10 @@
         "id":"brightport_dynes_superhigh",
         "message":"You really showed that Feygard dog whose boss, haha!",
         "replies":[
+            {
+                "text":"What\u2019s your history with Benbyr?",
+                "nextPhraseID":"brightport_dynes"
+            },
             {
                 "text":"Yup, I did.",
                 "nextPhraseID":"X"
@@ -15074,7 +15172,7 @@
     },
     {
         "id":"brightport_rock2_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -15095,7 +15193,7 @@
     },
     {
         "id":"brightport_rock3_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -15116,7 +15214,7 @@
     },
     {
         "id":"brightport_rock4_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -15137,7 +15235,7 @@
     },
     {
         "id":"brightport_rock5_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -15158,7 +15256,7 @@
     },
     {
         "id":"brightport_rock6_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -16535,6 +16633,7 @@
     {
         "id":"brightport_broom26",
         "message":"Hey, I told you that you missed a spot. Go do that first.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -17562,6 +17661,7 @@
     {
         "id":"brightport_elysa_caught3",
         "message":"And now, let's talk about you, $playername. I'm a bit disheartened that you got caught, but I'm still willing to tell you what I know of your brother. I was planning on telling you in the first place, but a good opportunity arose.",
+        "switchToNPC":"brightportthieves6",
         "replies":[
             {
                 "text":"I'm ready to hear.",
@@ -18263,7 +18363,7 @@
     },
     {
         "id":"brightport_apples1",
-        "message":"[You come across two crates. The first holds 15 apples. You check the second, but it's empty except for a few leaves at the bottom.]",
+        "message":"You come across two crates. The first holds 15 apples. You check the second, but it's empty except for a few leaves at the bottom.",
         "replies":[
             {
                 "text":"[Take the apples.]",
@@ -18294,13 +18394,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_bakery",
-                "value":40
-            }
         ]
     },
     {
@@ -18316,7 +18409,7 @@
     },
     {
         "id":"brightport_apples2",
-        "message":"[You take the 15 apples inside the crate.]",
+        "message":"You take the 15 apples inside the crate.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -19655,6 +19748,7 @@
     {
         "id":"brightport_broom26_1",
         "message":"Sweep sweep.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -19738,7 +19832,7 @@
     },
     {
         "id":"brightport_franz6",
-        "message":"As i've said, I'm busy, right your question down and I'lll answer you later.",
+        "message":"As i've said, I'm busy, write your question down and I'lll answer you later.",
         "replies":[
             {
                 "text":"[Guess i'll find some paper and ink.]",
@@ -19838,6 +19932,7 @@
     {
         "id":"brightport_agent6alt",
         "message":"That was my partner on the lookout, the signal means the guards are coming.",
+        "switchToNPC":"brightport_agent",
         "replies":[
             {
                 "text":"I'll be fine, I'm on good standing with the guards.",
@@ -20344,11 +20439,31 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_frederich_afterlecture"
+                "nextPhraseID":"brightport_frederich_afterlecture",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_frederich_lecture"
+                "nextPhraseID":"brightport_frederich_lecture",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":222
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -20369,9 +20484,492 @@
         "message":"Class is about to begin, please sit down. I will accept questions after the lecture is over."
     },
     {
-        "id":"brightport_frederich_lecture"
+        "id":"brightport_frederich_lecture",
+        "message":"Back to your seat, student! I will not have anyone interrupting my history lecture."
     },
     {
-        "id":"brightport_frederich_afterlecture"
+        "id":"brightport_frederich_afterlecture",
+        "message":"The one student whose name I don't remember, that didn\u2019t bolt out the door. What is it?",
+        "replies":[
+            {
+                "text":"Could you tell me what know about the library theft?",
+                "nextPhraseID":"brightport_frederich",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Nothing, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goonselectorbribe",
+        "message":"How dare you come back after selling us out! Hope the coin was worth it, coward."
+    },
+    {
+        "id":"brightport_smugglercave0",
+        "message":"The crate you took the blade from for the commander. Only 3 are left, someone took the rest.",
+        "replies":[
+            {
+                "text":"[Take them.]",
+                "nextPhraseID":"brightport_smugglercave1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smugglercave1",
+        "message":"You take the blades.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":223
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_sword0",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes1",
+        "message":"Once you're done with the work we can talk about it.",
+        "replies":[
+            {
+                "text":"Fine.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes",
+        "message":"Us and Benbyr go way back, we're old business partners. Wouldn't call him a friend, but he's no stranger either.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes2",
+        "message":"his clientele was different, so we had no fallings-out. He got caught a few years ago dealing with some strange ingredient.",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes3",
+        "message":"Hey barthold, do you remember what it was?",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes4",
+        "message":"I think it was called Kazarite or something, he tried hooking us in with those big earnings but we didn't want the risk. ",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes5",
+        "message":"If the first thing he did after getting out was chase revenge, then he hasn\u2019t learned his lesson.",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"I see, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_frederich",
+        "message":"What is there to know, the case is solved! ",
+        "replies":[
+            {
+                "text":"Why do you say so?",
+                "nextPhraseID":"brightport_frederich1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_frederich1",
+        "message":"I always knew that boy Stanwick was up to no good. They did poorly entrusting the library to someone associated with those Nor City savages.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_frederich2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brightport_frederich2",
+        "message":"It's only a matter of time before he spits out the names of his acccomplices."
+    },
+    {
+        "id":"brightport_class",
+        "switchToNPC":"brightportstudent4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_class1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":222,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_class1",
+        "message":"Psst! The lecture is about to begin, hurry up and take a seat!",
+        "switchToNPC":"brightportstudent4",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":222
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_class"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture_warning_kickedout",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":227
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture_warning0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":222,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_class",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":226,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture_warning1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":225,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_class",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":226
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":227,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture_warning_lecturestarted",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":225
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":226,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture_warning_lecturestarted2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":225
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":226
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":227,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning0",
+        "message":"I was beginning the start of my lecture, take a seat at once!",
+        "switchToNPC":"brightportnpc5",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":226
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning_lecturestarted",
+        "message":"Why would you interrupt the lecture, what is it?",
+        "switchToNPC":"brightportnpc5",
+        "replies":[
+            {
+                "text":"Sorry, I'll return back to my seat.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":226
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning1",
+        "message":"This is the second time you are disturbing the start of my lecture, one more time and I will be sending you to the headmaster!",
+        "switchToNPC":"brightportnpc5",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":227
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning_lecturestarted2",
+        "message":"This is the second time you are disturbing my lecture, one more time and I will be sending you to the headmaster!",
+        "switchToNPC":"brightportnpc5",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":227
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture_warning_kickedout",
+        "message":"That's it. To the headmaster!",
+        "switchToNPC":"brightportnpc5",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"hallway",
+                "mapName":"brightport_school1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":228
+            }
+        ]
+    },
+    {
+        "id":"brightport_lectureroom",
+        "message":"I was kicked out the lecture room, I can't go back in without the headmaster's permission."
+    },
+    {
+        "id":"brightport_oswald23",
+        "message":"Maybe next time, just don't?",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":228
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald_selector_lecture",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald24",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":97
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald24",
+        "message":"Serves you right, $playername, don't misbehave."
+    },
+    {
+        "id":"brightport_oswald25",
+        "message":"I permit you to go back, you're a good kid.",
+        "replies":[
+            {
+                "text":"I'll be back.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":228
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald26",
+        "message":"Is that so? Then focus on the matter at hand, asking Frederich won't be of much use, I have a hard time dealing with him myself."
+    },
+    {
+        "id":"brightport_lecture_regnal",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lecture1",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_class",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":224,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":229
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":230
+            }
+        ]
+    },
+    {
+        "id":"brightport_lecture1"
     }
 ]
