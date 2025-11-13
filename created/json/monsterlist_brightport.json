@@ -350,7 +350,7 @@
         "name":"Brightport guard",
         "iconID":"monsters_ld1:95",
         "unique":1,
-        "phraseID":"brightportguard_1"
+        "phraseID":"brightportguard_1_selector"
     },
     {
         "id":"brightportbakeryoutside",

@@ -210,7 +210,7 @@
  </layer>
  <layer id="3" name="Objects" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJyFVLtSwzAQVEXPK52Fnb8KTWihAMJQU+QDgAl0wI8E+AqoMUMHVCYMLdxNtHh9Pk12xiNL2tt76KSmCv+YliFsDUPYHi7nR2XogPewz2t14h+T3SiGsBv79mp7bfQVj2WXC605cWv6n8n/jejfxq4O+Gr/QzmeG582R44JfixHNZEHa3sajDdZf3G+BfGR79RoXNI8p+Ppebh39r2YNf/DFVqKi7I9L/Cv0rgoQvguWu6qeKFzkta4l3L43cnv5ew55tw+205MPFwX21MW3D/2zjA053fppw/TU3dxyUdPsD1y5/sBzDO+vHjPjLYdrV/Ars0cn/YMdN5U7dsA/sTwFNr3fL6o+1js9mKfzzilWDbVT+KjxhwXeA9ODADqj7u4L3oHSTNXM6vP9/pJ7sVzuhufVZ8Ln94Z2Nop1mW+Edt6Nc7bpPyBfGtprIX/anRG0c8Ho3d2vNZITl9F6wOjF/8fp010GQ==
+   eJyFVLtSwzAQVEXPK52Fnb8KTWihAMIHUOQDgEnogB8J8BVQY4YOqEwYWribaPH6fJrsjEeWtLf30ElNFf4xLUPYGYawO1zNT8rQAe9hn9fqxD8lu1EMYT/27dX22ugrHssuF1oL4tb0P5P/G9G/jV0d8NX+h3K8MD5tjhwT/FiOaiIP1vY0GG+y/uJ8S+Ij36nRuKJ5TsfT83Dv7Hsxa/7Ha7QUl2V7XuDP07gsQvguWu66eKFzlta4l3L43cvv5ew55tw+205MPFwX21MW3D/2zjA053fppw/TU3dxxUdPsD1y5/sBLDK+vHjPjbYdrV/Ars0cn/YMdN5U7dsA/sTwFNr3fL6o+1jsDmKfbwHtbfWT+KgxxwXegxMDgPrjLh6K3lHSzNXM6vO9fpJ78ZzuxmfV58Kndwa2dopNmW/Ftl6N8zYpfyDfRhpr4b8anVH088HonR2vNZLTV9H6wOjF/we0jnOF
   </data>
  </layer>
  <layer id="4" name="Above" width="26" height="16">
@@ -218,9 +218,9 @@
    eJxjYGBgYFFiYGAFYmIAKWqr5RgYauRwyz9TJM4cUgDMbbQweygCXPH1WJaB4Yks5ebgA77ypKmnxC5qAHz23gSmp1toaapWDlU9sv77BPxOqh9h6tFpXGYRK4YOHgL9aAn0l5UcYfXY/GgP1OeAJ8+ju4UZZA9UPbYwJicteALN84KaiSvM8Jl/GJgvjkDzxm1F3GqxxQG2sGME8pnkEOH1EEvZhO7G/UD1B9DMsZTD7h8YjS3ukMUeAv30CC3P43I/iA1yLzF2YXM/C5Y4wxaPAD8iLIA=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="26" height="16" visible="0">
+ <layer id="5" name="Walkable" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJy7qcCAAm4qQDA2gE2OGPUweXxqibGLXLXEmkMsQPfTKMAdB6TEI7J6UvWQA0i1h1qAUFgRymOkpD9Kwp+Y/EtqmYDPHnxqceknxw5y3YzPDYT8Q0gMV/wSYw82OXQz0c0aLBgAba+BXg==
+   eJy7qcCAAm4qQDA2gE2OGPUweXxqibGLXLXEmkMKQPbTKMAdB6TEI7J6UvWQA0i1h1qAUFgRymPoeYocuwipR8e4zCK1TMBnDz61uPQTApT4g1izsdlDajjhil9i7MEmh24mulmDBQMArhZ/bA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">

@@ -798,6 +798,14 @@
             {
                 "progress":230,
                 "logText":"thaddeus"
+            },
+            {
+                "progress":231,
+                "logText":"visited academy check by talking with dibella"
+            },
+            {
+                "progress":232,
+                "logText":"guard mentions arrest"
             }
         ]
     },
@@ -1074,7 +1082,7 @@
     },
     {
         "id":"brightport_bakery",
-        "name":"Bread and Circuses",
+        "name":"Bread and circus",
         "showInLog":1,
         "stages":[
             {
@@ -1103,7 +1111,7 @@
             },
             {
                 "progress":22,
-                "logText":"Allares refused to accept my help until I bring him some Deer meat to show my capabilities."
+                "logText":"Allares refused to accept my help until I bring him some deer meat to show my capabilities."
             },
             {
                 "progress":23,

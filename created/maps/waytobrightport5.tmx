@@ -222,12 +222,12 @@
    eJy1VUsOgkAM5SImJS5czYZruIEjoF4E76L3MC5du9HLODVpLOW1jL+XkBlop+/1A3R19USb1672V4HcJ2Bj9FRVG8I2hj6XDDfjSmN/T4fYGPfFlMfG9fSeFd+JsO1i4nt8ng/vUS0ENxPP8iFO7WPPWyTDjfx1PPb3Yq6XMZfHK/ESmKVob1Eyc4d8HVXf0fkh++8p1o80Nc77wnXR/k39ms+5nBAvyg/xetA1EGhNrZOHp3VVoF3rZq5t1ryj8fsuubxTjxJEvSqFnZWI51v96NuHuCJtv65hT9Pe/LNP9tknXHP/LL2PfO2syvoAcJBWFg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="24" height="19">
+ <layer id="4" name="Walkable" width="24" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKcvAsHMUDygGAVqajQyItY8UgKwel59wqcemhxx70cWICV9cZuJyHzFhRUo40ir94AofaqQfSsIJn/nExDs5+YVYQGxcodtNCiAUnuhm40ujxNpFrDm48hKpfsRlBqF0S2vzickv2AAA6SDg3w==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="224" y="576" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport4"/>

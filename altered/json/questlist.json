@@ -101,7 +101,7 @@
             },
             {
                 "progress":110,
-                "logText":"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n\n[Quest is not completable at this time.]",
+                "logText":"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.",
                 "rewardExperience":2000
             },
             {
@@ -109,12 +109,12 @@
                 "logText":"In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
             },
             {
-                "progress":125,
-                "logText":"While investigating the Brightport theft. I learnt from Bryma that Andor was the one who stole the important document, and brought it to her in exchange for her alchemy knowledge."
-            },
-            {
                 "progress":126,
                 "logText":"In Brightport, I was finally able to meet Stanwick, but due to his hazy memory, he was not able to help me learn anything about the whereabouts of Andor"
+            },
+            {
+                "progress":125,
+                "logText":"While investigating the Brightport theft. I learnt from Bryma that Andor was the one who stole the important document, and brought it to her in exchange for her alchemy knowledge."
             },
             {
                 "progress":127,

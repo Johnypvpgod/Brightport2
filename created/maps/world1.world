@@ -2895,7 +2895,7 @@
             "fileName": "waytobrightport8.tmx",
             "height": 480,
             "width": 640,
-            "x": 14560,
+            "x": 14562,
             "y": 14272
         },
         {
@@ -4096,21 +4096,21 @@
             "y": 4092
         },
         {
-            "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
+            "fileName": "../drawable/maps/cabin_norcity_road3.tmx",
             "height": 480,
             "width": 640,
             "x": 15904,
             "y": 14252
         },
         {
-            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "fileName": "../drawable/maps/cabin_norcity_road2.tmx",
             "height": 480,
             "width": 640,
             "x": 15233,
             "y": 14272
         },
         {
-            "fileName": "../../altered/maps/waytominingtown3.tmx",
+            "fileName": "../drawable/maps/waytominingtown3.tmx",
             "height": 960,
             "width": 960,
             "x": 12641,
@@ -4248,6 +4248,20 @@
             "width": 320,
             "x": 18913,
             "y": 13760
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15234,
+            "y": 14272
+        },
+        {
+            "fileName": "../../altered/maps/waytominingtown3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12642,
+            "y": 12096
         }
     ],
     "onlyShowAdjacentMaps": false,

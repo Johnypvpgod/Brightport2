@@ -323,14 +323,14 @@
             "y": 3119
         },
         {
-            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "fileName": "../drawable/maps/cabin_norcity_road2.tmx",
             "height": 480,
             "width": 640,
             "x": -3617,
             "y": 3123
         },
         {
-            "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
+            "fileName": "../drawable/maps/cabin_norcity_road3.tmx",
             "height": 480,
             "width": 640,
             "x": -2945,
@@ -372,21 +372,21 @@
             "y": -2016
         },
         {
-            "fileName": "../../altered/maps/waterway_forest2.tmx",
+            "fileName": "../drawable/maps/waterway_forest2.tmx",
             "height": 576,
             "width": 960,
             "x": -248,
             "y": -2248
         },
         {
-            "fileName": "../../altered/maps/korhald_cave_outdoor1.tmx",
+            "fileName": "../drawable/maps/korhald_cave_outdoor1.tmx",
             "height": 576,
             "width": 960,
             "x": -1248,
             "y": -2240
         },
         {
-            "fileName": "../../altered/maps/waytominingtown3.tmx",
+            "fileName": "../drawable/maps/waytominingtown3.tmx",
             "height": 960,
             "width": 960,
             "x": -6208,

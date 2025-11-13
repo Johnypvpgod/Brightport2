@@ -148,12 +148,12 @@
     },
     {
         "id":"brightport_priest_1_reply",
-        "message":"Even so, the shadow most certainly watches over you.",
+        "message":"Even so, the Shadow most certainly watches over you.",
         "switchToNPC":"brightportpriest1"
     },
     {
         "id":"brightport_priest_1",
-        "message":"Hello there, child. Are you perhaps interested in following the shadow?",
+        "message":"Hello there, child. Are you perhaps interested in following the Shadow?",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -161,7 +161,7 @@
                 "nextPhraseID":"brightport_priest_1_reply1"
             },
             {
-                "text":"How do I follow the shadow?",
+                "text":"How do I follow the Shadow?",
                 "nextPhraseID":"brightport_priest_1_reply2"
             },
             {
@@ -198,7 +198,7 @@
                 ]
             },
             {
-                "text":"All this shadow stuff. What a bunch of nonsense.",
+                "text":"All this Shadow stuff. What a bunch of nonsense.",
                 "nextPhraseID":"brightport_priest_1_reply"
             }
         ]
@@ -247,7 +247,7 @@
     },
     {
         "id":"brightport_priest_1_reply2_2",
-        "message":"Walk the path of one's destiny, and as the challenges upon your journey unfold, follow the guiding voice of the shadow.",
+        "message":"Walk the path of one's destiny, and as the challenges upon your journey unfold, follow the guiding voice of the Shadow.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -372,6 +372,13 @@
                 "text":"[Slip past him.]",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":232
+            }
         ]
     },
     {
@@ -395,7 +402,7 @@
                 "nextPhraseID":"brightportguard_1reply2"
             },
             {
-                "text":"Guess i'll go back.",
+                "text":"Guess I'll turn around.",
                 "nextPhraseID":"brightportguard_1reply3"
             }
         ]
@@ -1209,6 +1216,10 @@
                 ]
             },
             {
+                "text":"How can I visit the shop to buy something when you're a lazy behind is sitting here?",
+                "nextPhraseID":"brightport_armor3"
+            },
+            {
                 "text":"Sorry to disturb your meal. [Leave]",
                 "nextPhraseID":"X"
             }
@@ -1234,7 +1245,7 @@
     },
     {
         "id":"brightport_hortensia",
-        "message":"Hello, today's astronomy class at the Academy. Will be held in the evening, you musn't miss it.",
+        "message":"Hello, today's astronomy class at the Academy will be held in the evening, you musn't miss it.",
         "replies":[
             {
                 "text":"I don't have time to attend classes, I must find my brother Andor.",
@@ -1242,7 +1253,15 @@
             },
             {
                 "text":"Academy, where is that?",
-                "nextPhraseID":"brightport_hortensia3"
+                "nextPhraseID":"brightport_hortensia3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":231,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Sorry to disturb your meal. [Leave]",
@@ -1252,7 +1271,7 @@
     },
     {
         "id":"brightport_hortensia1",
-        "message":"That boy Andor? he was a bit unremarkable but he had a real passion for astronomy. What has happened to him?",
+        "message":"That boy Andor? He was a bit unremarkable but he had a real passion for astronomy. What has happened to him?",
         "replies":[
             {
                 "text":"He has been missing for a while, and so my father sent me out to search for him. Have you seen him?",
@@ -1265,7 +1284,7 @@
         "message":"I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find him soon.",
         "replies":[
             {
-                "text":"I hope soo too.",
+                "text":"I hope so too.",
                 "nextPhraseID":"X"
             }
         ],
@@ -1454,6 +1473,13 @@
                         "negate":true
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":231
             }
         ]
     },
@@ -3663,7 +3689,7 @@
     },
     {
         "id":"brightpor_magic",
-        "message":"An invisible force prevents you from moving further."
+        "message":"Trying to walk this way you slam into an invisible wall. The way could open, in the future.."
     },
     {
         "id":"brightport_statue_s",
@@ -6095,7 +6121,7 @@
     },
     {
         "id":"brightport_bryma4",
-        "message":"Is that any way to speak to someone you just met? soo rude! - Here, have it, I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.",
+        "message":"Is that any way to speak to someone you just met? Soo rude! - Here, have it, I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7018,14 +7044,14 @@
     },
     {
         "id":"brightport_mayor4",
-        "message":"Braving these lands for your brother, impressive. You have courage, but I cannot help you more than to pray the shadow to watch over you.",
+        "message":"Braving these lands for your brother, impressive. You have courage, but I cannot help you more than to pray the Shadow to watch over you.",
         "replies":[
             {
                 "text":"I have no shadow of a doubt it won't be doing that.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"May the shadow watch over you too.",
+                "text":"May the Shadow watch over you too.",
                 "nextPhraseID":"X"
             }
         ]
@@ -7516,7 +7542,7 @@
     },
     {
         "id":"brightport_lizardfight",
-        "message":"[As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.]",
+        "message":"As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.",
         "replies":[
             {
                 "text":"N",
@@ -7650,7 +7676,7 @@
     },
     {
         "id":"brightport_lizardkingfight",
-        "message":"Despicable creature, you show before us. your days end!",
+        "message":"Despicable creature, you show before us, your days end!",
         "switchToNPC":"brightport_lizardking",
         "rewards":[
             {
@@ -9460,7 +9486,7 @@
         "message":" I don't know anything more than what Umar has told. However there is a single detail of your brother that might help you.",
         "replies":[
             {
-                "text":"A detail about my Brother? I'm all ears.",
+                "text":"A detail about my brother? I'm all ears.",
                 "nextPhraseID":"brightport_elysa"
             }
         ],
@@ -9515,7 +9541,7 @@
     },
     {
         "id":"brightport_priest",
-        "message":"Unless you could travel to Feygard and speak withthe Lord of Brightport I'm afraid not my child.",
+        "message":"Unless you could travel to Feygard and speak with the Lord of Brightport I'm afraid not my child.",
         "replies":[
             {
                 "text":"Thanks for telling me this story. I'll go now.",
@@ -12173,7 +12199,7 @@
     },
     {
         "id":"brightport_stanwick_andor4",
-        "message":"Sometimes he'd fidget with a button, I could tell it was Nor city made since my Mother is from there, but your family's never been there right?",
+        "message":"Sometimes he'd fidget with a button, I could tell it was Nor city made since my family from there, but your family's never been there right?",
         "replies":[
             {
                 "text":"I don't think so.",
@@ -13914,7 +13940,7 @@
     },
     {
         "id":"brightport_jail_escape4",
-        "message":"See that cloth on the wall to the right of the bucket? Apparently, when they were digging into the mountain, it opened up into a cave that they covered up with rubble. With your size, you could probably crawl in there. Good luck, kid.",
+        "message":"See the cave wall to the right of the bucket? Apparently, when they were digging into the mountain, it opened up into a cave that they covered up with rubble. With your size, you could probably crawl in there. Good luck, kid.",
         "switchToNPC":"brightportthieves4",
         "rewards":[
             {
@@ -14300,7 +14326,7 @@
     },
     {
         "id":"brightport_sift1",
-        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with some black specks.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -14923,7 +14949,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"5"
+                        "requireID":"30"
                     }
                 ]
             },
@@ -15444,7 +15470,7 @@
     },
     {
         "id":"brightport_florencia6",
-        "message":"My husband, who is the Bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his collections of coins.",
+        "message":"My husband, who is the bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his collections of coins.",
         "replies":[
             {
                 "text":"I see, bye.",
@@ -15617,7 +15643,8 @@
     },
     {
         "id":"brightport_broom5",
-        "message":"[Delon yanks the broom out of your hands and sweeps chaotically, spreading the dust all across the floor.]"
+        "message":"Delon yanks the broom out of your hands and sweeps chaotically, spreading the dust all across the floor.",
+        "switchToNPC":"none"
     },
     {
         "id":"brightport_broom6",
@@ -15943,7 +15970,7 @@
     },
     {
         "id":"brightport_broom23",
-        "message":"All of the dirt and dust is gathered into a pile, I guess I'll sweep it into an empty sack. They'll throw it out later.",
+        "message":"All of the dirt and dust is gathered into a pile, I'll sweep it into an empty sack. They'll throw it out later.",
         "replies":[
             {
                 "text":"[Sweep the dirt mound into the sack.]",
@@ -16007,7 +16034,14 @@
         "replies":[
             {
                 "text":"Do you have butter or dough?",
-                "nextPhraseID":"brightport_androni1"
+                "nextPhraseID":"brightport_androni1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
@@ -16116,6 +16150,7 @@
         "id":"brightport_androni1",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_androni2",
                 "requires":[
                     {
@@ -16126,6 +16161,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"brightport_androni3",
                 "requires":[
                     {
@@ -17092,7 +17128,7 @@
     },
     {
         "id":"brightport_delon12",
-        "message":"Zzzz. Pastries... Zzzz",
+        "message":"Zzzz. Pastries... Zzzz...",
         "replies":[
             {
                 "text":"Oh so that's why you've been so quiet.",
@@ -17102,7 +17138,7 @@
     },
     {
         "id":"brightport_delon13",
-        "message":"Zzz.. huh? Er.. wha, what?",
+        "message":"Zzz... huh? Er... wha, what?",
         "replies":[
             {
                 "text":"I finally finished sweeping the whole warehouse!",
@@ -17466,7 +17502,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_bakery",
-                        "value":23,
+                        "value":16,
                         "negate":true
                     }
                 ]
@@ -17683,17 +17719,17 @@
     },
     {
         "id":"brightport_elysa_caught4",
-        "message":"First. As Umar told you, he was looking for the directions to the potion maker named Lodar, and second he wanted Information.",
+        "message":"First. As Umar told you, he was looking for the directions to the potion maker named Lodar and second, he wanted information.",
         "replies":[
             {
-                "text":"What information?",
+                "text":"What kind of information?",
                 "nextPhraseID":"brightport_elysa_caught5"
             }
         ]
     },
     {
         "id":"brightport_elysa_caught5",
-        "message":"On our dealings, who our members are, how he can contact them, I shared as much as it benefits the guild. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. The cost was not cheap.",
+        "message":"On our dealings, who our members are, how he can contact them, I shared as much as it benefits The Guild. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. The cost was not cheap.",
         "replies":[
             {
                 "text":"Interesting, is that all?",
@@ -17763,7 +17799,7 @@
         "message":"Yes, because YOU, were rude enough to leave in the middle of the conversation. You have no patience, and you should feel ashamed.",
         "replies":[
             {
-                "text":"I'm sorry, please tell me the information.",
+                "text":"I'm sorry, please tell me about Andor.",
                 "nextPhraseID":"brightport_elysa_caught4"
             }
         ]
@@ -17781,6 +17817,7 @@
     {
         "id":"brightport_elysa13",
         "message":"Very good work, $playername. I heard the guards went on patrol at the time you were there, and you skillfully avoided them. The Guild would very much like to have your skills in the future.",
+        "switchToNPC":"brightportthieves6",
         "replies":[
             {
                 "text":"N",
@@ -17969,7 +18006,7 @@
     },
     {
         "id":"brightport_storemaster5",
-        "message":"But it's not about the money this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's orchard south of the duleian road to see if the order of 30 apples had been picked up. ",
+        "message":"But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples had been picked up. ",
         "replies":[
             {
                 "text":"Sure, can do.",
@@ -18497,7 +18534,7 @@
     },
     {
         "id":"brightport_sift1_2",
-        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with some black specks.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -18524,7 +18561,7 @@
     },
     {
         "id":"brightport_sift1_3",
-        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.",
+        "message":"You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with some black specks.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -19182,7 +19219,7 @@
     },
     {
         "id":"brightport_siftend2",
-        "message":"That seems to have been most of it, the flour is as white as fresh coated snow. ",
+        "message":"That seems to have been most of it, the flour is as white as fresh coated snow.",
         "replies":[
             {
                 "text":"I hope that's all for today. ",
@@ -19516,7 +19553,7 @@
     },
     {
         "id":"brightport_delon16",
-        "message":"Hmm, I think that was all of it, I would have made you peel apples but I don't see any fresh apples from the orchard around, which is odd cause they were supposed to delivered already.",
+        "message":"Hmm, I think that was all of it, I would have made you peel apples but I don't see any fresh apples from the orchard around, which is odd cause they were supposed to be delivered already.",
         "replies":[
             {
                 "text":"Can you tell me more about it?",
@@ -19543,7 +19580,7 @@
     },
     {
         "id":"brightport_delon18",
-        "message":"Yawn.. Your job's over go away."
+        "message":"Yawn... Your job's over, go away."
     },
     {
         "id":"brightport_deebo",
@@ -19910,7 +19947,7 @@
                 "nextPhraseID":"brightport_guardcrate11"
             },
             {
-                "text":"I don't know, i've been looking everywhere I can.",
+                "text":"I don't know, I've been looking everywhere I can.",
                 "nextPhraseID":"brightport_guardcrate15"
             }
         ]
@@ -20971,5 +21008,58 @@
     },
     {
         "id":"brightport_lecture1"
+    },
+    {
+        "id":"brightport_armor3",
+        "message":"What a rude fellow! The work of an armorer is no easy thing, everyone needs a break once in a while.",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightportguard_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":220
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":232,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightportguard_1"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_2",
+        "message":"Hmm? I think I saw my comrades carry you away from this direction before...",
+        "replies":[
+            {
+                "text":"Oops, gotta go.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":232
+            }
+        ]
     }
 ]

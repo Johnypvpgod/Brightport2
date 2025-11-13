@@ -70,7 +70,7 @@
     {
         "id":"brightport_meat",
         "iconID":"items_newb:773",
-        "name":"Cooked deer meat",
+        "name":"Cooked venison",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":213,
@@ -90,7 +90,7 @@
     {
         "id":"brightport_rawmeat",
         "iconID":"items_newb:772",
-        "name":"Raw deer meat",
+        "name":"Raw venison",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":46,
@@ -211,12 +211,12 @@
     {
         "id":"brightport_bakery1",
         "iconID":"items_newb:848",
-        "name":"Apple pie",
+        "name":"Berry pie",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":26,
         "category":"food",
-        "description":"Sweet and sour.",
+        "description":"Tooth achingly sweet.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -445,12 +445,12 @@
     {
         "id":"brightport_bakery2",
         "iconID":"items_newb:850",
-        "name":"Sweet berry pie",
+        "name":"Apple pie",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":24,
         "category":"food",
-        "description":"Tooth achingly sweet.",
+        "description":"Sweet and sour.",
         "useEffect":{
             "conditionsSource":[
                 {
