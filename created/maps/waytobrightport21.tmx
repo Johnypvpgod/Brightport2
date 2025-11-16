@@ -188,17 +188,17 @@
  </tileset>
  <layer id="1" name="Base" width="31" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtuMhJYwtGwYgHo2ls+IPROB4FwxkMVPoeqvkKAEtyBEM=
+   eJxjYKAtuMhJYwtGwYgHqnKj9g53MBL9PApGDhgtS0gDAAHyAm0=
   </data>
  </layer>
  <layer id="2" name="Ground" width="31" height="18">
   <data encoding="base64" compression="zlib">
-   eJy91DsOgzAMBuBUZcnQtUQdGGnv0HKGXqJn630qmHqaYsEvjFQcGxIGC4khX/yIO+9clzFOF+c+/n/kdJfM3Dadfa3s9vs4xVrz1sejcK4W/Jht8ek8mE0x/Lv33/OCH3MtdwjVZH7L4R5ka/KWXK3N82+EnFPa8Lj7FHK21lzyUe/AXCln7axpbfS49YO7l01nvQ7zWLtbrP2mvMOYM4U03yn3GuaL27F6p7D5XAdDr7fa3EXdya53sPGeaL6xw7W9TmHjXWGHa3u9xS7HPFFzzFirMBE//VSryg==
+   eJy91DsOgkAQBuAx0mxhZ3RjQSXoHZQzeAnP5n0MVJ7G3Sx/GI0OM7yKCQkFH/NsHFEzY2wORE/3O+Z0/5lz20VOdApxzG32Y93FUPMc4poRlYLfZ1v8gplVlt5dwnOntL9dyz/4vDNf+/Qf0d4qbMnV2jz/Ssh5Shsed29CztaaSz7q7Zkr5aydNa2NHtcuuUvZ8Vv31WcMvS3Wfse8fZtz3e7WEncN88XtvnpPYfO59oZej7W5i7pHu1zAxj7F+cYNR6+lvZ7Kxl7hhmt7PcZGvVFzzFitMBFvXeejYQ==
   </data>
  </layer>
  <layer id="3" name="Objects" width="31" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVUtOw0AMDVVVaNoCYTFtsqDngQWs4Qqw5AJwGzhQKyo2EKlp1O6QkhI22OpY8+JMIp5kJZnfs589ThUFwXcc1LCP6t/PSRC8JO77qhcE12Rbu66K6ns/6bwvsnFyeGdkanwC52nweWc0f05WKl/uiPe+577Xxr9POE4u6vvX0WGOIWsLGhtMaS3YcNruX2pjWhoXk2Bl922s3w90/mNSH0N/GRmdU5HNaO8vPUPgT+PmetZkCXEz52hGcc2avkqMuY37dO7mOOYR2caeZYC/S4PcOF7kvOkfnl35LSPHyzHHwMH8ooH4pGtPdNhNHedtv+5HFjX9kBoXreOW2DLgrqBmsc6Ymzl1/IJQ1dwe8hx26No2v1R6I29qmnrnlm8AfmBufTBKd80tesszteN8v/Qd0HXedb4AdZdc5cAtOebnR0sMK1q/sMaYzF29t2mr7wDi3bh4EQvTtK3aX0Jv1PdKzHcHGEXk4pbYf2js6ai+TtcZ9zbduxlyr7Qxr84dQ+qLufm8waWrMa4tX3674POp8PRCrGvRnXOdqXqWno6+S4/A/89/gbysNXMPiSP03G1918Yd/zFf72JIT2ZInMyLPZw1Z7TFwnnYWV30/xtRduiB90qAuTq2OmO+155c6v9/27zMid7CKz0c6wzxSt9vSvM//bismA==
+   eJyNVUtOw0AMDVVVaNoCYTFtsqAngHvAAtZwBVhyAbgNHKgVFRuI1DRqd0hNCRv81LHGcSYRT7KSzO/Zzx6njILgOw4q2EXV7+ckCF4S933VCYJrsrVdV0bVvZ903hfZMNm/A5kaH4nzNHDeCc2fkhXKlzvive+476Xx72OOo7Pq/mW0nwN47ZbGemNaK6w/bvYvtTHNjYuJsbD7VtbvBzr/MamOSX+BjM4pySa095eeoeBP4/p6aDIXcYNzMKG4JnVfOcbcxn08dXOIeUC2smcZwd+mQW4cr+S86e6fbfktIseLmGPBAX7WgH3Stcc6bMaO87Zb9SOL6n5wjbPWcUNsmeAuRc3KOgM3OHX8jFDV3E7kOWzRtWl+rvSWvKmp651bvp7wQ+bWB6N019ysNz9TO477pe+ArvO28xlSd85VLrg5x3h+NMSwoPUza8Bo6uq9SVt9ByTejYtXYmbqtlb7C9Eb9b1i890BYBu5uDn2Hxp7Oqiu03WG3qZ7N8D3Sht4de4Ari9w47zeuasx1JYvv23w+bT19EJZ16w7cp2peuaeLn3nHiH/P/+F5IXW4O4TR+i52/quDVv+Y77eBXBPBjhO8MoeDs2BpliQh43VRf+/JYoWPeS9YshcHVqdZb6Xnlzq/3/TPM+x3szLPVzWGXBB/Jdkr/T9pjT/AwqHrRc=
   </data>
  </layer>
  <layer id="4" name="Above" width="31" height="18">
@@ -211,12 +211,12 @@
    eJxjYBgFwwl8Fhs4uz8NoN2jgL7gl/hAu2BkAFB+LmYcaFeMglEwuAAANKcEoA==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="31" height="18">
+ <layer id="6" name="Walkable" width="31" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFlUsOwCAIRDlF73+l3qjpgsQYhhm0WFeCOA/xZ2Z2X5a2d3yMcRvNG8fHuMinMpkfsVGMopUxUD7M3mEpsRk/ygXVeIVZ2d+qvspGc1fzYeewutbdunTXu8Ke/V9yVDbTOVGXztZ1p2Z9xv3rjClvvfcj/w5X+X/U/JgG+zORPstB0Ti9x4irvONuP643iEI=
+   eJzFlVEOwCAIQznF7n+l3WjZh4kxlBYZzq+J2IfVqZnZfVnY3vE5Z/TRvHl8zvNiKpPFERvlKFoRA9XD+hWWkhvxvVqQxzvMzP5m9VU2mrtbDzuH2bVWfen2O8Ne419yVDbTOeFLZ+v6p1Z9xv3rjCl3/fj24hWu8v6o9TEN9mYifVaDonF6jxEXrd3z6wHc94oQ
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents" visible="0">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="64" y="0" width="576" height="32">
    <properties>
     <property name="map" value="korhald_cave_outdoor1"/>
@@ -229,7 +229,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="3" name="poisoned_ground" type="script" x="0" y="32" width="608" height="544">
+  <object id="3" name="poisoned_ground" type="script" x="32" y="32" width="576" height="512">
    <properties>
     <property name="when" value="step"/>
    </properties>
@@ -240,7 +240,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>

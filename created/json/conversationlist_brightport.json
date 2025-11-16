@@ -24,19 +24,17 @@
                         "requireID":"brightport_nondisplay",
                         "value":45,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
                     }
                 ]
             },
             {
                 "text":"Never mind, that's quite a hassle.",
                 "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":42
             }
         ]
     },
@@ -46,7 +44,7 @@
         "switchToNPC":"brightportstudent11",
         "replies":[
             {
-                "text":"Where is that bakery?",
+                "text":"Bakery?",
                 "nextPhraseID":"brightport_student_1_reply"
             },
             {
@@ -1545,7 +1543,7 @@
                 ]
             },
             {
-                "text":"Could you tell me what know about the library theft?",
+                "text":"Could you tell me what you know about the library theft?",
                 "nextPhraseID":"brightport_dibella9",
                 "requires":[
                     {
@@ -1624,7 +1622,7 @@
                 ]
             },
             {
-                "text":"Could you tell me what know about the library theft?",
+                "text":"Could you tell me what you know about the library theft?",
                 "nextPhraseID":"brightport_dibella9",
                 "requires":[
                     {
@@ -1743,7 +1741,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"[If I recall, Stanwick was living here in Brightport with his grandfather. I should seek him out.]",
+                "text":"[I should seek out a way to get permission to visit Stanwick.]",
                 "nextPhraseID":"X"
             }
         ]
@@ -2270,11 +2268,6 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":63
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":64
             }
         ]
     },
@@ -2442,12 +2435,20 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"brightport_ink",
+                        "requireID":"brightport_paper",
+                        "value":1,
                         "negate":true
-                    },
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_write_ink",
+                "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"brightport_paper",
+                        "requireID":"brightport_ink",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -3361,7 +3362,7 @@
     },
     {
         "id":"brightport_richimor1",
-        "message":"During the normal time of the year, the creek which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water becomes a monstrous maelstrom, filling the mountain basin and overflowing down onto the plains and into the lake.",
+        "message":"During the normal time of the year, the water which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water becomes a monstrous maelstrom, filling the mountain basin and overflowing down onto the plains and into the lake.",
         "replies":[
             {
                 "text":"N",
@@ -19587,7 +19588,7 @@
         "message":"You came for naught kid. The apples were picked up recently. Should be on their way, if not already delivered.",
         "replies":[
             {
-                "text":"Well, they were supposed to arrive, but didn't .",
+                "text":"Well, they were supposed to arrive, but didn't.",
                 "nextPhraseID":"brightport_deebo1"
             }
         ],
@@ -19869,11 +19870,18 @@
     },
     {
         "id":"brightport_franz6",
-        "message":"As i've said, I'm busy, write your question down and I'lll answer you later.",
+        "message":"As i've said, I'm busy, write your question down and I'll answer you later.",
         "replies":[
             {
                 "text":"[Guess i'll find some paper and ink.]",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":42
             }
         ]
     },
@@ -20259,7 +20267,7 @@
     },
     {
         "id":"brightport_book",
-        "message":"You pick up an old-looking book titled \"The liberation of the Lethgari\" you shuffle a bit through it until you reach the end.",
+        "message":"You pick up an old-looking book titled \"The liberation of the Lethgar\" you shuffle a bit through it until you reach the end.",
         "replies":[
             {
                 "text":"Now's not the time for reading.",
@@ -20279,7 +20287,7 @@
     },
     {
         "id":"brightport_book1",
-        "message":"You pull out a book tucked in the back of the shelf titled \"The forbidden cookbook of love\" you figure the copious amounts of chocolate in the recipes is what got this book thrown away here.",
+        "message":"You pull out a book tucked in the back of the shelf titled \"The forbidden cookbook of love.\" you figure the copious amounts of chocolate in the recipes is what got this book thrown away here.",
         "replies":[
             {
                 "text":"Brightporters and their obsession with pastries. This isn't a clue either.",
@@ -21059,6 +21067,34 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":232
+            }
+        ]
+    },
+    {
+        "id":"brightport_write_ink",
+        "message":"I ran out of ink. I should go and buy some more."
+    },
+    {
+        "id":"brightport_trapdoor",
+        "message":"On the last row of bookshelves is the entrance hatch leading down to the library archive.",
+        "replies":[
+            {
+                "text":"[Go down inside the archive.]",
+                "nextPhraseID":"brightport_trapdoor1"
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_trapdoor1",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"entrance",
+                "mapName":"brightport_school11"
             }
         ]
     }

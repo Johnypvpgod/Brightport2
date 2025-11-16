@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "text":"Hello. Eatloni from brightport sent me to ask about the apples. ",
+                "text":"Hello. Eatloni from Brightport sent me to ask about the apples. ",
                 "nextPhraseID":"brightport_deebo",
                 "requires":[
                     {

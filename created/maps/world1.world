@@ -3921,13 +3921,6 @@
             "y": 9120
         },
         {
-            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/korhald_cave_outdoor1.tmx",
-            "height": 576,
-            "width": 960,
-            "x": 17599,
-            "y": 8892
-        },
-        {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway11.tmx",
             "height": 960,
             "width": 960,
@@ -4232,8 +4225,8 @@
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven_exit.tmx",
             "height": 960,
             "width": 960,
-            "x": 14609,
-            "y": 9288
+            "x": 14626,
+            "y": 9280
         },
         {
             "fileName": "brightport9.tmx",
@@ -4262,6 +4255,62 @@
             "width": 960,
             "x": 12642,
             "y": 12096
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild22.tmx",
+            "height": 480,
+            "width": 992,
+            "x": 17602,
+            "y": 10112
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild23.tmx",
+            "height": 416,
+            "width": 992,
+            "x": 17602,
+            "y": 10624
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild24.tmx",
+            "height": 320,
+            "width": 992,
+            "x": 17602,
+            "y": 11072
+        },
+        {
+            "fileName": "../../altered/maps/waterway_forest2.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 18594,
+            "y": 8896
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild25.tmx",
+            "height": 576,
+            "width": 800,
+            "x": 17026,
+            "y": 11424
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild26.tmx",
+            "height": 576,
+            "width": 832,
+            "x": 16738,
+            "y": 10816
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild27.tmx",
+            "height": 768,
+            "width": 896,
+            "x": 16098,
+            "y": 11424
+        },
+        {
+            "fileName": "../../altered/maps/korhald_cave_outdoor1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 17602,
+            "y": 8896
         }
     ],
     "onlyShowAdjacentMaps": false,

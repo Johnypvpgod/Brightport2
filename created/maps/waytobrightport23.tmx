@@ -255,7 +255,7 @@
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
-  <object id="9" name="squirmer" type="spawn" x="32" y="32" width="128" height="352">
+  <object id="9" name="squirmer" type="spawn" x="64" y="32" width="96" height="352">
    <properties>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>

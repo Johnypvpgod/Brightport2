@@ -55,7 +55,7 @@
         "name":"Ink",
         "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":35,
+        "baseMarketCost":20,
         "category":"other"
     },
     {
@@ -524,6 +524,21 @@
             "increaseAttackChance":-5,
             "increaseCriticalSkill":-4,
             "increaseBlockChance":10
+        }
+    },
+    {
+        "id":"poisonland_protection",
+        "iconID":"items_japozero:236",
+        "name":"Lab gloves",
+        "displaytype":"ordinary",
+        "category":"hnd_lthr",
+        "equipEffect":{
+            "addedConditions":[
+                {
+                    "condition":"environmental_poisoning",
+                    "magnitude":-99
+                }
+            ]
         }
     }
 ]
