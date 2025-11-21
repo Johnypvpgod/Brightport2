@@ -294,17 +294,17 @@
   <object name="arulircave1_loot2" type="container" x="576" y="352" width="32" height="32"/>
   <object name="brightport_rock3" type="script" x="96" y="288" width="32" height="32">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
   <object name="brightport_rock2" type="script" x="608" y="448" width="32" height="32">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
   <object name="brightport_rock1" type="script" x="288" y="640" width="32" height="32">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

@@ -203,7 +203,7 @@
    eJwLlGRgaALiICBOBuJmIA6GskEgGErDAACBxAPd
   </data>
  </layer>
- <layer id="5" name="Walkable" width="3" height="4">
+ <layer id="5" name="Walkable" width="3" height="4" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYGBguCjGAAYgGhkji8HYALBcBzk=
   </data>

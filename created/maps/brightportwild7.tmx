@@ -217,7 +217,7 @@
    eJy1k1kKwCAMRL1H6UF6dG9XihSGkGSyqJAPl8lzEp33GNMIbbAz39pzrfDyenp5BueSk81vedL4jOPl1/bZWqduzJ/U/SzkRTxEWcixvFWHp9c8dXnIlZyorsqvvDPcy+SIvNcM12Ls6L31L7r/xtMzDrtDph4nGKyXGC8txIor
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="south1" type="mapchange" x="288" y="448" width="64" height="32">
    <properties>
     <property name="map" value="brightportwild12"/>

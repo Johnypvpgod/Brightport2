@@ -4169,15 +4169,15 @@
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven7.tmx",
             "height": 160,
             "width": 960,
-            "x": 14624,
-            "y": 8096
+            "x": 14626,
+            "y": 8288
         },
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven3.tmx",
             "height": 960,
             "width": 960,
-            "x": 14625,
-            "y": 8288
+            "x": 14626,
+            "y": 8480
         },
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven8.tmx",
@@ -4191,7 +4191,7 @@
             "height": 960,
             "width": 960,
             "x": 14624,
-            "y": 7104
+            "y": 7296
         },
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway13.tmx",
@@ -4205,14 +4205,14 @@
             "height": 960,
             "width": 960,
             "x": 12640,
-            "y": 7264
+            "y": 7296
         },
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway7.tmx",
             "height": 960,
             "width": 960,
-            "x": 13632,
-            "y": 7264
+            "x": 13634,
+            "y": 7296
         },
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway8.tmx",
@@ -4226,7 +4226,7 @@
             "height": 960,
             "width": 960,
             "x": 14626,
-            "y": 9280
+            "y": 9472
         },
         {
             "fileName": "brightport9.tmx",
@@ -4293,10 +4293,10 @@
         },
         {
             "fileName": "../../../maps for brightport wilderness/brightportwild26.tmx",
-            "height": 576,
+            "height": 544,
             "width": 832,
             "x": 16738,
-            "y": 10816
+            "y": 10848
         },
         {
             "fileName": "../../../maps for brightport wilderness/brightportwild27.tmx",
@@ -4311,6 +4311,20 @@
             "width": 960,
             "x": 17602,
             "y": 8896
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/poisonland1.tmx",
+            "height": 576,
+            "width": 832,
+            "x": 16735,
+            "y": 9502
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/poisonland2.tmx",
+            "height": 704,
+            "width": 832,
+            "x": 16735,
+            "y": 10110
         }
     ],
     "onlyShowAdjacentMaps": false,

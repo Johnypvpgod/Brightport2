@@ -1,5 +1,77 @@
 [
     {
+        "id":"brightport_goons",
+        "name":"Priceful vengeance",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Inside a house in Brightport, I met two people named Dynes and Barthold, it turned out that they are the friends Benbyr told me to visit. With a rather lacking hospitality, they offered me to work for them."
+            },
+            {
+                "progress":20,
+                "logText":"Barthold was hesitant because any job I could do for them would put me at odds with Gunfryk the guard commander. Taking that into account I offered to rid them of their problem."
+            },
+            {
+                "progress":30,
+                "logText":"I was told not to kill him, but surely it won't be a problem if I do. Eitherway I'll smooth things over for them."
+            },
+            {
+                "progress":40,
+                "logText":"From silvear I received some records that could be useful as blackmail againt Gunfryk."
+            },
+            {
+                "progress":50,
+                "logText":"I lied to the commander that there are some lizardmen in the derelict house east of town, I should go there and prepare an ambush. "
+            },
+            {
+                "progress":60,
+                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to give my friends some leeway."
+            },
+            {
+                "progress":70,
+                "logText":"I ambushed and killed Gunfryk in the house east along with the two guards he brought."
+            },
+            {
+                "progress":80,
+                "logText":"I informed the commander on Barthold and Dynes' scheme. He requested that I find some incriminating evidence on their part. "
+            },
+            {
+                "progress":90,
+                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more work like this in Nor City. ",
+                "finishesQuest":1
+            },
+            {
+                "progress":100,
+                "logText":"Barthold was a little dissapointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"I found some of the duo's merchandise in the smuggling cave east of brightport. "
+            },
+            {
+                "progress":120,
+                "logText":"Gunfryk was happy with my work, the duo will soon be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
+                "finishesQuest":1
+            },
+            {
+                "progress":130,
+                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the Guild's protection, suckers."
+            },
+            {
+                "progress":140,
+                "logText":"I told the commander I couldn't find anything even though I had the blade I blackmailed Barthold and Dynes with.",
+                "finishesQuest":1
+            },
+            {
+                "progress":150,
+                "logText":"I gave the commander the blade, even though I already got paid not to. If there's any honor among Nor city's thieves, they will surely have none to spare for me.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
         "id":"Stanwickquest",
         "name":"No rest for the wicked",
         "showInLog":1,
@@ -70,23 +142,23 @@
             },
             {
                 "progress":65,
-                "logText":"Inside Richimor's house, I found a bundle of papers left by Bryma, In there amongst the trivial writings, one paper stood out to as it talked about four strange statues in the vicinity of brightport."
+                "logText":"Inside Richimor's house, I found a bundle of papers left by Bryma. In there amongst the trivial writings, one paper stood out to as it talked about four strange statues in the vicinity of Brightport."
             },
             {
                 "progress":66,
-                "logText":"I discovered a strange statue in the forest south of Brightport.With several undecipherable symbols. Perhaps this is one of the statues mentioned in the writings of Bryma."
+                "logText":"I discovered a strange statue in the forest south of Brightport. With several indecipherable symbols. Perhaps this is one of the statues mentioned in the writings of Bryma."
             },
             {
                 "progress":70,
-                "logText":"I examined a statue north of Brightport. Carved onto the statue were the symbols for the letters L and H."
+                "logText":"I examined a statue north of Brightport. Carved into the statue were the symbols for the letters L and H."
             },
             {
                 "progress":75,
-                "logText":"I examined a statue southeast of Brightport. Carved onto the statue were the symbols for the letters T and E."
+                "logText":"I examined a statue southeast of Brightport. Carved into the statue were the symbols for the letters T and E."
             },
             {
                 "progress":80,
-                "logText":"I examined a statue far southwest of brightport. Carved onto the statue were the symbols for the letters A G, and R."
+                "logText":"I examined a statue far southwest of brightport. Carved into the statue were the symbols for the letters A, G, and R."
             },
             {
                 "progress":85,
@@ -106,7 +178,7 @@
             },
             {
                 "progress":96,
-                "logText":"I returned the secret scroll to the Headmaster, and Stanwick was cleared of all accusations.",
+                "logText":"I returned the secret scroll to the Headmaster and Stanwick was cleared of all accusations.",
                 "finishesQuest":1
             },
             {
@@ -806,277 +878,14 @@
             {
                 "progress":232,
                 "logText":"guard mentions arrest"
-            }
-        ]
-    },
-    {
-        "id":"brightport_lizard",
-        "name":"The balance of scales",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":1,
-                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble."
             },
             {
-                "progress":5,
-                "logText":"When I questioned Bryma about the creature, she explained that they live in the caves beneath her house and have been bothering her for some time."
+                "progress":233,
+                "logText":"charwood shortcut."
             },
             {
-                "progress":10,
-                "logText":"I agreed to help Bryma with her problem. She shared the activation phrase for another statue leading deeper into the forest."
-            },
-            {
-                "progress":15,
-                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman again."
-            },
-            {
-                "progress":20,
-                "logText":"Emyro regarded me suspiciously, calling me an intruder. He claimed Bryma had been stealing bones from their ancestral tomb, which his people were trying to recover."
-            },
-            {
-                "progress":25,
-                "logText":"I attacked the lizardman, but my attack merely grazed it, before fleeing deeper into the caves."
-            },
-            {
-                "progress":30,
-                "logText":"I tried to calm Emyro's worries. He hesitated but told me to visit their leader before disappearing into the shadows."
-            },
-            {
-                "progress":32,
-                "logText":"I tracked down and killed the lizardmen's leader, Elyzard."
-            },
-            {
-                "progress":35,
-                "logText":"I killed the rest of those slimy lizards. Bryma can now rest free.",
-                "finishesQuest":1
-            },
-            {
-                "progress":45,
-                "logText":"As a reward, Bryma taught me another activation phrase that opens a shortcut between Charwood and Brightport."
-            },
-            {
-                "progress":40,
-                "logText":"To earn the trust of the tribe's leader, Elyzard, I swore to return the stolen bones."
-            },
-            {
-                "progress":50,
-                "logText":"To my astonishment, I discovered that Bryma had ground the bones into dust for her research and fertilizer experiments."
-            },
-            {
-                "progress":55,
-                "logText":"Bryma suggested I retrieve replacement bones from other sources. She advised hunting the hostile red lizardmen in the nearby area until I could gather the 20 bones I promised."
-            },
-            {
-                "progress":60,
-                "logText":"I delivered the bones to Elyzard, who acknowledged my effort but requested one more task. He instructed me to visit the Shadow Chaplain's cave for further guidance."
-            },
-            {
-                "progress":65,
-                "logText":"From Dominio, the Shadow Chaplain, I learned that beasts of darkness were attacking the tribe from an ancient ruin on the western side of the cave."
-            },
-            {
-                "progress":70,
-                "logText":"To stop the attacks, I was tasked with destroying two crystals within the ruins. I set out to find them immediately."
-            },
-            {
-                "progress":75,
-                "logText":"I destroyed the first crystal."
-            },
-            {
-                "progress":80,
-                "logText":"I destroyed the second crystal."
-            },
-            {
-                "progress":90,
-                "logText":"The lizardman king recognized my effort and rewarded me with an artefact of their tribe."
-            },
-            {
-                "progress":95,
-                "logText":"I offered the lizardmen a deal of cooperation to supply bryma with bones from animals as a sign of mutual respect."
-            },
-            {
-                "progress":100,
-                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb. As they promised to supply her with bones for her research.",
-                "rewardExperience":5000,
-                "finishesQuest":1
-            },
-            {
-                "progress":110,
-                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb.",
-                "rewardExperience":5000,
-                "finishesQuest":1
-            }
-        ]
-    },
-    {
-        "id":"brightport_fiamma",
-        "name":"Too hot to handle",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":5,
-                "logText":"Fiamma, the swordsmith of Brightport, is willing to forge me a sword if I can bring him the materials."
-            },
-            {
-                "progress":10,
-                "logText":"In the mountains near the road to Remgard lies a dangerous area overrun by Arulirs, beasts with skin as tough as steel."
-            },
-            {
-                "progress":15,
-                "logText":"Fiamma has asked for a strip of Arulir skin, coveted for its durability and flexibility. He also requires 15 lava rocks from the mountain cave, which burn hotter than any ordinary coal."
-            },
-            {
-                "progress":20,
-                "logText":"The final material is a red crystal from a Gornaud, a ferocious beast that sometimes forms these rare crystals on its body."
-            },
-            {
-                "progress":25,
-                "logText":"I brought Fiamma the arulir skin and lava rocks."
-            },
-            {
-                "progress":30,
-                "logText":"I brought Fiamma the red crystal."
-            },
-            {
-                "progress":35,
-                "logText":"I gave all the materials to Fiamma. He thanked me and told me to come back later when it's finished."
-            },
-            {
-                "progress":40,
-                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
-            },
-            {
-                "progress":45,
-                "logText":"I don't usually use two-handed swords, so I asked Fiamma to give me something else, and he gave me a sharp glaive.",
-                "finishesQuest":1
-            },
-            {
-                "progress":50,
-                "logText":"I thanked Fiamma and went on my merry way.",
-                "finishesQuest":1
-            }
-        ]
-    },
-    {
-        "id":"brightport_goons",
-        "name":"Priceful vengeance",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":10,
-                "logText":"Inside a house in Brightport, I met two people named Benvys and Barthold, turns out they are the friends Benbyr told me to visit, with a rather lacking hospitality I was offered to work for them."
-            },
-            {
-                "progress":20,
-                "logText":"Barthold said he is hesitant because any job I could do for them would put me at odds with gunfryk the guard commander, taking that into account I offered to rid them of their problem."
-            },
-            {
-                "progress":30,
-                "logText":"I was told not to kill him, but surely it won't be a problem if I do, eitherway I'll smooth things over for them."
-            },
-            {
-                "progress":40,
-                "logText":"From silvear I received some records that could be useful as blackmail againt Gunfryk."
-            },
-            {
-                "progress":50,
-                "logText":"I lied to the commander that there are some lizardmen in the derelict house east, I should go there and prepare an ambush. "
-            },
-            {
-                "progress":60,
-                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to give my friends some leeway."
-            },
-            {
-                "progress":70,
-                "logText":"I ambushed and killed Gunfryk in the house east along with the two guards he brought."
-            },
-            {
-                "progress":80,
-                "logText":"I informed the commander on Barthold and Dynes'es scheme, he requested that I find some incriminating evidence on their part. "
-            },
-            {
-                "progress":90,
-                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more work like this in Nor City. ",
-                "finishesQuest":1
-            },
-            {
-                "progress":100,
-                "logText":"Barthold was a little dissapointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
-                "finishesQuest":1
-            },
-            {
-                "progress":110,
-                "logText":"I found some of the duo's merchandise in the smuggling cave east of brightport. "
-            },
-            {
-                "progress":120,
-                "logText":"Gunfryk was happy with my work, the duo will soon be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
-                "finishesQuest":1
-            },
-            {
-                "progress":130,
-                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers."
-            },
-            {
-                "progress":140,
-                "logText":"I told the commander I couldn't find anything, even though I had the blade I blackmailed Barthold and Dynes with, ",
-                "finishesQuest":1
-            },
-            {
-                "progress":150,
-                "logText":"I gave the commander the blade even though I already got paid not to. If there's any honor among Nor city's thieves then they will surely have none to spare for me.",
-                "finishesQuest":1
-            }
-        ]
-    },
-    {
-        "id":"brightport_thieves",
-        "name":"Boxed in",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":10,
-                "logText":"The Guild is due to receive a package but the guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
-            },
-            {
-                "progress":20,
-                "logText":"I met the courier from Nor city inside the house."
-            },
-            {
-                "progress":30,
-                "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
-            },
-            {
-                "progress":32,
-                "logText":"I received the package."
-            },
-            {
-                "progress":35,
-                "logText":"Thanks to some previous interactions I've had with the commander, I convinced the guards to let me go."
-            },
-            {
-                "progress":40,
-                "logText":"I got caught and the guards took the package."
-            },
-            {
-                "progress":45,
-                "logText":"I managed to hide inside a crate and waited. Eventually, the guards left. "
-            },
-            {
-                "progress":50,
-                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future.",
-                "finishesQuest":1
-            },
-            {
-                "progress":60,
-                "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
-                "finishesQuest":1
-            },
-            {
-                "progress":70,
-                "logText":"I failed to deliver the package to Elysa. She was not happy.",
-                "finishesQuest":1
+                "progress":234,
+                "logText":"LOCKED interaction with the crates during barthold's quest"
             }
         ]
     },
@@ -1152,6 +961,201 @@
             {
                 "progress":70,
                 "logText":"I completed all the tasks at the bakery.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma",
+        "name":"Too hot to handle",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Fiamma, the swordsmith of Brightport, is willing to forge me a sword if I can bring him the materials."
+            },
+            {
+                "progress":10,
+                "logText":"In the mountains near the road to Remgard lies a dangerous area overrun by Arulirs, beasts with skin as tough as steel."
+            },
+            {
+                "progress":15,
+                "logText":"Fiamma has asked for a strip of Arulir skin, coveted for its durability and flexibility. He also requires 15 lava rocks from the mountain cave, which burn hotter than any ordinary coal."
+            },
+            {
+                "progress":20,
+                "logText":"The final material is a red crystal from a Gornaud, a ferocious beast that sometimes forms these rare crystals on its body."
+            },
+            {
+                "progress":25,
+                "logText":"I brought Fiamma the arulir skin and lava rocks."
+            },
+            {
+                "progress":30,
+                "logText":"I brought Fiamma the red crystal."
+            },
+            {
+                "progress":35,
+                "logText":"I gave all the materials to Fiamma. He thanked me and told me to come back later when it's finished."
+            },
+            {
+                "progress":40,
+                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
+            },
+            {
+                "progress":45,
+                "logText":"I don't usually use two-handed swords, so I asked Fiamma to give me something else, and he gave me a sharp glaive.",
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I thanked Fiamma and went on my merry way.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_thieves",
+        "name":"Boxed in",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"The Guild is due to receive a package but the guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
+            },
+            {
+                "progress":20,
+                "logText":"I met the courier from Nor city inside the house."
+            },
+            {
+                "progress":30,
+                "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
+            },
+            {
+                "progress":32,
+                "logText":"I received the package."
+            },
+            {
+                "progress":35,
+                "logText":"Thanks to some previous interactions I've had with the commander, I convinced the guards to let me go."
+            },
+            {
+                "progress":40,
+                "logText":"I got caught and the guards took the package."
+            },
+            {
+                "progress":45,
+                "logText":"I managed to hide inside a crate and waited. Eventually, the guards left. "
+            },
+            {
+                "progress":50,
+                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future.",
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
+                "finishesQuest":1
+            },
+            {
+                "progress":70,
+                "logText":"I failed to deliver the package to Elysa. She was not happy.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard",
+        "name":"The balance of scales",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble."
+            },
+            {
+                "progress":5,
+                "logText":"When I questioned Bryma about the creature, she explained that they live in the caves beneath her house and have been bothering her for some time."
+            },
+            {
+                "progress":10,
+                "logText":"I agreed to help Bryma with her problem. She shared the activation phrase for another statue leading deeper into the forest."
+            },
+            {
+                "progress":15,
+                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman again."
+            },
+            {
+                "progress":20,
+                "logText":"Emyro regarded me suspiciously, calling me an intruder. He claimed Bryma had been stealing bones from their ancestral tomb, which his people were trying to recover."
+            },
+            {
+                "progress":25,
+                "logText":"I attacked the lizardman, but my attack merely grazed it, before fleeing deeper into the caves."
+            },
+            {
+                "progress":30,
+                "logText":"I tried to calm Emyro's worries. He hesitated but told me to visit their leader before disappearing into the shadows."
+            },
+            {
+                "progress":32,
+                "logText":"I tracked down and killed the lizardmen's leader, Elyzard."
+            },
+            {
+                "progress":35,
+                "logText":"I killed the rest of those slimy lizards. Bryma can now rest free.",
+                "finishesQuest":1
+            },
+            {
+                "progress":40,
+                "logText":"To earn the trust of the tribe's leader, Elyzard, I swore to return the stolen bones."
+            },
+            {
+                "progress":50,
+                "logText":"To my astonishment, I discovered that Bryma had ground the bones into dust for her research and fertilizer experiments."
+            },
+            {
+                "progress":55,
+                "logText":"Bryma suggested I retrieve replacement bones from other sources. She advised hunting the hostile red lizardmen in the nearby area until I could gather the 20 bones I promised."
+            },
+            {
+                "progress":60,
+                "logText":"I delivered the bones to Elyzard, who acknowledged my effort but requested one more task. He instructed me to visit the Shadow Chaplain's cave for further guidance."
+            },
+            {
+                "progress":65,
+                "logText":"From Dominio, the Shadow Chaplain, I learned that beasts of darkness were attacking the tribe from an ancient ruin on the western side of the cave."
+            },
+            {
+                "progress":70,
+                "logText":"To stop the attacks, I was tasked with destroying two crystals within the ruins. I set out to find them immediately."
+            },
+            {
+                "progress":75,
+                "logText":"I destroyed the first crystal."
+            },
+            {
+                "progress":80,
+                "logText":"I destroyed the second crystal."
+            },
+            {
+                "progress":90,
+                "logText":"The lizardman king recognized my effort and rewarded me with an artefact of their tribe."
+            },
+            {
+                "progress":95,
+                "logText":"I offered the lizardmen a deal of cooperation to supply bryma with bones from animals as a sign of mutual respect."
+            },
+            {
+                "progress":100,
+                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb. As they promised to supply her with bones for her research.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb.",
+                "rewardExperience":5000,
                 "finishesQuest":1
             }
         ]

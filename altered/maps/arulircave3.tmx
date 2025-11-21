@@ -255,7 +255,11 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="brightport_rock5" type="script" x="128" y="96" width="32" height="32"/>
+  <object name="brightport_rock5" type="script" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="arulir_2" type="spawn" x="64" y="64" width="160" height="224">

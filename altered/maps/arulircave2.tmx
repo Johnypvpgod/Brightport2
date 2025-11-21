@@ -230,7 +230,7 @@
   </object>
   <object name="brightport_rock4" type="script" x="192" y="96" width="32" height="32">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

@@ -227,7 +227,7 @@
    eJxjYGBgaFRmYGgCYhDQl2PAC57KMzA8kYfQMIDOxwWeEFCTDHRDCtQdlooMDFaKmPpB9hwkwW5kMxYDzV6iTJz7QGbeV4KwkcMHm3sGE8DlJkJuxRbelLgBZiaynTeB7FtIfCEqht1CYPwsUkb150sg/WqQxQ86QE+PgjRwLzHpnh7p+AgWO3ClO1LdRElagtnVDAyjFjzhhGyHMtTNKTjUUyNtK6KFC3K5d5AI83G5ATlsBZHyKiwe8IU9rExEB4JY6gVs4KICbjlC9QMhgGw/rDxAFyekj5BaXP4nBoDqN1hdQkw5TWy9I4iFDdMLAGc2VC0=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="28" height="18">
+ <layer id="5" name="Walkable" width="28" height="18" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9VdsJACEMc5Lbo/svdvdzIKWPpK0GBJWaGhtVnrXkaz/EGTNtXxtxaug5NI+HLGbnYTRFvGyslcdax+hm0eGMaolonwDqi8mzY72I8N2A5asTOW7VPtsHkrtSx4k7U/GrF4/up6qx897qt82aY3VN3L2uBz0NmZ4oNvtD9Tla/Hv/BcD4LC8=
   </data>
@@ -257,7 +257,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="west" type="mapchange" x="0" y="128" width="32" height="416">
+  <object id="5" name="west" type="mapchange" x="0" y="64" width="32" height="480">
    <properties>
     <property name="map" value="waytobrightport7"/>
     <property name="place" value="east"/>

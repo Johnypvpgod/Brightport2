@@ -221,7 +221,11 @@
     <property name="place" value="upstairs"/>
    </properties>
   </object>
-  <object name="brightport_rock6" type="script" x="64" y="192" width="32" height="32"/>
+  <object name="brightport_rock6" type="script" x="64" y="192" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="arulir_3" type="spawn" x="192" y="224" width="64" height="64">

@@ -18,30 +18,6 @@
         }
     },
     {
-        "id":"brightportflame",
-        "iconID":"actorconditions_1:5",
-        "name":"Searing burn",
-        "category":"physical",
-        "isStacking":1,
-        "roundEffect":{
-            "visualEffectID":"redSplash",
-            "increaseCurrentHP":{
-                "min":-5,
-                "max":0
-            }
-        },
-        "fullRoundEffect":{
-            "visualEffectID":"redSplash",
-            "increaseCurrentHP":{
-                "min":-5,
-                "max":0
-            }
-        },
-        "abilityEffect":{
-            "increaseAttackChance":-10
-        }
-    },
-    {
         "id":"brightport_diadem",
         "iconID":"actorconditions_1:89",
         "name":"Incompatible ancestry",
@@ -55,6 +31,24 @@
             "increaseCriticalSkill":-5,
             "increaseBlockChance":-5,
             "increaseDamageResistance":-2
+        }
+    },
+    {
+        "id":"brightportflame",
+        "iconID":"actorconditions_1:5",
+        "name":"Searing burn",
+        "category":"physical",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-5,
+                "max":0
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-10,
+            "increaseDamageResistance":-3
         }
     }
 ]

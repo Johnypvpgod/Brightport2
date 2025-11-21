@@ -248,7 +248,7 @@
  </layer>
  <layer id="6" name="Walkable" width="15" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytUkEKACAI6ysd+v8Xo0MwZC41BaGc05WuOcYifg3vFvNyPKzDXhqiXuFi/k/PiCb7VtWT1Y3oU3+Q4Ue5zLr/sHvmnftW0fziqhlE9F4M8zJzQoydLV/1sBrU3mTtt47aHxvDfDY/VseLVXfm+Aa69T4T
+   eJzFUtEKACEI61fuof//xeMeAhnT5gpuIFQ6nel8xpjEFuIdfVlM5ruBnQbVHJ5bS+VXveIMdnkVndX/dfgd7h9zU/rtcF3+yd44M1D0Ll+MY1C0sTPyqxqoIevFwWmean/wLcaz+bE82Zu7M5+9RG4+5Q==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -282,7 +282,7 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="6" name="east1" type="mapchange" x="448" y="0" width="32" height="128">
+  <object id="6" name="east1" type="mapchange" x="448" y="32" width="32" height="96">
    <properties>
     <property name="map" value="brightportwild2"/>
     <property name="place" value="west1"/>
