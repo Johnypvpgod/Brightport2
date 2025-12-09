@@ -218,17 +218,17 @@
  </tileset>
  <layer id="11" name="Base" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgw28kR9oFww9MBpmo2AUoAIAsvsCFw==
+   eJxjYBgFgw28kR9oFww9MBTCTFVpYPSOgpEJAPxCAqU=
   </data>
  </layer>
  <layer id="1" name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxTVWJgUB3FDDfkGRjeAPE/JAyTOwZkX5fH1PNGHoHfyqPyYfgvmlkg/BpJ/igQ/8ehF4bR9cLcR0gfTG+JLIQGuVFAAYLR1cHcdB1NLyH/IevFpe46BXrxmQEK22NQ9m8C+rHJvUbjw8L1GJIYLH7+oWF0vbBw/SuPGj+CCpBw7EGKx79odsDE+RUQ5sD0oeuF6UdPo8RiZDsGOs+NYtpiALQI0WY=
+   eJxTVWJgUB3FDDfkGRjeAPE/JAyTOwZkX5fH1PNGHoHfyqPyYfgvmlkg/BpJ/igQ/8ehF4bR9cLcR0gfTG+JLIQGuVFAAYLR1cHcdB1NLyH/IevFpe46BXrxmQEK22NQ9m8C+rHJvUbjw8L1GJIYLH7+oWF0vbBw/SuPGj+CCpBw7AGylaDsv2h2wOKWXwFhDkwfTC8IwPjIdpCazpHtGOg8N4ppiwELkNEa
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJx9VDtOAzEQNUcgBd3+4o6GEomEQBE6krASFRuiSFyBXIAC6OE0NHAC+gRBDRU9AsK82IPHswtPGtme8XzeeHYvrDEvuTHniTEzkhs635IwWA885+6uxNDG+h6du96/ovWe9A/eNhY2QO4lOrZu37WhHo4n45Skn2fGLP6RpyzmM7HBR3MFvjMnlW3O9UWyJClSZ2vndWG8F8ZMRV8KsllhX0tdLxlTf4dj9LztLYu5c4zDhl4iJviAH9ZP7/uYxrknwvdK7BcqF+Jxj0rfp83M1YrzSNUwpBwjkiOS7aJeH0POyFnL9XNC5y2SnvcHDhLHs7IhP3q2hL0I/FacvP++4Plbl+8t41LEY4DjVPkOFb8yae67/k74DfVMSHuTHm+0J+YeNXHd116Pt9tIw6xA4Idad2yoW8828JEEHoxjdYdno1A5OF5HxO6KfT8JM9tV+auk+dte2WyoIfIh/et6uHcifJhn01t0fB/uWrEe+fuC67wdv6/+N6EOxMGdsa9R95TPqG1gA29goHrAuVh3+sc/dyby6HVs6zrp/wOkwHgi
+   eJx9VDtOAzEQNUcgBd3+4o6GEomEQBE6krASFRuiSFyBXIAC6OE0NHAC+gRBDRU9AsK82IPHswtPGtme8XzeeHYvrDEvuTHniTEzkhs635IwWA885+6uxNDG+h6du96/ovWe9A/eNhY2QO4lOrZu37WhHo4n45Skn2fGLP6RpyzmM7HBR3MFvjMnlW3O9UWyJClSZ2vndWG8F8ZMRV8KsllhX0tdLxlTf4dj9LztLYu5c4zDhl4iJviAH9ZP7/uYxrknwvdK7BcqF+Jxj0rfp83M1YrzSNUwpBwjkiOS7aJeH0POyFnL9XNC5y2SnvcHDhLHs7IhP3q2hL0I/FacvP++4Plbl+8t41LEY4DjVPkOFb8yae67/k74DdEDORPS3qTHG+2JuUdNXPe11+PtNtIwKxD4odYdG+rWsw18JIEH41jd4dkoVA6O1xGxu2LfT8LMdlX+Kmn+tlc2G2qIfEj/uh7unQgf5tn0Fh3fh7tWrEf+vuA6b8fvq/9NqANxcGfsa9Q95TNqG9jAGxioHnAu1p3+8c+diTx6Hdu6Tvr/ANpfeDg=
   </data>
  </layer>
  <layer id="3" name="Objects_apples" width="15" height="25">
@@ -238,7 +238,7 @@
  </layer>
  <layer id="4" name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJy7q8AABmeB9DkoGx2sB4pvwCFHDkiRxW6eoyzx+lOxqL0pjyonKIcqf1se0y6QHpA4ulpFND42u2AgXBFCmwNpVqg4mzwEEwvcFHHLgfyDy8/hSPpAbrolj+pPmL5b8gg3wsTQwxvGd4eaWQLklwLxElmEXlwAOY0ECyHCcwtUL7q7kO0DgfdAvR8UUO34iCQPcgO6fnSAbB7MjyAztqD5C5ceGAD5Gz0/4PM7PgCyExa3uOIQBM5Bw+s3UrpDTxP49IP8wS0PMccFhxr0NI5sHi42NvWnCOQNYt1MKlglRJl+fH7CxYeJEZLHJ4acf9FpZLX4xIjRDwKWQNoKKg8AW0xNgg==
+   eJy7q8AABmeB9DkoGx2sB4pvwCFHDkiRxW6eoyzx+lOxqL0pjyonKIcqf1se0y6QHpA4ulpFND42u2AgXBFCmwNpVqg4mzwEEwvcFHHLgfyDy8/hSPpAbrolj+pPmL5b8gg3wsTQwxvGd4eaWQLklwLxElmEXlwAOY0ECyHCcwtUL7q7kO0DgfdAvR8UUO34iCQPcgO6fnSAbB7MjyAztqD5C5ceGAD5Gz0/4PM7PgCyExa3uOIQBM5Bw+s3UrpDThPhivj1g/zBLQ8xxwWHGvQ0jmweLjY29acI5A1cdlAKVglRph+fn3DxYWKE5PGJIedfdBpZLT4xYvSDgCWQtoLKAwBjmk36
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="25">
@@ -251,7 +251,7 @@
    eJzFUtEKACEI61fuof//xeMeAhnT5gpuIFQ6nel8xpjEFuIdfVlM5ruBnQbVHJ5bS+VXveIMdnkVndX/dfgd7h9zU/rtcF3+yd44M1D0Ll+MY1C0sTPyqxqoIevFwWmean/wLcaz+bE82Zu7M5+9RG4+5Q==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="448" y="256" width="32" height="512">
    <properties>
     <property name="map" value="brightportwild2"/>
@@ -295,7 +295,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="8" name="duleian_mountain_cat" type="spawn" x="384" y="608" width="32" height="96">
    <properties>
     <property name="spawngroup" value="duleian_mountain_cat"/>
@@ -324,8 +324,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace">
+ <objectgroup id="9" name="Keys" visible="0"/>
+ <objectgroup id="10" name="Replace" visible="0">
   <object id="13" name="apples" type="replace" x="352" y="192" width="32" height="32">
    <properties>
     <property name="Ground" value="Objects_apples"/>

@@ -1,114 +1,50 @@
 [
     {
-        "id":"brightport_alain_shop",
+        "id":"brightport_forenza",
         "items":[
             {
-                "itemID":"brightport_paper",
-                "chance":"100/100",
+                "itemID":"feygard_gold",
+                "chance":"100",
                 "quantity":{
-                    "min":4,
-                    "max":4
+                    "min":67,
+                    "max":67
                 }
             },
             {
-                "itemID":"brightport_ink",
-                "chance":"100/100",
+                "itemID":"nor_gold",
+                "chance":"100",
                 "quantity":{
                     "min":3,
-                    "max":3
-                }
-            },
-            {
-                "itemID":"brightport_rice",
-                "chance":"100/100",
-                "quantity":{
-                    "min":5,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"brightport_broom",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"100",
-                "quantity":{
-                    "min":5,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"mead",
-                "chance":"100",
-                "quantity":{
-                    "min":10,
-                    "max":10
-                }
-            },
-            {
-                "itemID":"gloves_fancy",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"soap",
-                "chance":"100",
-                "quantity":{
-                    "min":5,
-                    "max":5
+                    "max":14
                 }
             }
         ]
     },
     {
-        "id":"fiamma_shop",
+        "id":"brightport_stiyl",
         "items":[
             {
-                "itemID":"broadsword_fine_steel",
-                "chance":"100/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"clmr_irn2",
-                "chance":"100/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"clmr_def1",
-                "chance":"100/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"clmr_msv",
-                "chance":"100/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"halberd_iron",
+                "itemID":"health_minor2",
                 "chance":"100",
                 "quantity":{
-                    "min":1,
-                    "max":1
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"health_major2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
                 }
             }
         ]
@@ -196,6 +132,63 @@
         ]
     },
     {
+        "id":"brightport_deer",
+        "items":[
+            {
+                "itemID":"brightport_deer",
+                "chance":"2",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"brightport_rawmeat",
+                "chance":"12",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":26
+                }
+            }
+        ]
+    },
+    {
+        "id":"brightport_greenlizard",
+        "items":[
+            {
+                "itemID":"brightport_bone",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":30,
+                    "max":45
+                }
+            },
+            {
+                "itemID":"lizard_skin",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
         "id":"brightport_oseanpry",
         "items":[
             {
@@ -236,35 +229,6 @@
                 "quantity":{
                     "min":1,
                     "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"brightport_stiyl",
-        "items":[
-            {
-                "itemID":"health_minor2",
-                "chance":"100",
-                "quantity":{
-                    "min":5,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"health",
-                "chance":"100",
-                "quantity":{
-                    "min":5,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"health_major2",
-                "chance":"100",
-                "quantity":{
-                    "min":5,
-                    "max":5
                 }
             }
         ]
@@ -320,100 +284,6 @@
         ]
     },
     {
-        "id":"brightport_greenlizard",
-        "items":[
-            {
-                "itemID":"brightport_bone",
-                "chance":"35",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            },
-            {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":30,
-                    "max":45
-                }
-            },
-            {
-                "itemID":"lizard_skin",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"brightport_greenlizardking",
-        "items":[
-            {
-                "itemID":"brightport_bone",
-                "chance":"30",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            },
-            {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":160,
-                    "max":350
-                }
-            },
-            {
-                "itemID":"brightport_kingarmor",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"lizard_skin",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":3
-                }
-            }
-        ]
-    },
-    {
-        "id":"brightport_deer",
-        "items":[
-            {
-                "itemID":"brightport_deer",
-                "chance":"2",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"brightport_rawmeat",
-                "chance":"12",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":3,
-                    "max":26
-                }
-            }
-        ]
-    },
-    {
         "id":"brightport_sickdeer",
         "items":[
             {
@@ -464,6 +334,157 @@
         ]
     },
     {
+        "id":"brightport_greenlizardking",
+        "items":[
+            {
+                "itemID":"brightport_bone",
+                "chance":"30",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":160,
+                    "max":350
+                }
+            },
+            {
+                "itemID":"brightport_kingarmor",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"lizard_skin",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            }
+        ]
+    },
+    {
+        "id":"fiamma_shop",
+        "items":[
+            {
+                "itemID":"broadsword_fine_steel",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"clmr_irn2",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"clmr_def1",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"clmr_msv",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"halberd_iron",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"brightport_alain_shop",
+        "items":[
+            {
+                "itemID":"brightport_paper",
+                "chance":"100/100",
+                "quantity":{
+                    "min":4,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"brightport_ink",
+                "chance":"100/100",
+                "quantity":{
+                    "min":3,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"brightport_rice",
+                "chance":"100/100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"brightport_broom",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"mead",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"gloves_fancy",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"soap",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            }
+        ]
+    },
+    {
         "id":"brightport_gunfryk",
         "items":[
             {
@@ -488,27 +509,6 @@
                 "quantity":{
                     "min":1,
                     "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"brightport_forenza",
-        "items":[
-            {
-                "itemID":"feygard_gold",
-                "chance":"100",
-                "quantity":{
-                    "min":67,
-                    "max":67
-                }
-            },
-            {
-                "itemID":"nor_gold",
-                "chance":"100",
-                "quantity":{
-                    "min":3,
-                    "max":14
                 }
             }
         ]

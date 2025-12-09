@@ -218,7 +218,7 @@
    eJzbKcvAsHMYYRCghh5izUEGxMrD2NjEsZmFTx0+87GpxeU2fACfelzhRQ+AHpaE7CU2LLGFOz45YuMPXRxXXOGzg9w0jg0DAEfqfxE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="512" y="256" width="32" height="128">
    <properties>
     <property name="map" value="brightportwild7"/>
@@ -232,7 +232,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="elderdeer" type="spawn" x="64" y="224" width="64" height="128">
    <properties>
     <property name="spawngroup" value="brightport_elderdeer"/>
@@ -261,7 +261,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys">
+ <objectgroup id="7" name="Keys" visible="0">
   <object id="5" name="stanwick_quest" type="key" x="96" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="brightport_statue_central"/>
@@ -280,5 +280,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>

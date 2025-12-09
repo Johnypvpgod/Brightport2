@@ -229,7 +229,7 @@
    eJzbKcvAsBMLhgFsctTCyICW5tPa7aTaQ6pafACf2cTag66HFECuX2Hi2MwjxXxS0hc2MwGOyHa1
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="736" y="128" width="32" height="96">
    <properties>
     <property name="map" value="waytobrightport10"/>
@@ -237,7 +237,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="2" name="goblin" type="spawn" x="416" y="128" width="192" height="96">
    <properties>
     <property name="quantity" value="2"/>
@@ -250,6 +250,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
  <objectgroup id="8" name="Replace"/>
 </map>

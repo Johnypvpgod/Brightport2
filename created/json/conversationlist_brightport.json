@@ -444,7 +444,7 @@
     },
     {
         "id":"brightport_richimor1",
-        "message":"During the normal time of the year, the water which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water becomes a monstrous maelstrom, filling the mountain basin and overflowing down onto the plains and into the lake.",
+        "message":"During the normal time of the year, the water which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the flow becomes a monstrous maelstrom, filling the mountain basin and overflowing onto the plains and into the lake.",
         "replies":[
             {
                 "text":"N",
@@ -2116,6 +2116,16 @@
         ]
     },
     {
+        "id":"brightport_mayor11",
+        "message":"Now recently, strange creatures have begun appearing near the festering cursed land, that was once a green forest. With those threats present, we cannot afford to sell our equipment to any adventurer with a pretty coin.",
+        "replies":[
+            {
+                "text":"I see, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"brightport_leorio_selector",
         "replies":[
             {
@@ -2149,6 +2159,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_leorio_1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor10",
+        "message":"Many years ago, when my father was the Doughe, Brightport was attacked by a large group of lizardmen, and many lives were lost. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_mayor11"
             }
         ]
     },
@@ -2445,7 +2465,7 @@
     },
     {
         "id":"brightport_bryma55",
-        "message":"I lived among the northerners for a short while, and many take great pride in their history. Yet the light they praise has blinded more than it has illuminated. In truth, the Shadow has shown itself to be the more compassionate.",
+        "message":"I lived among the northerners for a short while, and the few who do not follow the Shadow take great pride in their past. Yet the light they praise has blinded more than it has illuminated. In truth, the Shadow has shown itself to be the more compassionate.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -2455,11 +2475,25 @@
     },
     {
         "id":"brightport_bryma54",
-        "message":"For all of it's shortcomings, the cult of her followers fought against necromancy, and many masters of the dark arts perished at their sword. The statues are likely a seal for the evil that dwelt here in ancient times.",
+        "message":"For all of it's shortcomings, the cult and her followers fought against necromancy, and many masters of the dark arts perished at their sword. The statues are likely a seal for the evil that dwelt here in ancient times.",
         "replies":[
             {
                 "text":"Shortcomings?",
                 "nextPhraseID":"brightport_bryma55"
+            },
+            {
+                "text":"What's meaning of that password.",
+                "nextPhraseID":"brightport_bryma56"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma56",
+        "message":"The \"Lethgar\" password refers to the Lethgar people who lived over 2000 years ago. However there are no records to indicate they had any sort of presence in this region, perhaps their name was used by those who constructed the statues in remembrance of something.",
+        "replies":[
+            {
+                "text":"Can we talk about something else?",
+                "nextPhraseID":"brightport_bryma14"
             }
         ]
     },
@@ -3101,10 +3135,6 @@
         "id":"brightport_bryma37",
         "message":"Those statues are intriguing. The light one sees in their vicinity is similar to the descriptions of the blinding light of the false goddess Elythara.",
         "replies":[
-            {
-                "text":"Can we talk about something else?",
-                "nextPhraseID":"brightport_bryma14"
-            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_bryma54"
@@ -4562,7 +4592,20 @@
     {
         "id":"brightport_bakery2",
         "message":"I've just been to the bakery, and it left a sour taste in my mouth! Those apple pies are so bad, I could die!",
-        "switchToNPC":"brightportinnvisitor"
+        "switchToNPC":"brightportinnvisitor",
+        "replies":[
+            {
+                "text":"Then I have the right thing for you, Madame Mim's potion of stomach calming!",
+                "nextPhraseID":"brightport_trauerquol",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pink_potion",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_bryma22",
@@ -5157,7 +5200,7 @@
     },
     {
         "id":"brightport_book",
-        "message":"You pick up an old-looking book titled \"The liberation of the Lethgar\" you shuffle a bit through it until you reach the end.",
+        "message":"You pick up an old-looking book titled \"The fate of the Lethgar\" you shuffle a bit through it until you reach the end.",
         "replies":[
             {
                 "text":"Now's not the time for reading.",
@@ -6376,7 +6419,7 @@
     },
     {
         "id":"brightport_archive3",
-        "message":"Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?\nSigned, Bryma.",
+        "message":"Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the usual bonemeal potions I use. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?\nSigned, Bryma.",
         "replies":[
             {
                 "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were old or in their graves.",
@@ -6630,8 +6673,19 @@
         "message":"Welcome to Brightport's armorsmithy, how can I assist you?",
         "replies":[
             {
-                "text":"Please show me your inventory.",
-                "nextPhraseID":"S"
+                "text":"Please show me your wares.",
+                "nextPhraseID":"brightport_armor0"
+            },
+            {
+                "text":"Everything seems pretty worn out, don't you have anything better to offer?",
+                "nextPhraseID":"brightport_armor4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":235
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -6667,11 +6721,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crateguard_packageselector",
+                "nextPhraseID":"brightport_crateguard_arrest",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"20"
+                        "requireID":"5"
                     }
                 ]
             },
@@ -8853,6 +8907,15 @@
         ]
     },
     {
+        "id":"brightport_trauerquol",
+        "message":"Nghh! That smell's making my meal come up, put the cork back on!",
+        "replies":[
+            {
+                "text":"Uhh, alright."
+            }
+        ]
+    },
+    {
         "id":"brightport_goons10",
         "message":"Hey Dynes! have you seen this Andor guy?",
         "replies":[
@@ -9324,7 +9387,7 @@
     },
     {
         "id":"brightpor_magic",
-        "message":"As you try to walk forward, your vision is overwhelmed by an immensively bright light, that burns into your mind even with your eyes shut. You take a few steps into it, and at one moment the light fades. When you open your eyes you find yourself in the same spot."
+        "message":"As you try to walk forward, your vision is overwhelmed by an immensely bright light, that burns into your mind even with your eyes shut. You take a few steps into it, and at one moment the light fades. When you open your eyes you find yourself in the same spot."
     },
     {
         "id":"brightport_crystal1_2",
@@ -10093,7 +10156,7 @@
                 ]
             },
             {
-                "text":"Allares told me to see you.",
+                "text":"Eatloni told me to see you.",
                 "nextPhraseID":"brightport_allares2",
                 "requires":[
                     {
@@ -10964,7 +11027,7 @@
     },
     {
         "id":"brightport_oswald18",
-        "message":"And now on the matter of Stanwick. The school will release him an apology letter, and I will personally make sure this had no lasting impact on his reputation. Please tell him that he is free to leave his room.",
+        "message":"And now on the matter of Stanwick. The academy will release him an apology letter, and I will personally make sure this had no lasting impact on his reputation. Please tell him that he is free to leave his room.",
         "replies":[
             {
                 "text":"N",
@@ -11379,7 +11442,8 @@
     },
     {
         "id":"brightport_crateguard6",
-        "message":"[The two guards exchange a glance, then turn and leave the building.]",
+        "message":"The two guards exchange a glance, then turn and leave the building.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -11395,6 +11459,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":158
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":35
             }
         ]
     },
@@ -11936,11 +12005,11 @@
     },
     {
         "id":"brightport_crateguard_arrest",
-        "message":"Ha! The commander can forgive a mistake or two. Grab him. We'll interrogate him later.",
+        "message":"Ha! The commander can forgive a mistake or two. Grab him. We'll interrogate him later",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crateguard_arrest_selector"
+                "nextPhraseID":"brightport_crateguard_packageselector"
             }
         ],
         "rewards":[
@@ -12094,7 +12163,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":222
+                        "value":225
                     },
                     {
                         "requireType":"questProgress",
@@ -12111,7 +12180,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":222,
+                        "value":225,
                         "negate":true
                     }
                 ]
@@ -12538,6 +12607,17 @@
         "id":"brightport_citizen",
         "message":"Sigh. Nowadays, the streets are always bustling with clamor, and everyone seems to be in a hurry. I miss the days when I could quietly sit and gaze at the lake.",
         "switchToNPC":"brightportcitizen1"
+    },
+    {
+        "id":"brightport_stanwick_fruit",
+        "message":"I don't feel like eating anything right now, you can have them.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_fruit2",
+                "value":1
+            }
+        ]
     },
     {
         "id":"brightport_slaincheck3",
@@ -14518,7 +14598,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":222,
+                        "value":225,
                         "negate":true
                     },
                     {
@@ -15105,7 +15185,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Stanwickquest",
-                "value":96
+                "value":110
             }
         ]
     },
@@ -15409,6 +15489,17 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":96
+                    }
+                ]
+            },
+            {
+                "text":"I have these fruits for you.",
+                "nextPhraseID":"brightport_stanwick_fruit",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_fruit",
+                        "value":1
                     }
                 ]
             },
@@ -18707,6 +18798,16 @@
         ]
     },
     {
+        "id":"brightport_mayor9",
+        "message":"That would be a no.",
+        "replies":[
+            {
+                "text":"Huh, why?",
+                "nextPhraseID":"brightport_mayor10"
+            }
+        ]
+    },
+    {
         "id":"brightport_stanwick_andor3",
         "message":"Later that same week, I'd fallen asleep at my desk while studying. When I woke, Andor wasn't in his bed, but at the time I thought little of it. I stepped out to the hallway window for some fresh air and happened to glance outside. Someone was leaving the campus grounds, with another figure waiting just beyond. They wore a robe... red, I think. Or perhaps blue. Maybe even grayish. I can't say for sure. The moonlight made it seem surreal. Andor came minutes later so I just thought he went to the lavatory. ",
         "replies":[
@@ -18736,6 +18837,15 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":196
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor8",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_mayor9"
             }
         ]
     },
@@ -19369,7 +19479,7 @@
     },
     {
         "id":"brightport_frederich1",
-        "message":"I always knew that boy Stanwick was up to no good. They did poorly entrusting the library to someone associated with those Nor City savages.",
+        "message":"I always knew that boy Stanwick was up to no good. They did poorly entrusting the library to someone associated with those Nor City savages. It is clear he was told to steal the scroll for them.",
         "replies":[
             {
                 "text":"N",
@@ -20186,8 +20296,45 @@
                 "nextPhraseID":"brightport_statue_central6"
             },
             {
-                "text":"I'm done with this.",
-                "nextPhraseID":"X"
+                "text":"This statue is old, perhaps I could find a clue in a history book or in the libary",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brightport_puzzle",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Argh, stupid statue.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brightport_puzzle",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"I'll come back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brightport_puzzle",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brightport_puzzle",
+                "value":1
             }
         ]
     },
@@ -20903,6 +21050,21 @@
         ]
     },
     {
+        "id":"brightport_armor0",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":235
+            }
+        ]
+    },
+    {
         "id":"brightport_chimney2",
         "message":"Quit joking. You know I'm afraid of them! So let's search this place quickly and get back to our posts.",
         "switchToNPC":"brightportguardcrate2",
@@ -21057,12 +21219,80 @@
         ]
     },
     {
+        "id":"brightport_armor8",
+        "message":"But I wouldn't go and bother him if I were you, it is unlikely he would make an exception.",
+        "replies":[
+            {
+                "text":"It is worth trying.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"He'll make an exception for this purse.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"brightport_silvear2",
         "message":"Pleasure doing business with you.",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"brightport_silvear_gunfryk"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor7",
+        "message":"You would have to ask for permission directly, the Doughe is on the second floor of the bakery, in the eastern part of town.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_armor8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor6",
+        "message":"That is simple, just follow the scent! Sorry I couldn't help myself, He is on the second floor of the bakery, just go to the eastern part of the town.",
+        "replies":[
+            {
+                "text":"Thanks, I'll go see him.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That joke didn't smell good. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor5",
+        "message":"The Doughe is the ruler of Brightport. Those of us whose families have lived here for generations carry a great deal of respect for them.",
+        "replies":[
+            {
+                "text":"Where can I find them?",
+                "nextPhraseID":"brightport_armor6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor4",
+        "message":"My husband and I maintain the guards\u2019 equipment, and we have pieces of great quality. But the Doughe set strict rules, with Feygard soldiers stationed here, we can\u2019t sell anything without approval. ",
+        "replies":[
+            {
+                "text":"Doughe?",
+                "nextPhraseID":"brightport_armor5"
+            },
+            {
+                "text":"How can I receive approval then?",
+                "nextPhraseID":"brightport_armor7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay"
             }
         ]
     },
@@ -21184,6 +21414,17 @@
             {
                 "text":"What's a Doughe?",
                 "nextPhraseID":"brightport_mayor1"
+            },
+            {
+                "text":"Can you give Freya permission to sell me better equipment?",
+                "nextPhraseID":"brightport_mayor8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":236
+                    }
+                ]
             }
         ]
     },

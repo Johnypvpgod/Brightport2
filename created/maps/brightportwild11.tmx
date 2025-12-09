@@ -235,12 +235,12 @@
    eJxjYBg4kK84gJYPIkCNcBiqYQkAGbsBsQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="16" height="10">
+ <layer id="6" name="Walkable" width="16" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJw7K8/AcHYAMTZADTNIMQ+bOmIAPv3EuBNdjtKwwmcGMW5GFiPkZ0LuJDbuAMLJZWk=
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="480" y="192" width="32" height="64">
    <properties>
     <property name="map" value="brightportwild21"/>
@@ -254,7 +254,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="3" name="duleian_panteras" type="spawn" x="192" y="96" width="96" height="64">
    <properties>
     <property name="spawngroup" value="brightport_cat2"/>

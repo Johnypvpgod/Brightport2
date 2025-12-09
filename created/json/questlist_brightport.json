@@ -10,7 +10,7 @@
             },
             {
                 "progress":20,
-                "logText":"Barthold was hesitant because any job I could do for them would put me at odds with Gunfryk the guard commander. Taking that into account I offered to rid them of their problem."
+                "logText":"Barthold was hesitant because any job I could do for them would put me at odds with Gunfryk the guard commander. Taking that into account I offered to rid them of him."
             },
             {
                 "progress":30,
@@ -178,8 +178,7 @@
             },
             {
                 "progress":96,
-                "logText":"I returned the secret scroll to the Headmaster and Stanwick was cleared of all accusations.",
-                "finishesQuest":1
+                "logText":"I returned the secret scroll to the Headmaster and Stanwick was cleared of all accusations."
             },
             {
                 "progress":97,
@@ -188,6 +187,11 @@
             {
                 "progress":100,
                 "logText":"I received a reward from the Headmaster for having returned the scroll."
+            },
+            {
+                "progress":110,
+                "logText":"I informed stanwick and he was relieved to hear the news.",
+                "finishesQuest":1
             }
         ]
     },
@@ -886,6 +890,14 @@
             {
                 "progress":234,
                 "logText":"LOCKED interaction with the crates during barthold's quest"
+            },
+            {
+                "progress":235,
+                "logText":"trade with freyja"
+            },
+            {
+                "progress":236,
+                "logText":"ask for permission"
             }
         ]
     },
@@ -1021,7 +1033,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"The Guild is due to receive a package but the guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
+                "logText":"The Guild is due to receive a package but the guards in Brightport have been impeding their activities, they need a new face like me to pick the package up discretly, I was told to head east of the town."
             },
             {
                 "progress":20,
@@ -1140,7 +1152,7 @@
             },
             {
                 "progress":90,
-                "logText":"The lizardman king recognized my effort and rewarded me with an artefact of their tribe."
+                "logText":"The lizardman king recognized my effort and rewarded me with an artifact of their tribe."
             },
             {
                 "progress":95,

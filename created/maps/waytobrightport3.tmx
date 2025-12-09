@@ -227,7 +227,7 @@
    eJytlFEKACAIQztK1/L+F+lXZLoNE4KK+ZZhxT0nypgia6q+chirctF6w0QeWx6qmWm6vYmpalkoWuUuHI7CzDqU78Sv/lCZjo/ab4oH07hnmuYqo8vp3przx6D6HgLsLsw=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north2" type="mapchange" x="544" y="0" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport4"/>

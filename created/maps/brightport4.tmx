@@ -214,7 +214,7 @@
    eJxjYGBgsJSlDGMD1DCDVHNo6Q5quIUUM4jVi8/MwQKo4RZkM3D5n1QzCKlFV4MuRoz9uOIJm19IwQDVnyel
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="512" y="224" width="32" height="128">
    <properties>
     <property name="map" value="brightport6"/>
@@ -245,13 +245,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="6" name="brightportguard" type="spawn" x="96" y="32" width="64" height="192">
    <properties>
     <property name="spawngroup" value="brightportguard"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
  <objectgroup id="9" name="Replace"/>
 </map>

@@ -34,6 +34,25 @@
         }
     },
     {
+        "id":"brightport_poison",
+        "iconID":"actorconditions_1:58",
+        "name":"Poisonous vapors",
+        "description":"Emitted by the creatures adapted to the poisoned environment.",
+        "category":"blood",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":0
+            }
+        },
+        "fullRoundEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":0
+            }
+        }
+    },
+    {
         "id":"brightportflame",
         "iconID":"actorconditions_1:5",
         "name":"Searing burn",

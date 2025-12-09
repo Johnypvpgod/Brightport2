@@ -214,17 +214,17 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJxtVTtuFEEQnZwjoBn3HGDjDRGyRIDltReDMAS214ElLJafQRwAwQ3gAHAEApMiQbQRsiGZFDgBJqaeux7zpqZLavV0df3eq+7pl01Vrduo26rqbN5O1aUsbL5n6/s2Npqs+2PzhY3HbkP51fR7nFfyfVfsf7tOfQ5l/4l9PzDdsY07aZxL86iUdFj/bXJOnRljX2LPbH2a+j1i5zrmLwn1ygNn4ga+c5uvttn2VohN7JDbaZivhP0i1AgcH8I+pBM75lbZCHH20hjDizT8Pk3DGB9Nv9XkGj63+Qwox4s0rgExgPOp212X+mcFnqG75nqc2WWb/RXv18DXM9v/5DbHdZ/7S9PnmDe5/vXgC5kiR5NtZp7zjcdbuQ34mJj+wPU408o5pPP5XOLeaMecdH4fp75mTvqvCrywBshWGmJAD4jzvdQE3lAn199T7scrwVm6oyrENmmHOeduT0y1z6gFvT5L+b/Auh62eSzlXGi8Emboyfeuzc/T8A43bT7Hej40NriYhrqVD8hbW78rYFdub1qMTe89cwH/SYi1Y/OPlLmgflnnumPcEt96F9lj/E+uCDePXL/vfMS7fpJ6/Kj1bM3O41qfrws88/7oHjFO2iG+Q8H//xx4j9A/8sQ6eUa+uT/fnvi/i4J69twWscFBtEXvyYvySx/6430BjlJOfTcue1JnveIgb+BV9ZC51HUQ9ok1vlnMxbeL/rBHT9m7hWCK7wQEtrwz2tNd94u8Ihfe5J/NsIYSLzHXTiE/76Xqt1MZr77N6hNjRlvW+TqNfY5EB1z/AGhdJ+k=
+   eJxtVUtuFEEM7T1HQN2pPsCcAaFILIiYZEgQgUWSyQKJiOEXEAdAcAM4QDgCiyCxQoLVrFASNr0lOQFhjV/Kj37tLksld7lctt9zVdebpqpWbdRtVXWmN1J1JXPTD2z+0MZak21/TF/aeOY+lPOmX6Neyvd98b9wm+7Zl/Xn9v3YbAc27qVxLs2jUrJh/rfJOVUzxq7Entr8OPVrxM55zF8S2pUHauIGvlPT19vsezfEJnbIVhrmK2G/DDUCx6ewDunEj7lV1kKcnTTG8DoNv4/TMMZns683uYZvbT4DyvE8jWtADOB84X43pf5pgWfYbrgdZ3bR5v2K90fg66Wtf3Gfg7rP/b3pc8yaXP9q2Av5anqryT5Tz/ne4y3dB3xMzL7ndpxp5RzSuT4VXLfaMSed30fGZk7uXxZ4YQ2Q9TTEgB4Q55HUBN5QJ+dnKffjreAs3VEVYpu0w5wz9yem2jVqQa9PUv4vsK4nbR4LORcar4QZdvK9bfpVGt7hps3nWM+Hxj4q3GvlA/LB5h8L2JXb25bnjveeuYD/MMTaNP0rZS5oX9S57lIdJbxcZ4/xP7kmOJ66fdf5iHf9MPX4UevJip3HlT5fF3jm/dE1Ypy0Q3z7gv//OfAeoX/kiXXyjPz0/Xx74v8uCurZcV/EBgfRF70nL8ov93A/3hfgKOXUd+OqJ3W2Kw7yBl7VDplJXXthnVjjm8VcfLu4H/7oKXs3F0zxnYDAl3dGe7rt+yKvyIU3+XczrKHES8y1WcjPe6n2jVTGq2+z7okxoy/rfJfGex6JDbj+ARvCKEs=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJydVbsRwjAMzSIYmIINyFD0NExDQUWVg46WEUI2IDXWgQ7xTj/z7nxxbOs9SbblU+m6sbZHbdt1lwbbjOW3H33ZVnIQhpXO7/1Ptc2fL8/PYlyul+DxqzGPWjiG2tKHyeCM+BnPYscux2dDq4c9PNb/s7KOuXYJfyOQ5gZ0vb0jHAxd9F/a4hxp8pnVYrR4NE3i0tb0kL9Fg2ak7Z1x8udWvhoWB56LSFPbKwma25e3tsaHMXt5xXi8+sI+4T2zuDP6hK3CS6C73xt7HvFaOc/gXvRcXJbVp2U7HyMTx8aoBYyhoR62+OGdtwyPVv8ykDmObK23KmvvrfNyHnFi3NH9aKk1EVredW+vZP+fePmNzfqLY9ReIdLHtg==
+   eJydVbsNwjAQzSI4MAUbJEPR0zANBRVVBB0tI4RsQGp8EicdT/czT7KSnH3v3cexL6Xr5jpedQy7Lg32mcvve/RkX8lBmLY6v/e91LF+nzy/CrtcL8H2uzGPWmhDbRnDYnBG/Ix3sXOX9tXQGqGH5/p9VdYx1yERbwTS3IOu1zvCydDF+KUvzpEm71ktR4tH0yQubQ3mtmnQjLS9Pc65sYbFgfsi0tR6JUFzx+r3MPgwZ6+uWj6eLvp43Bl9wqDwEujfH42eR7xWzTN4Fr0Wt77G1LfzMTJ57I2zgDE1nIctcXj7LcOjnX8ZyBpHvtZdlfX31nk1jzgx7+j/aDlrIrTc616v5Ps/+fIdm40XbTQ+iRbGsw==
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+   eJxjYBgFo2AUDAQwVxxoF4yC0TgYBaNg+AMAPbMAsQ==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="19" visible="0">
@@ -252,7 +252,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="goblinrider" type="spawn" x="64" y="192" width="160" height="160">
    <properties>
     <property name="quantity" value="2"/>
@@ -287,7 +287,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="10" name="stanwick_quest" type="key" x="0" y="160" width="32" height="32">
    <properties>
     <property name="phrase" value="brightport_charwood_shortcut"/>

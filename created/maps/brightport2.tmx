@@ -260,7 +260,7 @@
    eJy7KMbAcHEUD3kMAvS0CxnQw22k2EfITlLMIMZebIAYt+NTR8iN1AToZhITbuTaQUx4EauWEoDuJ2qYg8wnxe20iFN0txDKT/S0lxruwmYeADzo86M=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="448" y="448" width="96" height="32">
    <properties>
     <property name="map" value="brightport1"/>
@@ -280,7 +280,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn" visible="0"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>

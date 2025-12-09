@@ -221,7 +221,7 @@
    eJytksENACAIA93E/UdwO8OPh1cKkYREFOhJOHutY3hYPufYdTLScWqJhXg7RvkVF83J5SStCX+lQ32pjngcPqWT+zt/quLOvFT+ZAerHHXn7sWLr7sfqp96d9l+80X9BamzYQk=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="320" y="448" width="288" height="32">
    <properties>
     <property name="map" value="cabin_norcity_road1"/>
@@ -247,7 +247,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="5" name="duleian_mountain_cat_spawn" type="spawn" x="64" y="96" width="96" height="96">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>

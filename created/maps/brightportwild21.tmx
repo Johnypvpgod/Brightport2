@@ -209,7 +209,7 @@
    eJy7KMbAcJGGGB0Qo4ZYdbR0Nz77KfEvPkDIHmRxQm6hVTgBANrUXsA=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="352" width="32" height="64">
    <properties>
     <property name="map" value="brightportwild11"/>

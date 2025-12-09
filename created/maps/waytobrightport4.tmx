@@ -227,7 +227,7 @@
    eJyzlGdgsIRiELCUpy6mlZkwgC5GiVmEAC7/YHMHujp8ZlLqHnzmEitOqRpy3D9YAbq/8MkTModQHBEyl9x4pCQ+SPEfITFS0jY+dcSWBaS6lZL8R4z7KEkDxJSrxJhJjDtJ8SMyHwCl6zGB
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="96" y="0" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport5"/>
@@ -265,7 +265,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="7" name="fawn1" type="spawn" x="160" y="448" width="288" height="128">
    <properties>
     <property name="quantity" value="2"/>

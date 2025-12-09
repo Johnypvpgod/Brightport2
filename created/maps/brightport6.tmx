@@ -211,7 +211,7 @@
    eJwLFGNgCBzFQwaDwEDZC7MbmU2Jm5HF8alBV0eq3ciAkDg+9+CzGz1sKAHE2onPPnQ3EaJx2U0oTtHtIxcQG9b47CLVr8S6hVC6JQWQErfk5lNS4pDa9pPqPnQMACNueeo=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="224" width="32" height="128">
    <properties>
     <property name="map" value="brightport4"/>
@@ -231,7 +231,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn" visible="0"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>

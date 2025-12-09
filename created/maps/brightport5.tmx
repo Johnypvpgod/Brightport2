@@ -231,7 +231,7 @@
    eJzNktkNwCAMQ5mie7H/MhV/qEpsk6NtJNQjxC+YzGuM2bBWvFET0bHyX7CrmEh7j/27i2lxq5lI34tOnyNn9vKoTtGP+HISal9ZzdO78PT2fxU85cxsLqq4yIdqLtNj3Cif9e7lT7ld8Veu5VXVLHbXRjUyHmU1sl5FdNhcMA0vUK3iT7R3ywe2n+mgviyG2ifiIv6pjpdD92/te74jTbVfNLORyOh1zgm6S3W+qrjqsnxZzxt9TdwW
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="160" y="928" width="32" height="32">
    <properties>
     <property name="map" value="brightport7"/>
@@ -294,7 +294,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="12" name="brightportbakeryoutside" type="spawn" x="224" y="352" width="64" height="32">
    <properties>
     <property name="spawngroup" value="brightportbakeryoutside"/>
@@ -326,6 +326,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
+ <objectgroup id="9" name="Keys" visible="0"/>
  <objectgroup id="10" name="Replace"/>
 </map>

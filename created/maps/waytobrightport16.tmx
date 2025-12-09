@@ -235,7 +235,7 @@
    eJy9k9ENwCAIRN2l+w/UbUx/Keg9AUlMmhR4dyhj/ON91sfmeaH0sLW7mohF2FQn0UDndnrs7IjmCu7pnG5zs75vao5q6dsiXDVUppcbecmwbc8dm3Co5+xsFb/V95nhVjAouytW963otj0yOjp8Ut3RDlRrIH2VXDWH/ut8893RvTfernzfExsjMDw=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="south1" type="mapchange" x="32" y="672" width="96" height="32">
    <properties>
     <property name="map" value="waytobrightport19"/>
@@ -321,6 +321,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
  <objectgroup id="9" name="Replace"/>
 </map>

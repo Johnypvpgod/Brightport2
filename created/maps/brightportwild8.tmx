@@ -267,7 +267,7 @@
    eJy9ksENACAIA1nG/edxG+OXlGoBJeEDck1q5zCbH3uXMj/t/DtUaOfZaHbDjrjo1nOQXkepHjF/FP+78oH0mEeV/HlGxGZa7D7yu/LX2UxmtVRO1luFqWpX9ZnWy15FQLeP
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="736" y="256" width="32" height="96">
    <properties>
     <property name="map" value="brightportwild9"/>
@@ -299,7 +299,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="6" name="breadgolem" type="spawn" x="128" y="64" width="160" height="128">
    <properties>
     <property name="quantity" value="2"/>

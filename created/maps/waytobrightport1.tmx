@@ -208,9 +208,9 @@
    eJzjkWJg4AViHjT6siwDw1UgBgF0OUI0CNTJM2AAfOqxqXssiapmkgKEZgHSn2Xxm40OXslB5GDyD5H0iwDNU4GafVEeooYPiP9JQmgQYGXGbjYojJDFQepeAu0yAZrHDqR3M2F3Hys/A8NdSYi7mIF6rkDNeY4UbiCzLuKIg49I7gfpfSzGwPBeFjX+HgLNBwCKEyAT
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="6" visible="0">
+ <layer id="3" name="Above" width="20" height="6">
   <data encoding="base64" compression="zlib">
-   eJz7K8mAE/wByv2VxKRxqbuMpOayLG5zsZmNSw0++c9iuM0CyRFyL7IZIPBYDFMtCIDUYpP7g2Y2yKzHSG76hMcNj9HcDgIXgbSqAqoakBm7mbC7C1nvXiQ1IPUwOQAbmjhx
+   eJz7K8mAE/wByv2VxKRxqbuMpOayLG5zsZmNSw0++cdiuM36LEbYvTB16OahA5BabHJ/0MwGmYXspk943IDudhC4CKRVFVDVgMzYzYTdXch69yKpAamHyQEACVo4YQ==
   </data>
  </layer>
  <layer id="4" name="Top" width="20" height="6">
@@ -223,7 +223,7 @@
    eJy7KMbAcJHKGARgNDKg1Ex0c6np3sFqHqXmAACMaF+n
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="128" y="160" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport0"/>

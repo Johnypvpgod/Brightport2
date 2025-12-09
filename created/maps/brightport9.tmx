@@ -210,7 +210,7 @@
    eJy7KMbAcHGIYWRAqj562UNrPeS4DV0PPr3IatABIbOJdRs5eoh1E7o/celB1ksqINZ9xMY7LncRE0ekpLVRjB8DAOCj42U=
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="448" width="32" height="64">
    <properties>
     <property name="map" value="brightport5"/>

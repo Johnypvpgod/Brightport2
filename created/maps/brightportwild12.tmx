@@ -240,7 +240,7 @@
    eJw7qszAcBSKkcFRZUyMD+BSh80cXGYRoxaZT6nbCNlPDMCmDpcbcZlLjp341OIKR2IwNcygFqa2Oygxj9S4IiXdkwuIcS8pbiIlHIhVDwB+mZdZ
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="608" y="96" width="32" height="32">
    <properties>
     <property name="map" value="brightportwild10"/>
@@ -272,7 +272,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="6" name="duleian_panteras" type="spawn" x="64" y="320" width="224" height="96">
    <properties>
     <property name="quantity" value="2"/>
@@ -301,6 +301,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
+ <objectgroup id="9" name="Keys" visible="0"/>
  <objectgroup id="10" name="Replace"/>
 </map>

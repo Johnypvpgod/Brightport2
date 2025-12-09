@@ -186,6 +186,9 @@
  <tileset firstgid="8153" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="0" columns="16">
   <image source="../drawable/drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8153" name="map_ground_9" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/drawable/map_ground_9.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="23" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4A4ECAz0C4YBYMdWA7hNIKcvonxByl+Rc871MpLAPTGArA=
@@ -211,7 +214,7 @@
    eJytU8kNACAMchPn6v6L6NMYQFBJ+qithF7VW6tpCNW1OflrjOXtb4kWlcdw+sv0ujypJtUr5DOOX3D1sPmhfBVztCT9c4BquEUyn2Rn3FhSQ7qv6E5fuFd+5jvcP+a2c6c36u6uir1yDO/zNIE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="416" y="480" width="288" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>

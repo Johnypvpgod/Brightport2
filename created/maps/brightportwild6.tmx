@@ -235,7 +235,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="elderdeer1" type="spawn" x="64" y="32" width="64" height="64">
    <properties>
     <property name="spawngroup" value="brightport_elderdeer"/>

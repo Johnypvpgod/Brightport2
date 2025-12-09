@@ -211,7 +211,7 @@
    eJzNVUEKACAI6yX9/0v9pkNEEi23CknwVLpN01JqVvJw1XqMzbFzG3eCN8cqmK/sd8wVB4YXyhOpE3G6faOMdoQXodPyiMBFffZ4eTkZznOtlTwqBhN/U2dv9qxWhotyztxf7cqXtpsXdfcrfWf/G8TJw2N0VtY5kbI=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="2" name="south" type="mapchange" x="576" y="480" width="160" height="32">
    <properties>
     <property name="map" value="brightportwild7"/>
@@ -267,6 +267,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
  <objectgroup id="9" name="Replace"/>
 </map>

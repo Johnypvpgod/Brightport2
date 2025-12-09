@@ -223,7 +223,7 @@
    eJy7qcCAAm4qQDA2gE2OGPUweXxqibGLXLXEmkMKQPbTKMAdB6TEI7J6UvWQA0i1h1qAUFgRymPoeYocuwipR8e4zCK1TMBnDz61uPQTApT4g1izsdlDajjhil9i7MEmh24mulmDBQMArhZ/bA==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="800" y="32" width="32" height="384">
    <properties>
     <property name="map" value="waytobrightport18"/>
