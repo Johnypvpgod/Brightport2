@@ -6130,7 +6130,7 @@
     },
     {
         "id":"brightport_write4",
-        "message":"[You manage to write down the question without wasting any more paper.]",
+        "message":"You manage to write down the question without wasting any more paper.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -9956,7 +9956,7 @@
     },
     {
         "id":"brightport_write_2",
-        "message":"[After a few rows of written words, you quickly realize the daunting task ahead of you and promptly give up.]",
+        "message":"After a few rows of written words, you quickly realize the daunting task ahead of you and promptly give up.",
         "replies":[
             {
                 "text":"N",
@@ -21292,7 +21292,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay"
+                "rewardID":"brightport_nondisplay",
+                "value":236
             }
         ]
     },
@@ -21324,6 +21325,15 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_chimney6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rubiano",
+        "message":"Word has reached my ears about your adventure in the poisoned land, you have done more to prevent the threat from growing than many other experienced adventurers. I will permit you to purchase our highest quality wares.",
+        "replies":[
+            {
+                "text":"Thanks, bye."
             }
         ]
     },
