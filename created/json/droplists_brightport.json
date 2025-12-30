@@ -513,5 +513,22 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brightport_wraith",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":4,
+                    "max":56
+                }
+            },
+            {
+                "itemID":"brightport_wraith",
+                "chance":"1/1000"
+            }
+        ]
     }
 ]

@@ -7,7 +7,7 @@
         "phraseID":"brightport_frederich_selector"
     },
     {
-        "id":"",
+        "id":"brightport_scorpion",
         "name":"Cave scorpion",
         "iconID":"monsters_tometik3:76",
         "maxHP":150,
@@ -453,6 +453,7 @@
             "min":19,
             "max":31
         },
+        "droplistID":"brightport_wraith",
         "attackCost":5,
         "attackChance":240,
         "criticalMultiplier":0.0,
@@ -782,7 +783,7 @@
         "iconID":"monsters_ld1:145"
     },
     {
-        "id":"brightport_scorpion",
+        "id":"brightport_snake",
         "name":"Cavern snake",
         "iconID":"monsters_tometik4:23",
         "maxHP":180,

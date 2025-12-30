@@ -4224,8 +4224,8 @@
         {
             "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven_exit.tmx",
             "height": 960,
-            "width": 960,
-            "x": 14626,
+            "width": 416,
+            "x": 15170,
             "y": 9472
         },
         {
@@ -4325,6 +4325,48 @@
             "width": 832,
             "x": 16735,
             "y": 10110
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/poisonland3.tmx",
+            "height": 704,
+            "width": 608,
+            "x": 16095,
+            "y": 10430
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild29.tmx",
+            "height": 640,
+            "width": 896,
+            "x": 15167,
+            "y": 10462
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild28.tmx",
+            "height": 640,
+            "width": 736,
+            "x": 15327,
+            "y": 11134
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild30.tmx",
+            "height": 224,
+            "width": 608,
+            "x": 16095,
+            "y": 11166
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/poisonland4.tmx",
+            "height": 320,
+            "width": 608,
+            "x": 16094,
+            "y": 10079
+        },
+        {
+            "fileName": "../../../maps for brightport wilderness/brightportwild31.tmx",
+            "height": 320,
+            "width": 736,
+            "x": 15326,
+            "y": 11807
         }
     ],
     "onlyShowAdjacentMaps": false,

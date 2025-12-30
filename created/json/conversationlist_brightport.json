@@ -1930,7 +1930,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"If not information on my brother atleast some gold.",
+                "text":"If not information on my brother at least some gold.",
                 "nextPhraseID":"X"
             }
         ],
@@ -3365,11 +3365,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_key",
                 "value":1
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":103
             }
         ]
     },
@@ -5817,7 +5812,20 @@
     },
     {
         "id":"brightport_stanwickdoor",
-        "message":"The door seems to be locked."
+        "message":"The door seems to be locked.",
+        "replies":[
+            {
+                "text":"[Knock twice]",
+                "nextPhraseID":"brightport_stanwickdoor1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_dibella_selector",
@@ -6372,7 +6380,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction0",
-        "message":"A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to your brother.",
+        "message":"A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. You bear a striking resemblance to your brother.",
         "replies":[
             {
                 "text":"N",
@@ -7180,7 +7188,7 @@
     },
     {
         "id":"brightport_elysa5",
-        "message":"With the restrictions on the trade of weapons and steel by Feygard, our importance has only increased, but the newly established inspections have made carrying out our activities in town a nuisance. Several of my men have already been captured and sent to Feygard's prisons. This is where your role comes into play.",
+        "message":"With the restrictions on the trade of weapons and steel by Feygard, our importance has only increased. But the newly established inspections have made carrying out our activities in town a nuisance. Several of my men have already been captured and sent to Feygard's prison.",
         "replies":[
             {
                 "text":"N",
@@ -7254,7 +7262,7 @@
     },
     {
         "id":"brightport_elysa1",
-        "message":"For most of its existence, the Guild in Brightport was a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
+        "message":"For most of the time since it's inception, the Guild in Brightport was a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
         "replies":[
             {
                 "text":"N",
@@ -7462,7 +7470,19 @@
     },
     {
         "id":"brightport_library",
-        "message":"The door is locked."
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_library1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_hide_script_crate2alt",
@@ -8505,8 +8525,8 @@
         "id":"brightport_commanderkill_script2",
         "rewards":[
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"brightportguardcaptain",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_gunfrykstill",
                 "mapName":"brightport_bakery"
             },
             {
@@ -9404,7 +9424,7 @@
                 "value":125
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave20"
             }
@@ -9425,7 +9445,7 @@
                 "value":75
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave20"
             }
@@ -11432,11 +11452,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"Stanwickquest",
                 "value":47
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":103
             }
         ]
     },
@@ -14751,7 +14766,7 @@
     },
     {
         "id":"brightport_goons_after2",
-        "message":"Nice to see you around $playername. can't say we've been doing better before.",
+        "message":"Nice to see you around $playername. Can't say we've been doing better than before.",
         "replies":[
             {
                 "text":"N",
@@ -17089,6 +17104,13 @@
                         "value":1
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":211
             }
         ]
     },
@@ -20942,7 +20964,7 @@
                 "value":124
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave6"
             }
@@ -21018,7 +21040,7 @@
                 "value":75
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave6"
             }
@@ -21492,6 +21514,36 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":220
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwickdoor1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":237
+            }
+        ]
+    },
+    {
+        "id":"brightport_library1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":103
             }
         ]
     }

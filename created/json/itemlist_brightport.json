@@ -387,14 +387,8 @@
             "conditionsSource":[
                 {
                     "condition":"food",
-                    "magnitude":5,
+                    "magnitude":4,
                     "duration":15,
-                    "chance":"100"
-                },
-                {
-                    "condition":"overeating",
-                    "magnitude":1,
-                    "duration":3,
                     "chance":"100"
                 }
             ]
@@ -555,7 +549,7 @@
         "name":"King's hide",
         "displaytype":"extraordinary",
         "category":"bdy_hide",
-        "description":"Torn off the Lizard king's body, the beast has lived for decades and it's scales have grown thick.",
+        "description":"Torn off the Lizard king's body, the beast had lived for decades and it's scales have grown thick.",
         "equipEffect":{
             "increaseMaxHP":5,
             "increaseAttackChance":10,
@@ -596,6 +590,27 @@
             "increaseAttackCost":4,
             "increaseAttackChance":16,
             "increaseCriticalSkill":5
+        }
+    },
+    {
+        "id":"brightport_wraith",
+        "iconID":"items_japozero:235",
+        "name":"Wraithguard",
+        "displaytype":"rare",
+        "category":"gauntlet",
+        "description":"\"Hands of the arhitect toil on the heart, they keen and sunder foe and friend alike\" - Inscription on the back of the gauntlet.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":5
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":10,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":13,
+            "increaseDamageResistance":2,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":105
         }
     }
 ]
