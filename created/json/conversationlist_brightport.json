@@ -6262,7 +6262,7 @@
     },
     {
         "id":"brightport_dynes5",
-        "message":"If the first thing he did after getting out was chase revenge, then he hasn\u2019t learned his lesson.",
+        "message":"If the first thing he did after getting out was chase revenge, then he hasn't learned his lesson.",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -6457,7 +6457,7 @@
         "message":"It's nice to see you around, friend. ",
         "replies":[
             {
-                "text":"What\u2019s your history with Benbyr?",
+                "text":"What's your history with Benbyr?",
                 "nextPhraseID":"brightport_dynes"
             },
             {
@@ -6471,7 +6471,7 @@
         "message":"You really showed that Feygard dog whose boss, haha!",
         "replies":[
             {
-                "text":"What\u2019s your history with Benbyr?",
+                "text":"What's your history with Benbyr?",
                 "nextPhraseID":"brightport_dynes"
             },
             {
@@ -11981,7 +11981,7 @@
     },
     {
         "id":"brightport_guardcrate16",
-        "message":"Sounds like an excuse to me. No one just \u201Cwanders\u201D in here.",
+        "message":"Sounds like an excuse to me. No one just wanders in here.",
         "replies":[
             {
                 "text":"N",
@@ -12051,7 +12051,7 @@
                 ]
             },
             {
-                "text":"What\u2019s your history with Benbyr?",
+                "text":"What's your history with Benbyr?",
                 "nextPhraseID":"brightport_dynes1"
             },
             {
@@ -17893,7 +17893,7 @@
     },
     {
         "id":"brightport_frederich_afterlecture",
-        "message":"The one student whose name I don't remember, that didn\u2019t bolt out the door. What is it?",
+        "message":"The one student whose name I don't remember, that didn't bolt out the door. What is it?",
         "replies":[
             {
                 "text":"Could you tell me what know about the library theft?",
@@ -21300,7 +21300,7 @@
     },
     {
         "id":"brightport_armor4",
-        "message":"My husband and I maintain the guards\u2019 equipment, and we have pieces of great quality. But the Doughe set strict rules, with Feygard soldiers stationed here, we can\u2019t sell anything without approval. ",
+        "message":"My husband and I maintain the guards' equipment, and we have pieces of great quality. But the Doughe set strict rules, with Feygard soldiers stationed here, we can't sell anything without approval. ",
         "replies":[
             {
                 "text":"Doughe?",
@@ -21546,5 +21546,56 @@
                 "value":103
             }
         ]
+    },
+    {
+        "id":"brightport_epithet12",
+        "message":"Here lie the valiant warriors of Brightport, in memory of their courage."
+    },
+    {
+        "id":"irbepithet10"
+    },
+    {
+        "id":"brightport_epithet11",
+        "message":"Here lies Ysgramor, had as many as 500 friends."
+    },
+    {
+        "id":"brightport_epithet1",
+        "message":"Here lies Ghencea, died fighting a bear in the north."
+    },
+    {
+        "id":"brightport_epithet2",
+        "message":"Here lies Dervin. A person of great intelligence, beloved by all."
+    },
+    {
+        "id":"brightport_epithet3",
+        "message":"RIP Vanya, one does not survive 50 beers, but he did. Passed away in peace."
+    },
+    {
+        "id":"brightport_epithet4",
+        "message":"Here lies Martin. As destiny had it, the door of the oven locked behind him"
+    },
+    {
+        "id":"brightport_epithet5",
+        "message":"Cy Yonara, we will never see eachother again."
+    },
+    {
+        "id":"brightport_epithet6",
+        "message":"Here lies todd, died today.  [Grave looks pretty old.]"
+    },
+    {
+        "id":"brightport_epithet7",
+        "message":"The name of this grave was covered up. Must have been an unfaithful person in life."
+    },
+    {
+        "id":"brightport_epithet8",
+        "message":"here lies Sunny, he always let his bright side out"
+    },
+    {
+        "id":"brightport_epithet9",
+        "message":"The name was scratched off, only the initials Tru are visible; it seems he was an unpopular person with some."
+    },
+    {
+        "id":"brightport_epithet10",
+        "message":"here lies Iuli, her singing could break glass. [Written below with some chalk] \n\nIt was terrible"
     }
 ]
