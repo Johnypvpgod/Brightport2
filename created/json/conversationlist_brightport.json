@@ -21295,10 +21295,10 @@
     },
     {
         "id":"brightport_armor5",
-        "message":"The Doughe is the ruler of Brightport. Those of us whose families have lived here for generations carry a great deal of respect for them.",
+        "message":"The Doughe is the title of the rulers of Brightport. Those of us whose families have lived here for generations hold the Doughe in great respect.",
         "replies":[
             {
-                "text":"Where can I find them?",
+                "text":"Where can I find the Doughe?",
                 "nextPhraseID":"brightport_armor6"
             }
         ]

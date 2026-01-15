@@ -362,18 +362,29 @@
         "name":"Pyrite scimitar",
         "displaytype":"rare",
         "category":"ssword",
-        "description":"A looted ceremonial weapon, the soft metal makes it a poor choice for defense.",
+        "description":"A ceremonial temple weapon, the soft metal makes it a poor choice for defense.",
         "equipEffect":{
             "increaseAttackDamage":{
-                "min":6,
-                "max":8
+                "min":4,
+                "max":12
             },
             "increaseAttackCost":4,
-            "increaseAttackChance":30,
+            "increaseAttackChance":20,
             "increaseCriticalSkill":2,
             "increaseBlockChance":-3,
             "increaseDamageResistance":-1,
-            "setCriticalMultiplier":2.0
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":96
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightport_scimitar",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"45"
+                }
+            ]
         }
     },
     {
