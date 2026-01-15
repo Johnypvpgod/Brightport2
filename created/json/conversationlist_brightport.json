@@ -434,7 +434,7 @@
     },
     {
         "id":"brightport_richimor4",
-        "message":"It would be my joy, young fellow, but first.",
+        "message":"It would be my joy, young fellow.",
         "replies":[
             {
                 "text":"N",
@@ -9147,7 +9147,7 @@
     },
     {
         "id":"brightport_goons17",
-        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
+        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"Taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
         "replies":[
             {
                 "text":"Sure.",
@@ -9326,7 +9326,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"You're not friends with them? oh phew.",
+                "text":"You're not friends with them? Oh phew.",
                 "nextPhraseID":"X"
             }
         ]
@@ -10426,6 +10426,17 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":150
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_help",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":140
                     }
                 ]
             },
@@ -13163,6 +13174,40 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"brightport_gunfryk17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":240
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":211
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_gunfryk_killfail0",
                 "requires":[
                     {
@@ -15146,17 +15191,17 @@
         "id":"brightport_arrest2",
         "rewards":[
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"brightportgoons",
                 "mapName":"brightport_benbyr"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"brightportgoons1",
                 "mapName":"brightport_benbyr"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"arrest",
                 "mapName":"brightport_benbyr"
             },
@@ -17211,6 +17256,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_gunfryk17"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":240
+            }
         ]
     },
     {
@@ -17898,7 +17950,7 @@
     },
     {
         "id":"brightport_frederich_afterlecture",
-        "message":"The one student whose name I don't remember, that didn't bolt out the door. What is it?",
+        "message":"The one student whose name I don't remember. The one that didn't bolt out the door. What is it?",
         "replies":[
             {
                 "text":"Could you tell me what know about the library theft?",
@@ -19506,7 +19558,7 @@
     },
     {
         "id":"brightport_frederich1",
-        "message":"I always knew that boy Stanwick was up to no good. They did poorly entrusting the library to someone associated with those Nor City savages. It is clear he was told to steal the scroll for them.",
+        "message":"I always knew that boy Stanwick was up to no good. They did poorly entrusting the library to someone associated with those Nor City savages. It is obvious he was tasked to steal the scroll for them.",
         "replies":[
             {
                 "text":"N",
