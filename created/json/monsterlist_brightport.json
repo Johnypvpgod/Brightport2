@@ -1182,5 +1182,31 @@
         "iconID":"monsters_cats:1",
         "monsterClass":"animal",
         "movementAggressionType":"none"
+    },
+    {
+        "id":"brightport_ghost",
+        "name":"Agitated ghost",
+        "iconID":"monsters_rltiles2:45",
+        "maxHP":159,
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "phraseID":"brightport_ghost",
+        "attackChance":80,
+        "blockChance":90,
+        "damageResistance":3
+    },
+    {
+        "id":"brightport_studentghost",
+        "name":"Erelyn",
+        "iconID":"monsters_ld1:36",
+        "phraseID":"brightport_studentghost_selector"
+    },
+    {
+        "id":"brightport_studentghost1",
+        "name":"Drendolas",
+        "iconID":"monsters_ld1:20",
+        "phraseID":"brightport_studentghost1_selector"
     }
 ]

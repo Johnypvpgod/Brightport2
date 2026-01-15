@@ -1236,7 +1236,7 @@
     },
     {
         "id":"brightport_hide_script_crate1_1",
-        "message":"Might be cramped, but it's better than being caught.",
+        "message":"Might be a little cramped inside.",
         "replies":[
             {
                 "text":"[Hide in the crate.]",
@@ -6380,7 +6380,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction0",
-        "message":"A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. You bear a striking resemblance to your brother.",
+        "message":"A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. ",
         "replies":[
             {
                 "text":"N",
@@ -7529,7 +7529,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brightporthide",
-                        "value":5
+                        "value":3
                     }
                 ]
             },
@@ -7613,7 +7613,7 @@
     },
     {
         "id":"brightport_elysa15",
-        "message":"Yes that should be all. ",
+        "message":"That is all I feel inclined to share.",
         "replies":[
             {
                 "text":"Thanks, bye.",
@@ -9825,7 +9825,7 @@
     },
     {
         "id":"brightport_hide_script_crate2_1",
-        "message":"Those hinges look ancient, but it should open.",
+        "message":"The crate looks ancient.",
         "replies":[
             {
                 "text":"[Hide in the crate.]",
@@ -11170,6 +11170,11 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_fiamma",
                         "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":20
                     }
                 ]
             },
@@ -18784,7 +18789,7 @@
     },
     {
         "id":"brightport_elysa_caught5",
-        "message":"On our dealings, who our members are, how he can contact them, I shared as much as it benefits The Guild. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. The cost was not cheap.",
+        "message":"On who our members are, what skills they possess. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. I shared this information with your brother as his little adventure greatly benefits the guild.",
         "replies":[
             {
                 "text":"Interesting, is that all?",
@@ -21556,7 +21561,7 @@
     },
     {
         "id":"brightport_epithet11",
-        "message":"Here lies Ysgramor, had as many as 500 friends."
+        "message":"Here lies Cuchiuch, had as many as 100 friends."
     },
     {
         "id":"brightport_epithet1",
@@ -21592,10 +21597,296 @@
     },
     {
         "id":"brightport_epithet9",
-        "message":"The name was scratched off, only the initials Tru are visible; it seems he was an unpopular person with some."
+        "message":"Here lies Carla the cake lover. She did not wait for the cake to fully bake."
     },
     {
         "id":"brightport_epithet10",
         "message":"here lies Iuli, her singing could break glass. [Written below with some chalk] \n\nIt was terrible"
+    },
+    {
+        "id":"brightport_studentghost_1",
+        "message":"Eek!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost2",
+        "message":"The kid seems too shocked to move.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"brightport_studentghost1_1",
+        "message":"W-we weren't trying to steal anything!",
+        "replies":[
+            {
+                "text":"What is that ghost?",
+                "nextPhraseID":"brightport_studentghost1_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost1_2",
+        "message":"I don't know, It came out of nowhere!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost1_3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost1_3",
+        "message":"You can help us right? Please distract it and we'll find a moment to run away."
+    },
+    {
+        "id":"brightport_ghost",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":239
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":238,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":238
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost1",
+        "message":"You scoundrel dogs of Feygard, how dare you disturb the rest of a knight of Nor city!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost2",
+        "message":"Well actually I'm from Remgard and my friend over there is from...",
+        "switchToNPC":"brightport_studentghost1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost3",
+        "message":"Silence! No more of your lies... You used me!",
+        "switchToNPC":"brightport_ghost",
+        "replies":[
+            {
+                "text":"It's time I put you to rest. [Fight.]",
+                "nextPhraseID":"brightport_ghost4"
+            },
+            {
+                "text":"What are you talking about?",
+                "nextPhraseID":"brightport_ghost5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost4",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_studentghost1",
+                "mapName":"brightport_grave"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_studentghost",
+                "mapName":"brightport_grave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_studentghost",
+                "mapName":"brightport_school8"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_studentghost1",
+                "mapName":"brightport_school8"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":238
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost5",
+        "message":"The 2 kids sneak past the ghost and leave in a hurry.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":238
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_studentghost",
+                "mapName":"brightport_grave"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_studentghost1",
+                "mapName":"brightport_grave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_studentghost1",
+                "mapName":"brightport_school8"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_studentghost",
+                "mapName":"brightport_school8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost6",
+        "message":"The blood we shed for the kingdom was in waste.",
+        "switchToNPC":"brightport_ghost",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost7",
+        "message":"It was stolen to birth this curse, and now we cannot rest!",
+        "switchToNPC":"brightport_ghost",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_ghost8",
+        "message":"Vengeance, vengeance!",
+        "replies":[
+            {
+                "text":"I promise I will find a way to put you to rest properly.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You make no sense cursed creature, I will put you to rest now.",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":239
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":238,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost_2",
+        "message":"Thank the Shadow you were there to save us, mom always told me to never go grave robbing."
+    },
+    {
+        "id":"brightport_studentghost1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":238,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_studentghost1_4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_studentghost1_4",
+        "message":"We didn't get to say thank you. You were really brave back there.",
+        "replies":[
+            {
+                "text":"No problem.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

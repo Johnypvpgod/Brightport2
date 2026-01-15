@@ -902,6 +902,14 @@
             {
                 "progress":237,
                 "logText":"knocked twice"
+            },
+            {
+                "progress":238,
+                "logText":"skeedadle"
+            },
+            {
+                "progress":239,
+                "logText":"ghost dialog end"
             }
         ]
     },
