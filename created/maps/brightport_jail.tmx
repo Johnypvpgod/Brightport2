@@ -242,6 +242,12 @@
     <property name="spawngroup" value="brightportthieves4"/>
    </properties>
   </object>
+  <object name="brightport_agent" type="spawn" x="320" y="96" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="brightport_agent"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="escape" type="key" x="448" y="96" width="32" height="32">

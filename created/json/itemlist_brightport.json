@@ -298,7 +298,7 @@
             "conditionsSource":[
                 {
                     "condition":"brightport_worm",
-                    "magnitude":2,
+                    "magnitude":1,
                     "duration":10,
                     "chance":"10"
                 },
@@ -560,7 +560,7 @@
         "name":"King's hide",
         "displaytype":"extraordinary",
         "category":"bdy_hide",
-        "description":"Torn off the Lizard king's body, the beast had lived for decades and it's scales have grown thick.",
+        "description":"Torn off the Lizard king's body, the beast had lived for decades and its scales have grown thick.",
         "equipEffect":{
             "increaseMaxHP":5,
             "increaseAttackChance":10,

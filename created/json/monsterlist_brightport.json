@@ -580,7 +580,7 @@
         },
         "droplistID":"brightport_sickdeer",
         "attackCost":8,
-        "attackChance":182,
+        "attackChance":176,
         "criticalSkill":10,
         "criticalMultiplier":1.0,
         "blockChance":182,
@@ -746,7 +746,7 @@
         },
         "droplistID":"brightport_sickdeer",
         "attackCost":8,
-        "attackChance":192,
+        "attackChance":182,
         "criticalSkill":15,
         "criticalMultiplier":1.0,
         "blockChance":154,
@@ -859,13 +859,13 @@
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":15,
-            "max":30
+            "min":9,
+            "max":19
         },
         "attackCost":4,
         "attackChance":205,
         "criticalSkill":15,
-        "criticalMultiplier":2.5,
+        "criticalMultiplier":0.5,
         "blockChance":120,
         "damageResistance":2
     },
@@ -947,7 +947,7 @@
         },
         "droplistID":"brightport_deer",
         "attackCost":8,
-        "attackChance":177,
+        "attackChance":168,
         "criticalSkill":10,
         "criticalMultiplier":1.0,
         "blockChance":148,
@@ -975,13 +975,13 @@
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":10,
-            "max":25
+            "min":9,
+            "max":19
         },
         "attackCost":4,
         "attackChance":120,
         "criticalSkill":15,
-        "criticalMultiplier":1.5,
+        "criticalMultiplier":0.5,
         "blockChance":80,
         "damageResistance":2
     },
@@ -1033,7 +1033,7 @@
         },
         "droplistID":"brightport_deer",
         "attackCost":8,
-        "attackChance":177,
+        "attackChance":165,
         "criticalSkill":10,
         "criticalMultiplier":1.0,
         "blockChance":144,

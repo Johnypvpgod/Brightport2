@@ -2024,6 +2024,17 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_spawnagent_script2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":135
+                    }
+                ]
             }
         ]
     },
@@ -2475,7 +2486,7 @@
     },
     {
         "id":"brightport_bryma54",
-        "message":"For all of it's shortcomings, the cult and her followers fought against necromancy, and many masters of the dark arts perished at their sword. The statues are likely a seal for the evil that dwelt here in ancient times.",
+        "message":"For all of it's shortcomings, the cult and her followers fought against necromancy, and many masters of the dark arts perished at their sword. The statues are likely a seal for some evil that dwelt here in ancient times.",
         "replies":[
             {
                 "text":"Shortcomings?",
@@ -5808,6 +5819,13 @@
                 "text":"Umm. Ermm. He is alright sir.",
                 "nextPhraseID":"brightport_gunfryk_killfail2"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_agent",
+                "mapName":"brightport_jail"
+            }
         ]
     },
     {
@@ -5815,7 +5833,7 @@
         "message":"The door seems to be locked.",
         "replies":[
             {
-                "text":"[Knock twice]",
+                "text":"[Knock twice.]",
                 "nextPhraseID":"brightport_stanwickdoor1",
                 "requires":[
                     {
@@ -7555,7 +7573,7 @@
     },
     {
         "id":"brightport_janwick",
-        "message":"Where did I put my glasses? Was it here... or maybe over there?",
+        "message":"Where did I put my glasses? Was it here... Or maybe over there?",
         "switchToNPC":"brightportnpc8",
         "replies":[
             {
@@ -7878,7 +7896,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest",
+                "nextPhraseID":"brightport_crateguard_packageselector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -8088,7 +8106,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure_arrest"
+                "nextPhraseID":"brightport_crateguard_packageselector"
             }
         ],
         "rewards":[
@@ -8122,7 +8140,7 @@
     },
     {
         "id":"brightport_chimney14",
-        "message":"The lookout spotted a suspicious cloaked figure entering the house. That was probably you. Good, we can return to our posts now. Just don't hang around here too much, okay?",
+        "message":"The lookout spotted a cloaked figure entering the house. That was probably you. Good, we can return to our posts now. Just don't hang around here too much, okay?",
         "replies":[
             {
                 "text":"N",
@@ -10602,7 +10620,7 @@
     },
     {
         "id":"brightport_bryma3",
-        "message":"He brought me a scroll that I was interested in many years ago, in exchange for teaching him forbidden alchemy techniques. but by his tone I knew it was not something I had a choice on.",
+        "message":"He brought me a scroll that I was interested in many years ago, in exchange for teaching him forbidden alchemy techniques. But by his tone I knew it was not something I had a choice on.",
         "replies":[
             {
                 "text":"I was looking for that scroll, can I have it?",
@@ -10857,7 +10875,7 @@
     },
     {
         "id":"brightport_oswald23",
-        "message":"Maybe next time, just don't?",
+        "message":"Right now I'll forgive it, but. Maybe next time, just don't?",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -11013,7 +11031,7 @@
         "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door creak. I went to look and a boy of about 17 introduced himself. I think his name was Andor...",
         "replies":[
             {
-                "text":"N",
+                "text":"My brother Andor here too?",
                 "nextPhraseID":"brightport_bryma10"
             }
         ]
@@ -12389,7 +12407,7 @@
     },
     {
         "id":"brightport_oswald4",
-        "message":"Very well then, I accept your assistance on this matter. report back to me on your findings.",
+        "message":"Very well then, I accept your assistance on this matter. Report back to me on your findings.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -13043,12 +13061,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":40,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":50,
                         "negate":true
                     },
                     {
@@ -16423,7 +16435,7 @@
     },
     {
         "id":"brightport_dibella3",
-        "message":"Go via the hallway on the left until you reach the dorms, Stanwick's room is the second door in the middle, if you knock twice he should open it.",
+        "message":"Go via the hallway on the left until you reach the dorms, Stanwick's room is the second door in the middle, if you knock two times he should open it.",
         "replies":[
             {
                 "text":"Thank you miss.",
@@ -21629,23 +21641,23 @@
     },
     {
         "id":"brightport_epithet4",
-        "message":"Here lies Martin. As destiny had it, the door of the oven locked behind him"
+        "message":"Here lies Martin. As destiny had it, the door of the oven locked behind him."
     },
     {
         "id":"brightport_epithet5",
-        "message":"Cy Yonara, we will never see eachother again."
+        "message":"Here lies Cy Yonara, we will never see each other again."
     },
     {
         "id":"brightport_epithet6",
-        "message":"Here lies todd, died today.  [Grave looks pretty old.]"
+        "message":"Here lies Todd, died today.  [Grave looks pretty old.]"
     },
     {
         "id":"brightport_epithet7",
-        "message":"The name of this grave was covered up. Must have been an unfaithful person in life."
+        "message":"The name of this grave is covered up. Must have been an unfaithful person in life."
     },
     {
         "id":"brightport_epithet8",
-        "message":"here lies Sunny, he always let his bright side out"
+        "message":"here lies Sunny, he always let his bright side out."
     },
     {
         "id":"brightport_epithet9",
@@ -21653,7 +21665,7 @@
     },
     {
         "id":"brightport_epithet10",
-        "message":"here lies Iuli, her singing could break glass. [Written below with some chalk] \n\nIt was terrible"
+        "message":"here lies Iuli, her singing could break glass. [Written below with some chalk] \n\nIt was terrible."
     },
     {
         "id":"brightport_studentghost_1",
@@ -21722,20 +21734,28 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_ghost3",
+                "nextPhraseID":"brightport_ghost6",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":238
+                        "value":238,
+                        "negate":false
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":241
             }
         ]
     },
     {
         "id":"brightport_ghost1",
-        "message":"You scoundrel dogs of Feygard, how dare you disturb the rest of a knight of Nor city!",
+        "message":"You scoundrel dogs of Feygard, how dare you disturb the rest of a knight of Nor City!",
         "replies":[
             {
                 "text":"N",
@@ -21806,7 +21826,7 @@
     },
     {
         "id":"brightport_ghost5",
-        "message":"The 2 kids sneak past the ghost and leave in a hurry.",
+        "message":"The two kids sneak past the ghost and leave in a hurry.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -21844,7 +21864,7 @@
     },
     {
         "id":"brightport_ghost6",
-        "message":"The blood we shed for the kingdom was in waste.",
+        "message":"The blood we shed for the Kingdom was in waste.",
         "switchToNPC":"brightport_ghost",
         "replies":[
             {
@@ -21938,6 +21958,33 @@
             {
                 "text":"No problem.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_grave_event",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_ghost",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":241,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_spawnagent_script2",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_agent",
+                "mapName":"brightport_abandoned"
             }
         ]
     }

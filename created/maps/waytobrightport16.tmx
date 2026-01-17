@@ -227,12 +227,12 @@
  </layer>
  <layer id="4" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzrUmJg6AbiHiAmFdyUY2C4JYdd7qcg6ebRA7CS4U9qABYl6tr9W5k4dc8UGRhEqWjvayLthfm1i4L0Ra69O4FpcheOdEkre6kdv79I8C8145dYAEpXIIDP3zC5Q0B8GElNCp64+QuU+4dHHmamiBKmGLIcjJ1MQjqQk0ewcekDmdkIjJsmZUgYwOwBsWHpjprxsUQZEdbUStvEmsGC5A96lZvIbkO3E19ag4URKQA9HVI7D8PAT6A9v/CkJ3SA7g5qxHkyMB2loJUppPiXGLXEqMEnjysOqREvtIpbQoCWdsLKIWzgIVpYElNOE6seBHClSQDB5zYp
+   eJzrUmJg6AbiHiAmFdyUY2C4JYddLhGH+EADVjL8SQ3AokRdu38rE6fumSIDgygV7X1NpL0wv3ZRkL7ItXcnMO3tolL6I9ZeasfvLxL8S834JRaA0hUI4PM3TO4QEB9GUpOCJ27+AuX+4ZGHmSmihCmGLAdjJ5OQDuTkEWxc+kBmNgLjpkkZEgYwe0BsWLqjZnwsUUaENbXSNrFmsCD5g17lJrLb0O3El9ZgYUQKQE+H1M7DMPATaM8vPOkJHaC7gxpxngxMRyloZQop/iVGLTFq8MnjikNqxAut4pYQoKWdsHIIG3iIFpbElNPEqgcBXGkSAFfnNZ4=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9k9ENwCAIRN2l+w/UbUx/Keg9AUlMmhR4dyhj/ON91sfmeaH0sLW7mohF2FQn0UDndnrs7IjmCu7pnG5zs75vao5q6dsiXDVUppcbecmwbc8dm3Co5+xsFb/V95nhVjAouytW963otj0yOjp8Ut3RDlRrIH2VXDWH/ut8893RvTfernzfExsjMDw=
+   eJy9U1sOwCAI2128/4G8zbKP/SBoC9QmJksGfaDM8SyYY39snYcTh9fL1kdg+lGfiAd2btnzc2Tm1qGbndNt3Wrum56jXvZtMbooUE2vNspS0bacJ21Gh81cnS2St/s+K7odGqy2Crv7RnxbjooPRU7Wd7QD3R4YXqQWrWH/Kd+8Guq98Xbl+34B81oyNA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -285,37 +285,42 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
-  <object id="10" name="brightport_deer2" type="spawn" x="64" y="448" width="416" height="192">
+ <objectgroup id="7" name="Spawn">
+  <object id="9" name="brightport_deer2" type="spawn" x="64" y="448" width="416" height="192">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="brightport_deer"/>
    </properties>
   </object>
-  <object id="11" name="brightport_deer" type="spawn" x="480" y="448" width="256" height="192">
+  <object id="10" name="brightport_deer" type="spawn" x="480" y="448" width="256" height="192">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_deer"/>
    </properties>
   </object>
-  <object id="12" name="squirmer" type="spawn" x="32" y="64" width="160" height="288">
+  <object id="11" name="squirmer" type="spawn" x="32" y="64" width="160" height="288">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
-  <object id="13" name="squirmer" type="spawn" x="224" y="352" width="352" height="288">
+  <object id="12" name="squirmer" type="spawn" x="224" y="352" width="352" height="288">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
-  <object id="14" name="lizardmancorsair" type="spawn" x="608" y="192" width="32" height="64">
+  <object id="13" name="lizardmancorsair" type="spawn" x="608" y="160" width="32" height="96">
    <properties>
     <property name="spawngroup" value="brightport_redlizard"/>
    </properties>
   </object>
-  <object id="15" name="lizardmancorsair" type="spawn" x="832" y="416" width="32" height="64">
+  <object id="14" name="lizardmancorsair" type="spawn" x="832" y="416" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_redlizard"/>
+   </properties>
+  </object>
+  <object id="15" name="lizardmancorsair" type="spawn" x="608" y="64" width="32" height="96">
    <properties>
     <property name="spawngroup" value="brightport_redlizard"/>
    </properties>

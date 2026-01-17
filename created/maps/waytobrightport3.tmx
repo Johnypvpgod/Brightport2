@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -214,17 +214,17 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9VE1OgkEM7QZdm3yywMw4DAu8BsfQhSRwA+EiiJcgrADPoaJyCFjwEziAbWbq1NLYpPnmr6/vtc0HAFA1AeroF+jX6GQfDn6tGwBqPq3XuN6EcncQ7w7Bxmrk2K0reNq8Lzn3LmGRMZbGZKMYibdzYBq967QKRpW/t/787RPiPSrvh7/6r1ppr/ksMc84ArzEcjYV+STnt8x1hm/nseivDJ0cd498HwTno1FTWQPCaSiN76pGnG+Sc55ETZlTJ+vdqlg5J5I31VXudc8/XYqtC256tsh64bwX5INQ6jfA2g1jwlzlM76TWvdqVk7ijvppaZEadkZ/rFm2cNqo887bfSVbqT7KGdI94LMm7r9d0kWmZ3mZ9fKsUsyN6ssIczznPJc+Ycp4bcxP62KO9K2JHORfrrzj8//+BaRpgZxeY1qzEbcfxGlc+g==
+   eJxtUktOAzEM9aZ0jTTMoihhmlm01+gxYEElrlAuUuASiBWfc/QDlA0n6CxaqvYAtZUYu548yZokYz/72QYAKPoAJdoZ2gUaYeHgH+MKoOPjeY3nppJ/O+W3q/JcvRS7ccJn4b3k/HORi8BclpNBMU0J8KPst2zzk9+oFo4ifa9829eiUZys/7yOd1vPEvM8BoCnIG8vKh/XQj2YJb2v6PsWRH+R0clv11jvjap5n+npVs2EYnpG49yd3pn7OeU8OOEb1ac+GxOr90TXTX3VdzvzTxdjS1Wb3S3LybhDn0kl/Ztg7+5D5FylN/6ntdJeUeytMeKieea06PzbzHxyu5zjGaDOoW9rYazMHPUOMR/Pgt/6eP92URfB7vIyzZF3lWIuzVymmOMh5en6yKnjLbg+q4trpG9H5SD7cuJn9yjXP9L0jjV9hHhmUG1HnY1ddg==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjUWRgYAVicoCoHAODmByE/VABQiObxUKB2SBgqEy+Xhi4qcDAcEsBv5pmJQaGFiVUMXxuXwhUu0iJOLWWwPCxkiPWtcSFFzHhSkzYoZtDanwRE7bYQDIw7FKUCKsjBcDcjs0PpPgLXS2x+rClIWqkX3Q3NQLtaCIj7AiFAUye3LBbDHTTEhzuQk4n2NIMvrhDdwMAF8MYuA==
+   eJxjUWRgYAVicoCoHAODmByE/VABQiObxUKB2SBgqEy+Xhi4qcDAcEsBv5pmJQaGFiVUMXxuXwhUu0gJv1qYmCUwfKzkiHcvMeGFz22wMCMm7NHVkBpf2MKWGDOSgWGXooRfDakAZi++uCDFHBggVh+2NESN9IvupkagHU1khB2hMIDJkxt2i4FuWoLDXcjpBF+awWUXsjgAmiMZmQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlFEKACAIQztK1/L+F+lXZLoNE4KK+ZZhxT0nypgia6q+chirctF6w0QeWx6qmWm6vYmpalkoWuUuHI7CzDqU78Sv/lCZjo/ab4oH07hnmuYqo8vp3przx6D6HgLsLsw=
+   eJylku0JACAIRB2ltdp/kehfiPdhBoLV9c7EvSJ2CrZeTdZnjmJlbrWfMCuPKa/6s9KgM8ZE76d9Zf7oL6gmxFFMdN/tW8WazIfL7Pi48+Z4KE23Jpa7DDY3LH7YNz9AdDIb
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -266,19 +266,24 @@
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="7" name="brightportsquirmer" type="spawn" x="96" y="64" width="352" height="192">
+  <object id="7" name="brightportsquirmer" type="spawn" x="96" y="64" width="448" height="192">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
-  <object id="8" name="fawn" type="spawn" x="384" y="64" width="160" height="256">
+  <object id="8" name="fawn" type="spawn" x="384" y="64" width="160" height="192">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
   <object id="9" name="fawn" type="spawn" x="64" y="192" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_sickfawn"/>
+   </properties>
+  </object>
+  <object id="10" name="fawn" type="spawn" x="160" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>

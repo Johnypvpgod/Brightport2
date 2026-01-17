@@ -195,7 +195,7 @@
    eJxjYBh64LEYdvHPOMRJNReb+SCzcdlLDEDW/0kMVRxm5ycKzMelHyTOykyZ2TBzSBFHB/jihpphiw3sZSJsPi73keO23UzEqSPHbFLSODlhSkk8kGM+APtsIoo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="24" height="12">
+ <layer id="4" name="Walkable" width="24" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcHEU0xWDAC5xdECqubj04QOkmo2sjxAgx+3Y9FJiNjb9pMpTGre0TjtD1XwAKkPV3A==
   </data>

@@ -208,6 +208,11 @@
     <property name="place" value="grave"/>
    </properties>
   </object>
+  <object name="brightport_grave_event" type="script" x="96" y="96" width="288" height="192">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="tiny_rat" type="spawn" x="32" y="160" width="544" height="96">
@@ -218,6 +223,7 @@
   </object>
   <object name="brightport_ghost" type="spawn" x="160" y="160" width="64" height="96">
    <properties>
+    <property name="respawnspeed" value="0"/>
     <property name="spawngroup" value="brightport_ghost"/>
    </properties>
   </object>

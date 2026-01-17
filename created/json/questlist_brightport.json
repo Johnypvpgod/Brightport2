@@ -914,6 +914,10 @@
             {
                 "progress":240,
                 "logText":"started to tell gunfryk about the criminals"
+            },
+            {
+                "progress":241,
+                "logText":"triggered ghost event"
             }
         ]
     },
