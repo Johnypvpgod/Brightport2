@@ -681,7 +681,7 @@
             },
             {
                 "progress":182,
-                "logText":"forenza reward"
+                "logText":"vault access"
             },
             {
                 "progress":183,
@@ -918,6 +918,14 @@
             {
                 "progress":241,
                 "logText":"triggered ghost event"
+            },
+            {
+                "progress":242,
+                "logText":"learnt about the vault"
+            },
+            {
+                "progress":243,
+                "logText":"found documents"
             }
         ]
     },

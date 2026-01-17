@@ -623,5 +623,12 @@
             "setCriticalMultiplier":1.5,
             "setNonWeaponDamageModifier":105
         }
+    },
+    {
+        "id":"brightport_documents",
+        "iconID":"items_misc_3:60",
+        "name":"Bakery ledger",
+        "displaytype":"ordinary",
+        "description":"Random trash I found while cleaning in the Brightport bakery."
     }
 ]

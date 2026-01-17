@@ -1394,7 +1394,7 @@
     },
     {
         "id":"brightport_counterfeit",
-        "message":"Hello, kid. My name is Counterfeit. I specialize in exactly that. Now, please leave me be, I have work to do.",
+        "message":"Hello, kid. My name is Counterfeit. I specialize in exactly that. Now please leave me be, I have work to do.",
         "switchToNPC":"brightportthieves2",
         "replies":[
             {
@@ -2664,7 +2664,7 @@
                 ]
             },
             {
-                "text":"Gentlemen. Has Sir Gunfryk not told you to keep your noses out of places they don't belong?",
+                "text":"Gentlemen. Has sir Gunfryk not told you to keep your noses out of places they don't belong?",
                 "nextPhraseID":"brightport_crateguard2",
                 "requires":[
                     {
@@ -2785,7 +2785,7 @@
     },
     {
         "id":"brightport_crescenzio1",
-        "message":"Do I have? No. Do we have? Yes, quite a lot of both. But no, I will not give you any, if that's what you're about to ask. I have a great deal of work, and you'd do well not to intrude on it."
+        "message":"Do I have? No. Do we have? Yes, quite a lot of both. But no, I will not give you any if that's what you were about to ask. I have a great deal of work, and you'd do well not to intrude on it."
     },
     {
         "id":"brightport_elyzard3",
@@ -2978,7 +2978,7 @@
     },
     {
         "id":"brightport_npc110",
-        "message":"Grandfather? well, yes, but he's outside at the moment.",
+        "message":"Grandfather? Well, yes, but he's outside at the moment.",
         "replies":[
             {
                 "text":"Thanks, that's all I needed to know.",
@@ -3039,13 +3039,47 @@
             {
                 "text":"Have you seen my brother Andor?",
                 "nextPhraseID":"brightport_florencia1"
+            },
+            {
+                "text":"While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?",
+                "nextPhraseID":"brightport_sylvester",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":243
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_documents",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
     {
         "id":"brightport_sylvester2",
         "message":"You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now.",
-        "switchToNPC":"brightportforenza"
+        "switchToNPC":"brightportforenza",
+        "replies":[
+            {
+                "text":"While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?",
+                "nextPhraseID":"brightport_sylvester",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_documents",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":242
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_bryma31",
@@ -3334,7 +3368,7 @@
     },
     {
         "id":"brightport_counterfeit1",
-        "message":"Normally, I'd need the original, but lucky for you, kid, I was a student here years ago and made a copy. You can have it, for 500 gold.",
+        "message":"Normally, I'd need the original, but lucky for you kid, I was a student here years ago and made a copy. You can have it, for 500 gold.",
         "switchToNPC":"brightportthieves2",
         "replies":[
             {
@@ -5293,7 +5327,13 @@
     },
     {
         "id":"brightport_florencia",
-        "message":"Hello. I don't believe we know each other. "
+        "message":"Hello. I don't believe we know each other. ",
+        "replies":[
+            {
+                "text":"That is an interesting vault you have there, what is it for?",
+                "nextPhraseID":"brightport_florencia6"
+            }
+        ]
     },
     {
         "id":"brightport_silvear",
@@ -6624,7 +6664,7 @@
                 ]
             },
             {
-                "text":"Apparantly the merchant picked them up. ",
+                "text":"Apparantly the merchant picked them up.",
                 "nextPhraseID":"brightport_storemaster12",
                 "requires":[
                     {
@@ -8119,7 +8159,7 @@
     },
     {
         "id":"brightport_crescenzio15",
-        "message":"Hello, child from Crossglen. Back for my cooking?",
+        "message":"Hello child from Crossglen. Back for my cooking?",
         "replies":[
             {
                 "text":"Yes, I want you to cook me some stuffed peppers.",
@@ -8324,7 +8364,7 @@
     },
     {
         "id":"brightport_hortensia3",
-        "message":"It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you were a student.  Head to the western part of town, and you will find it.",
+        "message":"It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you were a student. Head to the western part of town, and you will find it.",
         "replies":[
             {
                 "text":"I don't have time to attend classes, I must find my brother Andor.",
@@ -8852,7 +8892,7 @@
     },
     {
         "id":"brightport_loudmouth2",
-        "message":"Those folks from Brimhaven! I'd refrain from rudely calling them... hmm, mice. But if anyone resembles a mouse, it would be them. We got a job offer from... Hic. I'm professional enough not to reveal our clients... Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should've seen it coming, considering we wouldn't budge on the price. Speaking of price...",
+        "message":"Those folks from Brimhaven! I'd refrain from rudely calling them ra... Mice. But if anyone resembles a mouse, it would be them. We got a job offer from... Hic. I'm professional enough not to reveal our clients... Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should've seen it coming, considering we wouldn't budge on the price. Speaking of price...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -8878,7 +8918,7 @@
     },
     {
         "id":"brightport_loudmouth3",
-        "message":"Speaking of \"never end\" I was assigned to a job a while ago, up in the north. On my way there, I encountered a small critter. Eager for some fresh meat, I slew it, but what came next was, quite literally, never ending. A whole group of large beasts were watching me, as I was flaying the skin off the beast. Once I was distracted enough, they came pouring out of the bushes. I could maybe count a hundred before I went running! I left the meat behind, and even dropped my heirloom skinning knife. Speaking of knives...",
+        "message":"Speaking of \"never end\" I was assigned to a job a while ago, up in the north. On my way there, I encountered a small critter. Eager for some fresh meat, I slew it, but what came next was, quite literally, never ending. A whole group of large beasts were watching me as I was flaying the skin off the beast. Once I was distracted enough, they came pouring out of the bushes. I could maybe count a hundred before I went running! I left the meat behind, and even dropped my heirloom skinning knife. Speaking of knives...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -9530,13 +9570,8 @@
     },
     {
         "id":"brightport_florencia3",
-        "message":"Please feel free to rest at our house any time you're in Brightport. And father mentioned a reward, you may go into the vault and take some gold. Mindfully.",
+        "message":"Please feel free to rest at our house any time you're in Brightport. The couch is right behind Sylvester.",
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":182
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
@@ -9563,16 +9598,6 @@
         ]
     },
     {
-        "id":"brightport_florencia4",
-        "message":"Hello, might you be $playername? I received a letter from my father Forenza, about your great help to him.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_florencia5"
-            }
-        ]
-    },
-    {
         "id":"brightport_florencia1",
         "message":"No sorry, I don't think we have, but you could ask the Doughe. His chambers are on the Bakery's second floor.",
         "switchToNPC":"brightportforenza1",
@@ -9595,7 +9620,7 @@
     },
     {
         "id":"brightport_florencia0",
-        "message":"Hello, $playername! I got a letter from my father, Forenza, about how much you helped him on his travel.",
+        "message":"Hello, $playername! I received a letter from my father, Forenza, about how much you helped him on his travel.",
         "replies":[
             {
                 "text":"N",
@@ -9957,17 +9982,6 @@
         ]
     },
     {
-        "id":"brightport_florencia5",
-        "message":"You're welcome to rest here whenever you need, $playername. The couch is right behind Sylvester.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":183
-            }
-        ]
-    },
-    {
         "id":"brightport_franz2",
         "message":"I'll read it next after I'm done with this other paper. Please come back later.",
         "rewards":[
@@ -9989,6 +10003,13 @@
             {
                 "text":"I see, bye.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":242
             }
         ]
     },
@@ -10091,7 +10112,7 @@
                 ]
             },
             {
-                "text":"Delon said there was an apple delivery that was supposed to arrive but it didn't.",
+                "text":"Delon said there was an apple delivery that was supposed to arrive but didn't.",
                 "nextPhraseID":"brightport_allares6",
                 "requires":[
                     {
@@ -10302,24 +10323,6 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_florencia4",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":110,
-                        "negate":false
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":183,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"brightport_florencia0",
                 "requires":[
                     {
@@ -10348,7 +10351,14 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_florencia"
+                "nextPhraseID":"brightport_florencia",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":183
+                    }
+                ]
             }
         ]
     },
@@ -11208,7 +11218,7 @@
                 ]
             },
             {
-                "text":"I have the Red crystal here.",
+                "text":"I have the red crystal here.",
                 "nextPhraseID":"brightport_fiamma10",
                 "requires":[
                     {
@@ -11341,7 +11351,7 @@
     },
     {
         "id":"brightport_oswald16",
-        "message":"As I suspected, it was someone interested in it's contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock. [The headmaster looks at you sternly]",
+        "message":"As I suspected, it was someone interested in it's contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock. [The headmaster looks at you sternly.]",
         "replies":[
             {
                 "text":"N",
@@ -13907,7 +13917,7 @@
     },
     {
         "id":"brightport_androni3",
-        "message":"You want some? Here, since I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.",
+        "message":"You want some? Here, I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -14978,7 +14988,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":182
+                        "value":183
                     }
                 ]
             },
@@ -15686,7 +15696,7 @@
     },
     {
         "id":"brightport_fiamma21",
-        "message":"Here, take this glaive, it was given to me by my old master from Nor City. it was originally forged for nobility but after lord Emeric's defeat in the noble wars. The Imeria branch of house Houdart fell from grace, and this was sold for cheap at an auction.",
+        "message":"Take this glaive, it was given to me by my old master from Nor City. It was originally forged for nobility but after lord Emeric's defeat in the noble wars. The Imeria branch of house Houdart fell from grace, and this was sold for cheap at an auction.",
         "replies":[
             {
                 "text":"That's really cool. Thanks!",
@@ -16124,7 +16134,7 @@
     },
     {
         "id":"brightport_fiamma17",
-        "message":"I was hoping to keep the Arulir skin for a pair of forging gloves, but I ended up making these smaller. Heat-resistant gloves to wield the magnificent two-handed sword I crafted from the materials you brought me.",
+        "message":"I was hoping to keep the Arulir skin for a pair of forging gloves, but I ended up making these smaller, heat-resistant gloves, to wield this magnificent two-handed sword I crafted from the materials you brought me.",
         "replies":[
             {
                 "text":"Two-handed sword? I thought you would make me a normal sword.",
@@ -16246,7 +16256,7 @@
     },
     {
         "id":"brightport_fiamma10",
-        "message":"Wow. it looks magnificent!",
+        "message":"Wow. It looks magnificent!",
         "replies":[
             {
                 "text":"N",
@@ -16775,7 +16785,7 @@
         "message":"Unfortunately, it's not about my skill but the quality of the steel. If I had the materials, I could forge good swords all day.",
         "replies":[
             {
-                "text":"If I brought you the materials, could you forge me something with them?",
+                "text":"If I brought you materials, could you forge me something with them?",
                 "nextPhraseID":"brightport_fiamma"
             },
             {
@@ -16786,7 +16796,7 @@
     },
     {
         "id":"brightport_fiamma2",
-        "message":"All the metal we're getting now is lower quality scraps. There's a shortage because Feygard has been deliberately affecting the trade, so that blacksmiths in towns like Vilegard and ours which were affiliated with Nor City can't forge quality weapons. Keeping all the good ore to themselves.",
+        "message":"All the metal we're getting now is lower quality scraps. Feygard has been deliberately affecting the trade, creating a shortage, so that blacksmiths in towns like Vilegard and ours which were affiliated with Nor City can't forge quality weapons. Keeping all the good ore to themselves.",
         "replies":[
             {
                 "text":"What would you say if I brought you some quality materials?",
@@ -17064,6 +17074,16 @@
     {
         "id":"brightport_fiamma8",
         "message":"And lastly, the material from which I will forge a blade, a red crystal from a gornaud. This material, which their teeth and claws are made of, can easily crush rock. Only in rare cases, the mineral gathers and forms crystal clusters on their body or inside them. So don't be disheartened if you seemingly can't find one. Good luck!",
+        "replies":[
+            {
+                "text":"I'm on my way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll get there one day.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -17481,7 +17501,7 @@
     },
     {
         "id":"brightport_sign",
-        "message":"The upper part of the sign has been scratched off\nEast: Brightport\nSouth: Duleian Road"
+        "message":"[The upper part of the sign has been scratched off]\nEast: Brightport\nSouth: Duleian Road"
     },
     {
         "id":"brightport_crystalremove1",
@@ -17495,7 +17515,7 @@
     },
     {
         "id":"brightport_othinus_1",
-        "message":"I'm in the middle of an important ritual. If you require something, please consult with my steward, Stiyl.",
+        "message":"I'm in the middle of an important ritual. If you require something, please consult with my steward Stiyl.",
         "switchToNPC":"brightportpriest",
         "rewards":[
             {
@@ -17627,7 +17647,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom40"
+                "nextPhraseID":"brightport_broom41_selector"
             }
         ]
     },
@@ -17936,7 +17956,7 @@
     },
     {
         "id":"brightport_priest_story1",
-        "message":"In the past, the people of Brightport used to worship the Shadow at the Great Water Temple.",
+        "message":"In the past, the people of Brightport used to worship the Shadow at the great water temple.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -18412,10 +18432,6 @@
             {
                 "text":"That's too bad, it seems like a lovely place.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"This place is disappointing.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -18828,15 +18844,7 @@
         "replies":[
             {
                 "text":"Do you think Andor went there?",
-                "nextPhraseID":"brightport_stanwick_andor6",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":72,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_stanwick_andor6"
             },
             {
                 "text":"I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]",
@@ -21985,6 +21993,97 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brightport_agent",
                 "mapName":"brightport_abandoned"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom41_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":243,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom41_documents",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":243,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom41_documents",
+        "message":"While sweeping you drag a piece of paper from under one of the shelves.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Seems interesting, I'll take it and keep sweeping.",
+                "nextPhraseID":"brightport_broom41"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":243
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_documents",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester",
+        "message":"Did I hear that correctly, you found a paper? Let me see!",
+        "switchToNPC":"brightportforenza",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"brightport_sylvester3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_documents",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester3",
+        "message":"Good heavens, that's the missing ledger I was losing sleep over! I was beginning to suspect someone stole and hid it, I'm glad you found it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sylvester4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester4",
+        "message":"You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":182
             }
         ]
     }
