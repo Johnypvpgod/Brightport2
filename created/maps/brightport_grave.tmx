@@ -208,7 +208,7 @@
     <property name="place" value="grave"/>
    </properties>
   </object>
-  <object name="brightport_grave_event" type="script" x="96" y="96" width="288" height="192">
+  <object name="brightport_grave_event" type="script" x="96" y="96" width="192" height="192">
    <properties>
     <property name="when" value="enter"/>
    </properties>

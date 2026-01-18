@@ -611,6 +611,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":63
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":64
             }
         ]
     },
@@ -1020,7 +1025,7 @@
         "message":" If you came here to tell me there may be some truth to your words, kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for. But don't stick your neck out too much, those savages would stop at nothing. ",
         "replies":[
             {
-                "text":"I'll do my best, Glory to feygard!",
+                "text":"I'll do my best, Glory to Feygard!",
                 "nextPhraseID":"X"
             },
             {
@@ -1071,7 +1076,8 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"brightport_sword0"
+                        "requireID":"brightport_sword0",
+                        "value":1
                     },
                     {
                         "requireType":"questProgress",
@@ -1120,6 +1126,29 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":211,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sorry, I couldn't find anything.",
+                "nextPhraseID":"brightport_gunfryk21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":130,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_sword0",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -2090,7 +2119,7 @@
                 "nextPhraseID":"brightport_goons34",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"brightport_sword0",
                         "value":1
                     }
@@ -2465,7 +2494,7 @@
     },
     {
         "id":"brightport_bryma52",
-        "message":"If you can pacify those creatures and they're capable of reason, see if you can come to an understanding. They could supply me with what I need.",
+        "message":"If you can pacify those creatures and they're truly capable of reason, see if you can come to an understanding. They could supply me with what I need.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2476,7 +2505,7 @@
     },
     {
         "id":"brightport_bryma55",
-        "message":"I lived among the northerners for a short while, and the few who do not follow the Shadow take great pride in their past. Yet the light they praise has blinded more than it has illuminated. In truth, the Shadow has shown itself to be the more compassionate.",
+        "message":"I lived among the northerners for several years, and the few who do not follow the Shadow take great pride in their past. Yet the light they praise has blinded more than it has illuminated. In truth, the Shadow has shown itself to be the more compassionate.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -3053,6 +3082,11 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_documents",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":242
                     }
                 ]
             }
@@ -3234,7 +3268,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_lizard",
-                        "value":95
+                        "value":90
                     }
                 ]
             },
@@ -3263,6 +3297,12 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_lizard",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":90,
+                        "negate":true
                     }
                 ]
             },
@@ -3307,7 +3347,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_lizard",
-                        "value":95,
+                        "value":90,
                         "negate":true
                     }
                 ]
@@ -3481,7 +3521,7 @@
     },
     {
         "id":"brightport_bryma41",
-        "message":"I appreciate your enthusiasm. The passage down is blocked but if you go deeper inside the forest you'll find another statue. The activation word is \"Light\" please use it to find a way to their nest.",
+        "message":"I appreciate your enthusiasm. The passage down is blocked but if you go deeper inside the forest you'll find another statue. The activation word is \"Light\" use it to find a way to their nest.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4565,6 +4605,10 @@
                 "rewardType":"spawnAll",
                 "rewardID":"arrest",
                 "mapName":"brightport_benbyr"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_arrest"
             }
         ]
     },
@@ -5752,7 +5796,7 @@
     },
     {
         "id":"brightport_richimor_archive2",
-        "message":"You read another writing, which immediately strikes your attention.\n\"My findings of four mysterious statues, outside Brightport. in the north south and southwest. upon the utterrance of the activation phrase...\"\nThe writing abruptly ends and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
+        "message":"You read another writing, which immediately strikes your attention.\n\"My findings of four mysterious statues, in the wilderness outside Brightport. In the north, south, and southwest. Upon the utterrance of the activation word...\"\nThe writing abruptly ends, and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6269,7 +6313,7 @@
     },
     {
         "id":"brightport_dominio14",
-        "message":"That is wonderful news! Please tell the chief about your deeds, and I shall pray the Shadow guide one as brave as you.",
+        "message":"That is wonderful news! Please tell the chief about your deeds. I shall pray the Shadow guide one as brave as you.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6331,7 +6375,7 @@
     },
     {
         "id":"brightport_dominio12",
-        "message":"Remember, find the 2 crystals inside the ruins to the west, and try to break them."
+        "message":"Remember, find the two crystals inside the ruins to the west, and try to break them."
     },
     {
         "id":"brightport_pattern12",
@@ -6364,8 +6408,27 @@
         "message":"Great, and what about the beasts?",
         "replies":[
             {
-                "text":"After the crystals shattered they too, did.",
-                "nextPhraseID":"brightport_dominio14"
+                "text":"I took them all out.",
+                "nextPhraseID":"brightport_dominio14",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_beast",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"I left them alone.",
+                "nextPhraseID":"brightport_dominio29",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_beast",
+                        "value":6,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -6488,7 +6551,7 @@
         "message":"Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the usual bonemeal potions I use. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?\nSigned, Bryma.",
         "replies":[
             {
-                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were old or in their graves.",
+                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were old or in their graves, I should find someone old enough to know them.",
                 "nextPhraseID":"X"
             }
         ],
@@ -6935,7 +6998,7 @@
     },
     {
         "id":"brightport_statue_s2",
-        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters T and E.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters T and E.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be important. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7330,7 +7393,7 @@
     },
     {
         "id":"brightport_elysa2",
-        "message":"Sigh, $playername. I'll skip you the details then.",
+        "message":"Fine, $playername. I'll skip you the details then.",
         "replies":[
             {
                 "text":"N",
@@ -7531,6 +7594,7 @@
         "message":"The door is locked.",
         "replies":[
             {
+                "text":"[Unlock it]",
                 "nextPhraseID":"brightport_library1",
                 "requires":[
                     {
@@ -7717,7 +7781,7 @@
     },
     {
         "id":"brightport_dominio23",
-        "message":"From here on history is more known, we lived in other places, across the land different tribes thrived. But not one more, than the tribes of the bright lake, here it was where the legacy of the forefathers remained. But we did not evolve, but stagnate.",
+        "message":"From here on history is more known, we lived in other places, across the land different tribes thrived. But not one more than the tribes of the bright lake, here it was where the legacy of the forefathers remained. But we did not evolve, but stagnate.",
         "replies":[
             {
                 "text":"N",
@@ -8868,12 +8932,34 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"brightport_elysa_andor",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":220
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":244
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_elysa_jail1",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":220
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":244,
+                        "negate":true
                     }
                 ]
             }
@@ -9081,11 +9167,29 @@
     },
     {
         "id":"brightport_lizardfight",
-        "message":"As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_lizardfight1"
+                "nextPhraseID":"brightport_lizardfight1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":118,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizardkingfight1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":118
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -9105,6 +9209,11 @@
                 "mapName":"brightport_cave17"
             },
             {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_lizard00",
+                "mapName":"brightport_lizard1"
+            },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":117
@@ -9121,11 +9230,6 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"brightport_lizard",
-                "mapName":"brightport_lizard2"
-            },
-            {
-                "rewardType":"removeSpawnArea",
                 "rewardID":"brightport_lizard5",
                 "mapName":"brightport_lizard2"
             },
@@ -9133,6 +9237,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brightport_lizard6",
                 "mapName":"brightport_lizard3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard3",
+                "mapName":"brightport_lizard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard1",
+                "mapName":"brightport_lizard1"
             }
         ]
     },
@@ -9377,12 +9491,8 @@
     },
     {
         "id":"brightport_tyliad7",
-        "message":"And the barbaric red-claw, violent and slowminded, never listen to reason.",
+        "message":"And the barbaric red-scale, violent and slowminded, never listen to reason.",
         "replies":[
-            {
-                "text":"Thanks for telling me.",
-                "nextPhraseID":"X"
-            },
             {
                 "text":"You're not friends with them? Oh phew.",
                 "nextPhraseID":"X"
@@ -9435,7 +9545,7 @@
     },
     {
         "id":"brightport_tyliad5",
-        "message":"Many, but what remains are three great tribes. Us green-scale, Honorable brave warriors, the lineage of heroes. ",
+        "message":"Many, but what remains are three great tribes. Us green-fang, honorable brave warriors, the lineage of heroes. ",
         "replies":[
             {
                 "text":"N",
@@ -9445,7 +9555,7 @@
     },
     {
         "id":"brightport_tyliad6",
-        "message":"Yellow-fang, greedy and cunning. Love to eat gold and steal. ",
+        "message":"Yellow-tail, greedy and cunning. Love to eat gold and steal. ",
         "replies":[
             {
                 "text":"N",
@@ -10161,7 +10271,7 @@
     },
     {
         "id":"brightport_statue_n2",
-        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters L and H.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters L and H.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be important. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10356,7 +10466,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":183
+                        "value":183,
+                        "negate":true
                     }
                 ]
             }
@@ -11041,7 +11152,7 @@
         "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door creak. I went to look and a boy of about 17 introduced himself. I think his name was Andor...",
         "replies":[
             {
-                "text":"My brother Andor here too?",
+                "text":"[My brother Andor, here too?]",
                 "nextPhraseID":"brightport_bryma10"
             }
         ]
@@ -11113,7 +11224,7 @@
     },
     {
         "id":"brightport_oswald17",
-        "message":"If that is what you say, then so be it. What matters is that the Achilles' heel of our academy was removed without further damage. This oversight on my part will not be repeated.",
+        "message":"If that is what you say, then so be it. What matters is that the Achilles heel of our academy was removed without further damage. This oversight on my part will not be repeated.",
         "replies":[
             {
                 "text":"N",
@@ -11351,7 +11462,7 @@
     },
     {
         "id":"brightport_oswald16",
-        "message":"As I suspected, it was someone interested in it's contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock. [The headmaster looks at you sternly.]",
+        "message":"As I suspected, it was someone interested in its contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock. [The headmaster looks at you sternly.]",
         "replies":[
             {
                 "text":"N",
@@ -12504,18 +12615,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
-                        "value":80,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":50,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
                         "value":60,
                         "negate":true
                     }
@@ -12896,22 +12995,7 @@
                     },
                     {
                         "requireType":"killedMonster",
-                        "requireID":"brightport_lizard00",
-                        "value":4
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"brightport_lizard1",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
                         "requireID":"brightport_lizardadvisor",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"brightport_lizard3",
                         "value":1
                     },
                     {
@@ -12919,8 +13003,27 @@
                         "requireID":"brightport_nondisplay",
                         "value":120,
                         "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard00",
+                        "value":5
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizardking",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard",
+                        "value":1
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_slaincheck3"
             }
         ]
     },
@@ -13075,12 +13178,6 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":80,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":139,
                         "negate":true
@@ -13191,6 +13288,12 @@
                         "requireID":"brightport_goons",
                         "value":120,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":135,
+                        "negate":true
                     }
                 ]
             },
@@ -13290,7 +13393,8 @@
         "switchToNPC":"brightport_lizardking",
         "replies":[
             {
-                "nextPhraseID":"F"
+                "text":"N",
+                "nextPhraseID":"brightport_lizardfight"
             }
         ],
         "rewards":[
@@ -13856,7 +13960,7 @@
     },
     {
         "id":"brightport_dominio4",
-        "message":"Yes. But outsider, this is no mere task.  Every man who has sought to prove themselves to our tribe have been tasked with this challenge, but none have succeeded.",
+        "message":"Yes. But outsider, this is no mere task. Every man who has sought to prove themselves to our tribe has been tasked with this challenge, but none have succeeded.",
         "replies":[
             {
                 "text":"N",
@@ -14072,7 +14176,7 @@
     },
     {
         "id":"brightport_emyrocave4",
-        "message":"You! you smell of the witch. The witch who brought trouble!",
+        "message":"You! You smell of the witch. The witch who brought trouble!",
         "switchToNPC":"brightport_emyro",
         "replies":[
             {
@@ -14087,7 +14191,7 @@
         "switchToNPC":"brightport_emyro",
         "replies":[
             {
-                "text":"I didn't know that. Maybe we can come to a compromise?",
+                "text":"I didn't know that. Maybe I could help you?",
                 "nextPhraseID":"brightport_emyrocave5"
             },
             {
@@ -14366,7 +14470,7 @@
     },
     {
         "id":"brightport_statue_sw2",
-        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters G, A and R.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters G, A and R.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be important. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -14994,7 +15098,32 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_sylvester0"
+                "nextPhraseID":"brightport_sylvester5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":182
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":183,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sylvester0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":182,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -15675,13 +15804,6 @@
                 "text":"N",
                 "nextPhraseID":"brightport_dibella7"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Stanwickquest",
-                "value":16
-            }
         ]
     },
     {
@@ -15794,6 +15916,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":66
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":16
             }
         ]
     },
@@ -15949,6 +16076,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_agent6_selector"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
+            }
         ]
     },
     {
@@ -15973,11 +16107,6 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"brightporthide"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":158
             }
         ]
     },
@@ -16003,11 +16132,6 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"brightporthide"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":158
             },
             {
                 "rewardType":"questProgress",
@@ -16384,8 +16508,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"Stanwickquest",
-                        "value":16
+                        "requireID":"brightport_nondisplay",
+                        "value":66
                     }
                 ]
             },
@@ -16490,14 +16614,14 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"Stanwickquest",
-                        "value":16,
-                        "negate":true
+                        "requireID":"andor",
+                        "value":110
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":110
+                        "requireID":"brightport_nondisplay",
+                        "value":66,
+                        "negate":true
                     }
                 ]
             },
@@ -16520,6 +16644,11 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":66
                     }
                 ]
             },
@@ -17326,6 +17455,10 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":212
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_arrest"
             }
         ]
     },
@@ -18334,7 +18467,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"1/3"
+                        "requireID":"33"
                     }
                 ]
             },
@@ -18894,6 +19027,13 @@
                 "text":"What kind of information?",
                 "nextPhraseID":"brightport_elysa_caught5"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":244
+            }
         ]
     },
     {
@@ -19078,6 +19218,11 @@
     },
     {
         "id":"brightport_crate_hideover1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -20618,6 +20763,10 @@
                         "value":5
                     }
                 ]
+            },
+            {
+                "text":"I mean it's alright.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -22084,6 +22233,59 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":182
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk21",
+        "message":"That is understandable, I was a bit hopeful kid, we've long needed a reason to nail down the coffin of the remaining criminals in town.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk22"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk22",
+        "message":"This time was a miss, but we sure need more brave youngster like you who are not afraid to speak up, glory to Feygard!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":135
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester5",
+        "message":"I'm really thankful that you found that ledger for me."
+    },
+    {
+        "id":"brightport_lizardkingfight1",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardfight1_1",
+        "message":"As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizardfight1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio29",
+        "message":"That is not good, finish your task to the end.",
+        "replies":[
+            {
+                "text":"I'll be right back.",
+                "nextPhraseID":"X"
             }
         ]
     }

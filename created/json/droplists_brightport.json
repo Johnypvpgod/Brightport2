@@ -144,7 +144,7 @@
             },
             {
                 "itemID":"brightport_rawmeat",
-                "chance":"12",
+                "chance":"15",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -155,7 +155,7 @@
                 "chance":"100",
                 "quantity":{
                     "min":3,
-                    "max":26
+                    "max":18
                 }
             }
         ]
@@ -241,8 +241,8 @@
                 "itemID":"brightport_bone",
                 "chance":"30",
                 "quantity":{
-                    "min":0,
-                    "max":1
+                    "min":1,
+                    "max":2
                 }
             },
             {
@@ -292,7 +292,7 @@
                 "chance":"100",
                 "quantity":{
                     "min":4,
-                    "max":35
+                    "max":16
                 }
             },
             {
@@ -300,6 +300,14 @@
                 "chance":"5",
                 "quantity":{
                     "min":0,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"brightport_rawmeat",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
                     "max":1
                 }
             }
@@ -329,7 +337,7 @@
                 "chance":"100",
                 "quantity":{
                     "min":12,
-                    "max":65
+                    "max":25
                 }
             }
         ]

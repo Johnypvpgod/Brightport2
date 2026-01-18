@@ -8,7 +8,7 @@
             "visualEffectID":"redSplash",
             "increaseCurrentHP":{
                 "min":-1,
-                "max":-3
+                "max":-2
             }
         },
         "abilityEffect":{

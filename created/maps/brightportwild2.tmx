@@ -230,7 +230,7 @@
  </layer>
  <layer id="4" name="Objects_apples" width="12" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwm8FBgYgliJVz8fqP6uPGl2LBYgTT3MnhgF0vQkAf1xlEQ99AQ9JIYzKYCcMB4FpAMA/ZAHug==
+   eJxjYBgFAwm8FBgYgliJVz8fqP6uPPHqnwgxMCwWINVVEHtiFEjTkwT0x1ES9dAT9JAYzqQAcsJ4FJAOALGLCLA=
   </data>
  </layer>
  <layer id="5" name="Objects_applecrate" width="12" height="25">
@@ -336,7 +336,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Replace" visible="0">
+ <objectgroup id="13" name="Replace">
   <object id="13" name="apples1" type="replace" x="192" y="480" width="64" height="64">
    <properties>
     <property name="Objects" value="Objects_apples"/>

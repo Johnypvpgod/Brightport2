@@ -183,10 +183,10 @@
  <tileset firstgid="8025" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8153" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="0" columns="16">
+ <tileset firstgid="8153" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8153" name="map_ground_9" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8281" name="map_ground_9" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_9.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="23" height="16">
@@ -234,11 +234,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="8" name="brightport_deer2" type="spawn" x="224" y="64" width="416" height="192">
+ <objectgroup id="6" name="Spawn">
+  <object id="8" name="brightport_deer2" type="spawn" x="160" y="64" width="480" height="256">
    <properties>
     <property name="quantity" value="4"/>
-    <property name="spawngroup" value="brightport_deer"/>
+    <property name="spawngroup" value="brightport_sickdeer"/>
    </properties>
   </object>
   <object id="9" name="squirmer" type="spawn" x="256" y="160" width="352" height="288">

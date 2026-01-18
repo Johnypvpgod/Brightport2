@@ -527,7 +527,7 @@
         "monsterClass":"demon",
         "attackDamage":{
             "min":24,
-            "max":45
+            "max":38
         },
         "horizontalFlipChance":40,
         "attackCost":5,
@@ -1170,7 +1170,7 @@
             "max":25
         },
         "attackCost":3,
-        "attackChance":220,
+        "attackChance":203,
         "criticalSkill":15,
         "criticalMultiplier":3.0,
         "blockChance":180,
