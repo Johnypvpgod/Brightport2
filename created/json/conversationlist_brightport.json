@@ -728,7 +728,7 @@
     },
     {
         "id":"brightport_smugglercave",
-        "message":"behind the planks is a cave entrance, and a wind draft going in. ",
+        "message":"Behind the planks is a cave entrance, and a wind draft going in. ",
         "replies":[
             {
                 "text":"[Squeeze in through the gap.]",
@@ -1022,7 +1022,7 @@
     },
     {
         "id":"brightport_gunfryk8",
-        "message":" If you came here to tell me there may be some truth to your words, kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for. But don't stick your neck out too much, those savages would stop at nothing. ",
+        "message":" If you came here to tell me. There may be some truth to your words, kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for. But don't stick your neck out too much, those savages would stop at nothing. ",
         "replies":[
             {
                 "text":"I'll do my best, Glory to Feygard!",
@@ -6266,7 +6266,7 @@
     },
     {
         "id":"brightport_dynes4",
-        "message":"I think it was called Kazarite or something, he tried hooking us in with those big earnings but we didn't want the risk. ",
+        "message":"I think it was called Kazarite or something, he tried hooking us in with those big earnings, but we didn't want the risk. ",
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
@@ -7882,7 +7882,7 @@
     },
     {
         "id":"brightport_elysa14",
-        "message":"And now the information I promised you. Your brother Andor came to me and asked a few questions. ",
+        "message":"And now the information I promised. Your brother Andor came here and asked a few questions. ",
         "replies":[
             {
                 "text":"N",
@@ -9319,7 +9319,7 @@
     },
     {
         "id":"brightport_goons17",
-        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"Taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
+        "message":"Listen kid all our goods are legal. But they want us to pay those things called \"Taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
         "replies":[
             {
                 "text":"Sure.",
@@ -9869,7 +9869,7 @@
     },
     {
         "id":"brightport_goons1",
-        "message":"Yeah Yeah, get out of here!",
+        "message":"Yeah yeah, get out of here!",
         "switchToNPC":"brightportgoons"
     },
     {
@@ -10530,7 +10530,7 @@
         "message":"But as you know very well, the Guild has it's rules, we're not keen on doing charity. Luckily we have just the right errand for you. ",
         "replies":[
             {
-                "text":"Sure. what is it?",
+                "text":"Sure. What is it?",
                 "nextPhraseID":"brightport_elysa12"
             },
             {
@@ -11183,7 +11183,7 @@
     },
     {
         "id":"brightport_crateguard2",
-        "message":"Ha, you're funny kid. And suspicious. Funny and suspicious. The commander himself told us to go on a patrol. So I think we've caught a troublemaker.",
+        "message":"Ha, you're funny kid. And suspicious. Funny and suspicious. The commander himself ordered us to go on a patrol. So I think we've caught a troublemaker.",
         "replies":[
             {
                 "text":"He might have ordered you to come here, but did he not tell you to keep your hands off Barthold and his friends? I happen to be one of those friends.",
@@ -12640,6 +12640,12 @@
                         "requireID":"brightport_goons",
                         "value":50,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":135,
+                        "negate":true
                     }
                 ]
             },
@@ -13020,10 +13026,6 @@
                         "value":1
                     }
                 ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_slaincheck3"
             }
         ]
     },
@@ -18089,7 +18091,7 @@
     },
     {
         "id":"brightport_priest_story1",
-        "message":"In the past, the people of Brightport used to worship the Shadow at the great water temple.",
+        "message":"In the past, it was only a minor shrine. The people of Brightport used to worship the Shadow at the great water temple.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
