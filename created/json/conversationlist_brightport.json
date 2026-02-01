@@ -12,7 +12,7 @@
                 "nextPhraseID":"brightport_milena1"
             },
             {
-                "text":"Could you tell me what know about the library theft?",
+                "text":"Could you tell me what you know about the library theft?",
                 "nextPhraseID":"brightport_milena2",
                 "requires":[
                     {
@@ -500,7 +500,7 @@
     },
     {
         "id":"brightport_statue_lizard2",
-        "message":"The statue lightly shone.",
+        "message":"The statue emits a slight glow",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -624,7 +624,7 @@
         "message":"Hello, friend. It's a shame you helped our friend but couldn't help us.",
         "replies":[
             {
-                "text":"We'll I'm a bit busy searching for my brother after all.",
+                "text":"Well I'm a bit busy searching for my brother after all.",
                 "nextPhraseID":"X"
             }
         ]
@@ -860,7 +860,7 @@
     },
     {
         "id":"brightport_gunfryk1",
-        "message":"These Nor City agitators are dime a dozen, however, we can only act on Feygard law. And the first thing we need is evidence.",
+        "message":"Those Nor City agitators are plenty, however, we can only act on Feygard law. And the first thing we need is evidence.",
         "replies":[
             {
                 "text":"What could serve as evidence?",
@@ -1248,7 +1248,7 @@
     },
     {
         "id":"brightport_gunfryk3",
-        "message":"What? [The commander gulps dryly.] Who told you that? Plus my favorites are crysanthemes!",
+        "message":"What? [The commander gulps dryly.] Who told you that? Plus my favorites are orchids!",
         "replies":[
             {
                 "text":"I also heard you love rolling on the flower fields and smelling the roses, I think the others would also love hearing that. [Wave around the records of him visiting a flower shop.]",
@@ -1312,7 +1312,7 @@
     },
     {
         "id":"brightport_frederich2",
-        "message":"It's only a matter of time before he spits out the names of his acccomplices."
+        "message":"It's only a matter of time before he spits out the names of his accomplices."
     },
     {
         "id":"brightport_student_5",
@@ -1423,7 +1423,7 @@
     },
     {
         "id":"brightport_counterfeit",
-        "message":"Hello, kid. My name is Counterfeit. I specialize in exactly that. Now please leave me be, I have work to do.",
+        "message":"Hello kid. My name is Counterfeit. I specialize in exactly that. Now please leave me be, I have work to do.",
         "switchToNPC":"brightportthieves2",
         "replies":[
             {
@@ -1503,7 +1503,7 @@
     },
     {
         "id":"brightport_goons20",
-        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to a cave I use to hide some merchandise.",
+        "message":"Yeah, he really complicated things, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to a cave I use to hide some merchandise.",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -1587,7 +1587,7 @@
     },
     {
         "id":"brightport_goons29",
-        "message":"Anyway, here is your reward kid, with skills like yours you would surely find more work to do for our friends in Nor city.",
+        "message":"Anyway, here is your reward, with skills like yours you would surely find more work to do for our friends in Nor city.",
         "replies":[
             {
                 "text":"Atleast some gold.",
@@ -2013,7 +2013,7 @@
     },
     {
         "id":"brightport_deebo",
-        "message":"You came for naught kid. The apples were picked up recently. Should be on their way, if not already delivered.",
+        "message":"You came for naught. The apples were picked up recently. Should be on their way, if not already delivered.",
         "replies":[
             {
                 "text":"Well, they were supposed to arrive, but didn't.",
@@ -2621,13 +2621,13 @@
         "message":"Outsider, have you returned with the bones?",
         "replies":[
             {
-                "text":"Yes, 20 as promised.",
+                "text":"Yes, 10 as promised.",
                 "nextPhraseID":"brightport_elyzard2",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"brightport_bone",
-                        "value":20
+                        "value":10
                     }
                 ]
             },
@@ -2649,7 +2649,7 @@
     },
     {
         "id":"brightport_elyzard0",
-        "message":"Minion of the witch! From our burial chamber 20 bones of our ancestors were shamelessly stolen. Return them to us or we will return them ourselves.",
+        "message":"Minion of the witch! From our burial chamber 10 bones of our ancestors were shamelessly stolen. Return them to us or we will return them ourselves.",
         "switchToNPC":"brightport_lizardadvisor",
         "rewards":[
             {
@@ -2661,7 +2661,7 @@
     },
     {
         "id":"brightport_crateguard",
-        "message":"Halt! What are you doing here, kid?",
+        "message":"Halt! What are you doing here?",
         "replies":[
             {
                 "text":"I'm searching for my brother Andor, have you seen him?",
@@ -2903,7 +2903,7 @@
     },
     {
         "id":"brightport_gunfryk_help",
-        "message":"It's good to see you around kid, glory to Feygard. ",
+        "message":"It's good to see you around, glory to Feygard. ",
         "replies":[
             {
                 "text":"Can you tell me more about your job?",
@@ -3284,7 +3284,7 @@
                 ]
             },
             {
-                "text":"I've met with the leader of the lizardman tribe, they demand I return the 20 stolen bones.",
+                "text":"I've met with the leader of the lizardman tribe, they demand I return the 10 stolen bones.",
                 "nextPhraseID":"brightport_bryma42",
                 "requires":[
                     {
@@ -4832,7 +4832,7 @@
     },
     {
         "id":"brightport_correct",
-        "message":"That seemed to have been the activation word, as the statue lightly shone\n\nI can probably go inside the forest now.",
+        "message":"That seemed to have been the activation word, as the statue emits a slight glow\n\nI should try going inside the forest now.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5079,6 +5079,40 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_sweep2",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":192,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":190,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -5127,6 +5161,40 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":191,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brighport_broom_sweep1",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":191,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":192,
                         "negate":true
                     }
                 ]
@@ -5193,6 +5261,38 @@
                         "requireID":"brightport_nondisplay",
                         "value":191,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_sweep3",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":191
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":190
                     }
                 ]
             }
@@ -5796,7 +5896,7 @@
     },
     {
         "id":"brightport_richimor_archive2",
-        "message":"You read another writing, which immediately strikes your attention.\n\"My findings of four mysterious statues, in the wilderness outside Brightport. In the north, south, and southwest. Upon the utterrance of the activation word...\"\nThe writing abruptly ends, and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
+        "message":"You read another writing, which immediately strikes your attention.\n\"My findings of mysterious statues, in the wilderness outside Brightport, to the north, south, southeast and west. Upon the utterrance of the activation word...\"\nThe writing abruptly ends, and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6551,7 +6651,7 @@
         "message":"Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the usual bonemeal potions I use. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?\nSigned, Bryma.",
         "replies":[
             {
-                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were old or in their graves, I should find someone old enough to know them.",
+                "text":"This seems to be from many, many years ago. It would not be odd if both the writer and recipient were old or in their graves, I should find someone old enough to know them.",
                 "nextPhraseID":"X"
             }
         ],
@@ -7155,7 +7255,7 @@
     },
     {
         "id":"brightportguard_1reply3",
-        "message":"Bye, kid. Take care, and don't slack off in school, or else you'll end up slaying sewer rats down in Nor City. [laughs]",
+        "message":"Take care, and don't slack off in school, or else you'll end up slaying sewer rats down in Nor City. [laughs]",
         "switchToNPC":"brightportguard2"
     },
     {
@@ -7836,7 +7936,7 @@
     },
     {
         "id":"oswald_start",
-        "message":"Hey, kid, stop running around my office! You're distracting me from my work.",
+        "message":"Hey,stop running around my office! You're distracting me from my work.",
         "replies":[
             {
                 "text":"Excuse me sir. I wish to help Stanwick by investigating the theft. Could you tell me more about it?",
@@ -8064,7 +8164,7 @@
     },
     {
         "id":"brightport_silvear_andor5",
-        "message":"Can't complain when you're the one asking, kid. ",
+        "message":"Can't complain when you're the one asking. ",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -9319,7 +9419,7 @@
     },
     {
         "id":"brightport_goons17",
-        "message":"Listen kid all our goods are legal. But they want us to pay those things called \"Taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
+        "message":"Listen, all our goods are legal. But they want us to pay those things called \"Taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
         "replies":[
             {
                 "text":"Sure.",
@@ -9329,7 +9429,7 @@
     },
     {
         "id":"brightport_goons12",
-        "message":"You heard him kid. Sorry we have nothing to help you with. Anything else?",
+        "message":"You heard him. Sorry we have nothing to help you with. Anything else?",
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
@@ -9633,7 +9733,7 @@
     },
     {
         "id":"brightport_rock1_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "message":"You rummage through the pile and find a few cooled lava rocks.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -9691,7 +9791,7 @@
     },
     {
         "id":"brightport_crate_failure19arrest",
-        "message":"And you, kid, do you take us for fools? Your suspiciousness is through the roof. You're coming with us.",
+        "message":"And you kid, do you take us for fools? Your suspiciousness is through the roof. You're coming with us.",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -9761,7 +9861,7 @@
     },
     {
         "id":"brightport_allares_end",
-        "message":"Hello, kid. You've done good work today. Saved us quite a bit of time.",
+        "message":"Hello. You've done good work today. Saved us quite a bit of time.",
         "replies":[
             {
                 "text":"It was a nice distraction. [Leave.]",
@@ -10069,7 +10169,7 @@
                 ]
             },
             {
-                "text":"Could you tell me what know about the library theft?",
+                "text":"Could you tell me what you know about the library theft?",
                 "nextPhraseID":"brightport_franz6",
                 "requires":[
                     {
@@ -10541,7 +10641,7 @@
     },
     {
         "id":"brightport_dynes_mediumlow",
-        "message":"Hello kid, It's nice to see you around."
+        "message":"Hello. It's nice to see you around."
     },
     {
         "id":"brightport_gunfryk_selectorafter",
@@ -11297,7 +11397,7 @@
                 ]
             },
             {
-                "text":"I have the lava rocks and arulir skin.",
+                "text":"I have the cold lava rocks and arulir skin.",
                 "nextPhraseID":"brightport_fiamma9",
                 "requires":[
                     {
@@ -12112,7 +12212,7 @@
     },
     {
         "id":"brightport_guardcrate10",
-        "message":"Hmph, fine. We'll ask you a few questions then kid. What would your brother be doing here?",
+        "message":"Hmph, fine. We'll ask you a few questions then. What would your brother be doing here?",
         "replies":[
             {
                 "text":"We were playing hide and seek.",
@@ -12157,7 +12257,7 @@
     },
     {
         "id":"brightport_guardcrate14",
-        "message":"Enough games, kid. You're coming with us.",
+        "message":"Enough games. You're coming with us.",
         "switchToNPC":"brightport_guardcrate",
         "replies":[
             {
@@ -12375,7 +12475,7 @@
     },
     {
         "id":"brightport_oswald1",
-        "message":"Those who are eager to help with nothing to gain are usually the most vicious bunch. At least I can take your word on that, kid.",
+        "message":"Those who are eager to help with nothing to gain are usually the most vicious bunch. At least I can take your word on that.",
         "replies":[
             {
                 "text":"N",
@@ -12436,7 +12536,7 @@
     },
     {
         "id":"brightport_oswald0",
-        "message":"You sound like trouble, kid. Take my advice and stick your nose somewhere else."
+        "message":"You sound like trouble. Take my advice and stick your nose somewhere else."
     },
     {
         "id":"brightport_oswald7",
@@ -13456,7 +13556,7 @@
     },
     {
         "id":"brightport_jail_escape4",
-        "message":"See the cave wall to the right of the bucket? Apparently, when they were digging into the mountain, it opened up into a cave that they covered up with rubble. With your size, you could probably crawl in there. Good luck, kid.",
+        "message":"See the cave wall to the right of the bucket? Apparently, when they were digging into the mountain, it opened up into a cave that they covered up with rubble. With your size, you could probably crawl in there. Good luck.",
         "switchToNPC":"brightportthieves4",
         "rewards":[
             {
@@ -13913,7 +14013,7 @@
     },
     {
         "id":"brightportguard_1",
-        "message":"Halt! If you value your life, stay off this path, kid.",
+        "message":"Halt! If you value your life, stay off this path.",
         "replies":[
             {
                 "text":"Ha, I can handle myself. Don't worry about me.",
@@ -13986,7 +14086,7 @@
     },
     {
         "id":"brightport_dominio5",
-        "message":"West of our village lies the entrance to a ruin from which at times beasts of darkness emerge to attack our village.",
+        "message":"In the ruins you will find close to here in the lies the entrance to a ruin from which at times beasts of darkness emerge to attack our village.",
         "replies":[
             {
                 "text":"N",
@@ -14290,7 +14390,7 @@
     },
     {
         "id":"brightport_crate_failure17alt",
-        "message":"Sorry, kid but we need to bring something back to our commander. Oh, There's a note inside.",
+        "message":"Sorry kid, but we need to bring something back to our commander. Oh, There's a note inside.",
         "replies":[
             {
                 "text":"N",
@@ -14337,7 +14437,7 @@
             },
             {
                 "text":"Who are you?",
-                "nextPhraseID":"brightport_storemaster1"
+                "nextPhraseID":"brightport_eatloni_selector"
             }
         ]
     },
@@ -14387,7 +14487,7 @@
     },
     {
         "id":"brightport_oseanpry2",
-        "message":"Im Oseanpry, a hunter, and the Guild's cook. I've hunted the deer of brightport for many years, until the boss hired me to hunt for people.",
+        "message":"Im Oseanpry, a hunter, and the Guild's cook. I've hunted the deer of Brightport for many years, until the boss hired me to hunt for people.",
         "switchToNPC":"Brightportthieves5",
         "replies":[
             {
@@ -14409,7 +14509,7 @@
     },
     {
         "id":"brightport_oseanpry1",
-        "message":"I can read the naivety off your face. A kid like you will just be used to do someone's dirty work.",
+        "message":"I can read the naivety off your face. One like you will just be used to do someone's dirty work.",
         "switchToNPC":"Brightportthieves5",
         "replies":[
             {
@@ -14431,7 +14531,7 @@
     },
     {
         "id":"brightport_leorio_1",
-        "message":"What is it kid, can't you see im plenty busy already? ",
+        "message":"What is it, can't you see im plenty busy already? ",
         "replies":[
             {
                 "text":"You don't look that busy.",
@@ -15192,6 +15292,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":168
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":19
             }
         ]
     },
@@ -15299,7 +15404,7 @@
     },
     {
         "id":"brightport_silvear_gunfryk",
-        "message":"When he arrived here and some of my acquittances were sent to the Feygard prisons, I had to collect some information for safety measures. Our guard commander here had a habit of visiting a certain \"establishment\" in Nor city, here are the records. [Silvear hands you some papers.]",
+        "message":"When he arrived here and some of my acquaintances were sent to the Feygard prisons, I had to collect some information for safety measures. Our guard commander here had a habit of visiting a certain \"establishment\" in Nor city, here are the records. [Silvear hands you some papers.]",
         "replies":[
             {
                 "text":"This could work. [Leave.]",
@@ -15875,7 +15980,7 @@
     },
     {
         "id":"brightport_fiamma20",
-        "message":"Well, kid, usually I would have my reservations about giving someone as young as you something this dangerous. But you're the one who fought those dangerous creatures, so my worries are unfounded. Take it, and use it well.",
+        "message":"Well, usually I would have my reservations about giving someone as young as you something this dangerous. But you're the one who fought those dangerous creatures, so my worries are unfounded. Take it, and use it well.",
         "replies":[
             {
                 "text":"Thanks, I will!",
@@ -16737,7 +16842,7 @@
     },
     {
         "id":"brightport_silvear_directions1",
-        "message":"For you, it'll be 2000 gold coins. It's our hideout, kid, I can't just give out access for free.",
+        "message":"For you, it'll be 2000 gold coins. It's our hideout, I can't just give out access for free.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -16752,7 +16857,7 @@
                 ]
             },
             {
-                "text":"I can guarrantee you a lot of trouble if you don't let me in, for free.",
+                "text":"I can guarantee you a lot of trouble if you don't let me in, for free.",
                 "nextPhraseID":"brightport_silvear_bye1"
             },
             {
@@ -16805,7 +16910,7 @@
     },
     {
         "id":"brightport_silvear_directions3",
-        "message":"Go inside through the door on the right. In the upper left corner, you'll spot a protrusion in the wall, that's where you'll find our hideout. Bye, kid.",
+        "message":"Go inside through the door on the right. Then check behind a stool in the upper left corner, that's where you'll find our hideout. Bye, kid.",
         "switchToNPC":"brightportthieves1",
         "rewards":[
             {
@@ -16901,7 +17006,7 @@
     },
     {
         "id":"brightport_silvear_directions7",
-        "message":"To find our hideout, head inside via the door on the right, then check behind a stool in the upper left corner. Best of luck to you kid.",
+        "message":"To find our hideout, head inside via the door on the right, then check behind a stool in the upper left corner. Best of luck to you.",
         "switchToNPC":"brightportthieves1",
         "rewards":[
             {
@@ -17187,7 +17292,7 @@
     },
     {
         "id":"brightport_fiamma7",
-        "message":"First, if you can travel there, I want a strip of the arulir's skin - rumored to be tougher than steel but as flexible as leather. Second, I want 15 lava rocks from inside the mountain cave. These will fuel my forge better than the brown coal.",
+        "message":"First, if you can travel there, I want a strip of the arulir's skin - rumored to be tougher than steel but as flexible as leather. Second, I want 15 cooled down lava rocks from inside the mountain cave. These will fuel my forge better than the brown coal.",
         "replies":[
             {
                 "text":"N",
@@ -17211,7 +17316,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I'll get there one day.",
+                "text":"I'll get there eventually.",
                 "nextPhraseID":"X"
             }
         ],
@@ -17490,7 +17595,7 @@
     },
     {
         "id":"brightport_gunfryk14",
-        "message":"That is understandable, I was a bit hopeful kid, we've long needed a reason to nail down the coffin of the remaining criminals in town.",
+        "message":"That is understandable, I was a bit hopeful, we've long needed a reason to nail down the coffin of the remaining criminals in town.",
         "replies":[
             {
                 "text":"N",
@@ -17672,7 +17777,7 @@
     },
     {
         "id":"brightport_charwood_shortcut2",
-        "message":"The statue lightly shone.",
+        "message":"The statue emits a slight glow",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -18102,7 +18207,7 @@
     },
     {
         "id":"brightport_stanwick_andor",
-        "message":"Once I recollect my memories I will tell you about Andor. Please come back in a few minutes.",
+        "message":"Once I sort through my memories I will tell you about Andor. Please come back in a few minutes.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -18120,7 +18225,7 @@
         "message":"The one student whose name I don't remember. The one that didn't bolt out the door. What is it?",
         "replies":[
             {
-                "text":"Could you tell me what know about the library theft?",
+                "text":"Could you tell me what you know about the library theft?",
                 "nextPhraseID":"brightport_frederich",
                 "requires":[
                     {
@@ -18634,11 +18739,11 @@
     },
     {
         "id":"brightport_crate_failure13",
-        "message":"What, there's a kid in here! - What are you doing in there kiddo?!",
+        "message":"What, there's someone inside here! - What are you doing in there kiddo?!",
         "switchToNPC":"brightportguardcrate1",
         "replies":[
             {
-                "text":"We'll I was playing hide and seek with my mates and... [Lie]",
+                "text":"Well, I was playing hide and seek with my mates and... [Lie]",
                 "nextPhraseID":"brightport_crate_failure16"
             },
             {
@@ -19267,7 +19372,7 @@
     },
     {
         "id":"brightport_mayor2",
-        "message":"Haha, don't sweat it, kid! We're Brightporters, like any other. So, what brings you here?",
+        "message":"Haha, don't sweat it! We're Brightporters, like any other. So, what brings you here?",
         "replies":[
             {
                 "text":"Have you seen my brother Andor?",
@@ -19548,7 +19653,7 @@
     },
     {
         "id":"brightport_newcommander0",
-        "message":"What- Erm. Look, kid, I'm busy right now. Could you just go away?"
+        "message":"What- Erm. Look, I'm busy right now. Could you just go away?"
     },
     {
         "id":"brightport_crescenzio_2",
@@ -19720,7 +19825,7 @@
     },
     {
         "id":"brightport_silvear_directions",
-        "message":"I already told you where to go, kid. Head inside and use the entrance in the back. Thanks for the free gold, though",
+        "message":"I already told you where to go. Head inside and use the entrance in the back. Thanks for the free gold, though",
         "switchToNPC":"brightportthieves1"
     },
     {
@@ -20324,6 +20429,13 @@
                 "text":"That explains the mess.",
                 "nextPhraseID":"brightport_storemaster2"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":245
+            }
         ]
     },
     {
@@ -20540,40 +20652,6 @@
             {
                 "text":"I should try again.",
                 "nextPhraseID":"brightport_statue_central6"
-            },
-            {
-                "text":"This statue is old, perhaps I could find a clue in a history book or in the libary",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"brightport_puzzle",
-                        "value":5
-                    }
-                ]
-            },
-            {
-                "text":"Argh, stupid statue.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"brightport_puzzle",
-                        "value":15
-                    }
-                ]
-            },
-            {
-                "text":"I'll come back later.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"brightport_puzzle",
-                        "value":15,
-                        "negate":true
-                    }
-                ]
             }
         ],
         "rewards":[
@@ -20858,7 +20936,7 @@
         "replies":[
             {
                 "text":"a",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20870,7 +20948,7 @@
             },
             {
                 "text":"g",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20894,7 +20972,7 @@
             },
             {
                 "text":"t",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20906,7 +20984,7 @@
             },
             {
                 "text":"h",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20918,7 +20996,7 @@
             },
             {
                 "text":"l",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20930,7 +21008,7 @@
             },
             {
                 "text":"e",
-                "nextPhraseID":"brightport_wrong",
+                "nextPhraseID":"brightport_wrong_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -21200,7 +21278,7 @@
     },
     {
         "id":"brightport_armor1",
-        "message":"Hi kid, I'm Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.",
+        "message":"Hi, I'm Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.",
         "switchToNPC":"brightportbakery1",
         "replies":[
             {
@@ -21780,9 +21858,6 @@
         "message":"Here lie the valiant warriors of Brightport, in memory of their courage."
     },
     {
-        "id":"irbepithet10"
-    },
-    {
         "id":"brightport_epithet11",
         "message":"Here lies Cuchiuch, had as many as 100 friends."
     },
@@ -22240,7 +22315,7 @@
     },
     {
         "id":"brightport_gunfryk21",
-        "message":"That is understandable, I was a bit hopeful kid, we've long needed a reason to nail down the coffin of the remaining criminals in town.",
+        "message":"That is understandable, I was a bit hopeful, we've long needed a reason to nail down the coffin of the remaining criminals in town.",
         "replies":[
             {
                 "text":"N",
@@ -22290,5 +22365,69 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brightport_eatloni_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_storemaster1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":245,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_eatloni",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":245
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_eatloni",
+        "message":"Do you not have other things to occupy yourself with. Why must you bother me?"
+    },
+    {
+        "id":"brightport_wrong_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_wrong1",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brightport_puzzle",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_wrong",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brightport_puzzle",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_wrong1",
+        "message":"This statue is old, perhaps I could find a clue in a history book once I return to the library."
     }
 ]

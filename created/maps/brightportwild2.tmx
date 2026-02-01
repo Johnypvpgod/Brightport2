@@ -230,7 +230,7 @@
  </layer>
  <layer id="4" name="Objects_apples" width="12" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwm8FBgYgliJVz8fqP6uPPHqnwgxMCwWINVVEHtiFEjTkwT0x1ES9dAT9JAYzqQAcsJ4FJAOALGLCLA=
+   eJxjYBgFAwm8FBgYgliJVz8fqP6uPPHqnwgxMCwWINVVEHtiFIhXHy3HwJAE9MdREvTQG/SQGM6kAHLCeBSQDgDUpAkp
   </data>
  </layer>
  <layer id="5" name="Objects_applecrate" width="12" height="25">

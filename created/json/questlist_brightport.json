@@ -18,7 +18,7 @@
             },
             {
                 "progress":40,
-                "logText":"From silvear I received some records that could be useful as blackmail againt Gunfryk."
+                "logText":"From silvear I received some records that could be useful as blackmail against Gunfryk."
             },
             {
                 "progress":50,
@@ -42,7 +42,7 @@
             },
             {
                 "progress":130,
-                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the Guild's protection, suckers."
+                "logText":"I opted to blackmail the duo instead for some quick gold, should've had the Guild's protection, suckers."
             },
             {
                 "progress":135,
@@ -56,7 +56,7 @@
             },
             {
                 "progress":100,
-                "logText":"Barthold was a little dissapointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
+                "logText":"Barthold was a little disappointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
                 "rewardExperience":2950,
                 "finishesQuest":1
             },
@@ -938,6 +938,10 @@
             {
                 "progress":244,
                 "logText":"check so the player doesnt pay twice to hear about andor from elysa"
+            },
+            {
+                "progress":245,
+                "logText":"eatloni loop"
             }
         ]
     },
@@ -967,6 +971,10 @@
                 "logText":"No wonder it got so quiet, Delon went away to sleep on some sacks. And now I have a new task, sift through some flour."
             },
             {
+                "progress":19,
+                "logText":"I've sifted through all of the flour."
+            },
+            {
                 "progress":20,
                 "logText":"One last errand. An apple delivery hasn't arrived. I should ask Allares about it."
             },
@@ -980,7 +988,7 @@
             },
             {
                 "progress":25,
-                "logText":"According to Eatloni the order of 30 apples never arrived. I could go looking for them, or just head straight to the orchard myself."
+                "logText":"According to Eatloni the order of 30 apples never arrived. I should visit Deebo's Orchard, to check if the order had been picked up."
             },
             {
                 "progress":30,
@@ -1163,7 +1171,7 @@
             },
             {
                 "progress":40,
-                "logText":"To earn the trust of the tribe's leader, Elyzard. I swore to return the stolen bones."
+                "logText":"To earn the trust of the tribe's leader, Elyzard. I swore to return the 15 stolen bones."
             },
             {
                 "progress":50,

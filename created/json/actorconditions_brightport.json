@@ -20,8 +20,8 @@
     {
         "id":"brightport_diadem",
         "iconID":"actorconditions_1:89",
-        "name":"Incompatible ancestry",
-        "description":"A magical item attempts to draw it's full power but it's wearer is unworthy.",
+        "name":"Incompatible biology",
+        "description":"A magical item attempts to draw it's full power, but it was tailored for a different creature.",
         "category":"spiritual",
         "abilityEffect":{
             "increaseAttackChance":-5,
