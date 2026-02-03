@@ -168,6 +168,10 @@
                 "logText":"I examined a statue far southwest of brightport. Carved into the statue were the symbols for the letters A, G, and R."
             },
             {
+                "progress":84,
+                "logText":"The puzzle is proving itself too tough, I should return to the library in Brightport in search for lcues"
+            },
+            {
                 "progress":85,
                 "logText":"I spoke the activation word to the statue in the forest and can now move further."
             },
