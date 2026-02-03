@@ -61,6 +61,10 @@
                 "finishesQuest":1
             },
             {
+                "progress":119,
+                "logText":"I gave the commander the blade, even though I already got paid not to. If there's any honor among Nor City's thieves, they will surely have none to spare for me."
+            },
+            {
                 "progress":120,
                 "logText":"Gunfryk was happy with my work, the duo will soon be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
                 "rewardExperience":2400,
@@ -69,11 +73,6 @@
             {
                 "progress":140,
                 "logText":"I told the commander I couldn't find anything even though I had the blade I blackmailed Barthold and Dynes with.",
-                "finishesQuest":1
-            },
-            {
-                "progress":150,
-                "logText":"I gave the commander the blade, even though I already got paid not to. If there's any honor among Nor City's thieves, they will surely have none to spare for me.",
                 "finishesQuest":1
             }
         ]

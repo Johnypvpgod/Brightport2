@@ -4614,6 +4614,11 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"brightport_arrest"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":120
             }
         ]
     },
@@ -22505,7 +22510,14 @@
     },
     {
         "id":"brightport_wrong1",
-        "message":"This statue is old, perhaps I could find a clue in a history book once I return to the library."
+        "message":"This statue is old, perhaps I could find a clue in a history book once I return to the library.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":84
+            }
+        ]
     },
     {
         "id":"brightport_bakery_selector",
