@@ -227,7 +227,7 @@
  </layer>
  <layer id="4" name="Above" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYECA//IQOleRgSEPikEgQ46B4bwcQgyE84H4qhwDCihVYGDIUmAgCoDMey9PnFp8IF+RsJqtQDVboW5NQnPzZEWEv0GAVDch2w/S+1MOt1psADkcYGadRzLjhxxxZhLr7lxF3GH2n0gzihUQaQOfPdgAuj4AcHIeBA==
+   eJxjYECA//IQOleRgSEPikEgQ46B4bwcQgyE84H4qhwDCihVYGDIUmAgCoDMey9PnFp8IF+RsJqtQDVboW5NQnPzZEWEv0GAVDch2w/S+1MOt1psADkcYGadRzLjhxxxZhLr7lxF3GH2n0gzihUQaQMb2CoEsQcbQNcHAJKUHss=
   </data>
  </layer>
  <layer id="5" name="Top" width="16" height="10">

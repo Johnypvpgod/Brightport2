@@ -182,12 +182,12 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJytk9ENwjAMRCNTPkDsP0RnYAWSH/5L2KCFAYhFLK7GNVHEx5Oqnu+inJVIIcTC9RDCjT7kwlKZaK3hzFT9mgR+5lEYdm9mpeEMaxcjL4OfOQ1rUNMzOi/Vs3RGC+eNu1qz3Cmj/UJUfXp5koWZs+ofd7aAlsnPQqT/rHYme8PuvBzkXj26D/5O1J4jPB1PT55H/HOe7HqstPZn/R833lFPf/ImrXfUe1f27o/fiG5pv3gBJt7G3Q==
+   eJytk9ENwjAQQ6OjfIDYf4jOwAokP/yXsEELA5ATOeG6aYgKH0+q6rOj+BQvzvnE9eDcTT7ExJQZZK7hzJD9TAC/8kh0uzcjaTij2qWQF8GvnLo5qPEM54V8Fme0cF65a2lWO1XYb3jqs5ZnWZg5Uv+4swm0KPUsxPqPtDPbG3ZXy0Hu2cN96HeQ9hzjWfFsyavh/5xnu+4zrf2V/vcrb2hLf/Ym+Q39clf1749LTC9p33gBoBjHtA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYICAc0wMNANe/BBaG2iHGZo9ViTYWyPMwFArDGGzMkPoQ6wMDMzMqOb6CSHUMDPjNm8O0Ky5QNwONOOXOAPDbyj+I45Qwwm174cgA8NuPG6FuUeFH2LWayQzXkHNXEmCXwWh9qKbBXIHzExkgOx/UHijhzPMfzCzGIUx7cQWVtVQdVpo5oHMAbnFEIs5PFAxNX5UM0FhNFsY4Q6YHCzselgxzYIBmHtnI8W/Oj92tQFC2MVhYYcO2LD4G1ntYzEIHYbFr/gAtjBGB6uB4fodh7vwAeS0pA5lo8c5DMhBwwM5rpDD+iAS2wgpj5qjmceNFK7IfgOFH8w8EN3Dij/fceCIH2IAAC6nLM0=
+   eJxjYICAc0wMNANe/BBaG2iHGZo9ViTYWyPMwFArDGGzMkPoQ6wMDMzMqOb6CSHUMDPjNm8O0Ky5QNwONOOXOAPDbyj+I45Qwwm174cgA8NuPG6FuUeFH2LWayQzXkHNXEmCXwWh9qKbBXIHzExkgOx/UHijhzPMfzCzGIUx7cQWVtVQdVpo5oHMAbnFEIs5PFAxNX5UM0FhNFsY4Q6YHCzselgxzYIBmHtnI8W/Oj92tQFC2MVhYYcO2LD4G1ntYzEIHYbFr/gAtjBGB6uB4fodh7vwAeS0pA5lo8c5DMhBwwM5rpDD+iAS2wgpj5ozIeIGBLiRwhXZb6Dwg5kHontY8ec7DhzxQwwAADMkLNU=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
@@ -195,7 +195,7 @@
    eJxjYMANPovhkSQCoOt/TIR5+OxE1/+JCPNwqQHZAzPPSZiwOYQAyCxi3EOKedTUBxNXJMGvsDCqFcYuTgyoFkbVAwqjuWjmkRN2+PSQE3b47N/LRJpZ+0hUjwsgxxUpeRGXWkck87CFEa58QEx4khJ/5KZtEAAA32El1Q==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15">
+ <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcHGIYhCgljnEAErNoba7qO1HcszDZja6PDFxh8ssfG7EJU8qwKeH1DRCjF3kxDMx5uAyDz18scUhNdIhMWaRYi82DABbzZ0D
   </data>

@@ -82,5 +82,17 @@
             "increaseBlockChance":-15,
             "increaseDamageResistance":0
         }
+    },
+    {
+        "id":"brightport_trollregen",
+        "iconID":"actorconditions_1:35",
+        "name":"Troll regeneration",
+        "category":"blood",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
+            }
+        }
     }
 ]

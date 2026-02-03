@@ -88,6 +88,7 @@
         "maxHP":300,
         "maxAP":12,
         "moveCost":8,
+        "unique":1,
         "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":12,
@@ -264,6 +265,7 @@
         "maxHP":160,
         "maxAP":12,
         "moveCost":4,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -331,10 +333,10 @@
     },
     {
         "id":"brightportbakery2",
-        "name":"Effi",
+        "name":"Effa",
         "iconID":"monsters_ld1:144",
         "unique":1,
-        "phraseID":"brightport_bakery",
+        "phraseID":"brightport_bakery_selector",
         "droplistID":"brightport_bakery"
     },
     {
@@ -356,7 +358,7 @@
         "name":"Gunther",
         "iconID":"monsters_johny:1",
         "unique":1,
-        "phraseID":"brightport_bakery3",
+        "phraseID":"brightport_bakery3_selector",
         "droplistID":"brightport_bakery"
     },
     {
@@ -365,6 +367,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":250,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
@@ -399,6 +402,7 @@
         "maxHP":400,
         "maxAP":15,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -486,6 +490,7 @@
         "maxHP":160,
         "maxAP":12,
         "moveCost":4,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -506,6 +511,7 @@
         "iconID":"monsters_ld1:95",
         "maxHP":120,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
@@ -709,6 +715,7 @@
             "min":35,
             "max":40
         },
+        "droplistID":"charwdg",
         "attackCost":8,
         "attackChance":220,
         "blockChance":120,
@@ -890,6 +897,7 @@
         "maxHP":160,
         "maxAP":12,
         "moveCost":4,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -912,12 +920,13 @@
         "maxHP":280,
         "maxAP":12,
         "moveCost":3,
-        "monsterClass":"humanoid",
+        "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":15,
             "max":35
         },
+        "droplistID":"charwdg",
         "attackCost":6,
         "attackChance":200,
         "criticalSkill":5,
@@ -1045,6 +1054,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":220,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -1068,6 +1078,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":250,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -1090,6 +1101,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":250,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -1113,6 +1125,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":250,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -1135,6 +1148,7 @@
         "iconID":"monsters_johny:26",
         "maxHP":250,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -1188,6 +1202,7 @@
         "name":"Agitated ghost",
         "iconID":"monsters_rltiles2:45",
         "maxHP":159,
+        "monsterClass":"undead",
         "attackDamage":{
             "min":10,
             "max":15
@@ -1208,5 +1223,22 @@
         "name":"Drendolas",
         "iconID":"monsters_ld1:20",
         "phraseID":"brightport_studentghost1_selector"
+    },
+    {
+        "id":"brightport_troll",
+        "name":"Charwood troll",
+        "iconID":"monsters_newb_1:87",
+        "maxHP":420,
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":13,
+            "max":24
+        },
+        "droplistID":"brightport_troll",
+        "attackCost":5,
+        "attackChance":223,
+        "blockChance":130,
+        "damageResistance":5
     }
 ]

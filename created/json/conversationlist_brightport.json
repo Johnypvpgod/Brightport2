@@ -839,7 +839,7 @@
     },
     {
         "id":"brightport_gunfryk0",
-        "message":"We protect Brightport from the critters of the wilderness and barbaric monsters such as those lizardmen.  All by decree of our king, Lord Geomyr. ",
+        "message":"We protect Brightport from the critters of the wilderness and barbaric monsters such as those lizardmen. All by decree of our king, Lord Geomyr. ",
         "replies":[
             {
                 "text":"N",
@@ -1503,7 +1503,7 @@
     },
     {
         "id":"brightport_goons20",
-        "message":"Yeah, he really complicated things, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to a cave I use to hide some merchandise.",
+        "message":"Yeah, he really complicated things. That guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to a cave I use to hide some merchandise.",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -2797,7 +2797,7 @@
     },
     {
         "id":"brightport_elyzard4",
-        "message":"Help the shadow Chaplain with task, only then our trust be restored.",
+        "message":"Help the Shadow Chaplain with task, only then our trust be restored.",
         "replies":[
             {
                 "text":"I helped Dominio with his task.",
@@ -3360,6 +3360,11 @@
     },
     {
         "id":"brightport_broom_savepoint",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5287,12 +5292,14 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":191
+                        "value":191,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":190
+                        "value":190,
+                        "negate":true
                     }
                 ]
             }
@@ -7506,7 +7513,7 @@
         "message":"We need you to pick up a package from the mediator of one of our clients. We've received word that he'll be waiting in the old building east of town. Be discreet, and make sure the guards don't see you.",
         "replies":[
             {
-                "text":"Fine, I'll pick up that package for you.",
+                "text":"I'll pick up that package for you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -8020,6 +8027,10 @@
             {
                 "text":"Fine I'll do it. ",
                 "nextPhraseID":"brightport_elysa0"
+            },
+            {
+                "text":"I don't feel like working for you right now.",
+                "nextPhraseID":"brightport_elysa11"
             }
         ]
     },
@@ -8440,6 +8451,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"bonemeal_potion",
                 "value":6
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":36
             }
         ]
     },
@@ -8985,7 +9001,7 @@
     },
     {
         "id":"brightport_priest_1_reply2_1",
-        "message":"To follow the shadow, one must listen to its voice and direct their gaze toward its wisdom.",
+        "message":"To follow the Shadow, one must listen to its voice and direct their gaze toward its wisdom.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -9000,7 +9016,7 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
-                "text":"Thanks, may the shadow be with you.",
+                "text":"Thanks, may the Shadow be with you.",
                 "nextPhraseID":"X"
             },
             {
@@ -10276,7 +10292,7 @@
     },
     {
         "id":"brightport_broom25_selector",
-        "message":"Sweep Sweep.",
+        "message":"Sweep sweep.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -10918,7 +10934,7 @@
     },
     {
         "id":"brightport_bryma1",
-        "message":"Andor? yes, I think that was his name. ",
+        "message":"Andor? Yes, I think that was his name. ",
         "replies":[
             {
                 "text":"N",
@@ -12138,6 +12154,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_storemaster"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":245
             }
         ]
     },
@@ -13519,7 +13542,7 @@
     },
     {
         "id":"brightportpriest_1_reply1goodbye",
-        "message":"May the shadow assist you on your journey.",
+        "message":"May the Shadow assist you on your journey.",
         "switchToNPC":"brightportpriest1"
     },
     {
@@ -15160,7 +15183,7 @@
     },
     {
         "id":"brightport_priest_1_reply2",
-        "message":"The shadow speaks to us. It watches over our thoughts, and guides us.",
+        "message":"The Shadow speaks to us. It watches over our thoughts, and guides us.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -15175,7 +15198,7 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
-                "text":"Can you tell me how to follow the shadow?",
+                "text":"Can you tell me how to follow the Shadow?",
                 "nextPhraseID":"brightport_priest_1_reply2"
             },
             {
@@ -15805,13 +15828,24 @@
                 ]
             },
             {
-                "text":"I found and returned the document to the headmaster, he'll release an apology for you later.",
+                "text":"I returned the scroll to the headmaster, he'll release an apology for you later.",
                 "nextPhraseID":"brightport_stanwick16",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":96
+                    }
+                ]
+            },
+            {
+                "text":"I have the scroll right here",
+                "nextPhraseID":"brightport_stanwick17",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_scroll",
+                        "value":1
                     }
                 ]
             },
@@ -15974,7 +16008,15 @@
             },
             {
                 "text":"[I should seek out a way to get permission to visit Stanwick.]",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -16469,7 +16511,7 @@
     },
     {
         "id":"brightport_broom22",
-        "message":"I'm back, and you haven't finished yet?  I'm refreshed so I'll take it from here.",
+        "message":"I'm back, and you haven't finished yet? I'm refreshed so I'll take it from here.",
         "switchToNPC":"brightportnpc10",
         "replies":[
             {
@@ -17535,7 +17577,7 @@
     },
     {
         "id":"brightport_gunfryk13",
-        "message":"We sure need more brave law upholding youngsters  like you around! I'll make sure to write to my superiors about it, after graduating the academy here be sure to give the military academy a try. Glory to Feygard!",
+        "message":"We sure need more brave law upholding youngsters like you around! I'll make sure to write to my superiors about it, after graduating the academy here be sure to give the military academy a try. Glory to Feygard!",
         "switchToNPC":"brightport_gunfrykstill",
         "rewards":[
             {
@@ -18105,7 +18147,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Thank you, shadow be with you.",
+                "text":"Thank you, Shadow be with you.",
                 "nextPhraseID":"X"
             }
         ]
@@ -19314,7 +19356,7 @@
         "message":"Braving these lands for your brother, impressive. You have courage, but I cannot help you more than to pray the Shadow to watch over you.",
         "replies":[
             {
-                "text":"I have no shadow of a doubt it won't be doing that.",
+                "text":"I have no Shadow of a doubt it won't be doing that.",
                 "nextPhraseID":"X"
             },
             {
@@ -19552,7 +19594,7 @@
     },
     {
         "id":"oswald_quest",
-        "message":"Hey kid, any progress on finding the scroll? ",
+        "message":"Hey kid, any progress on finding the missing document?",
         "replies":[
             {
                 "text":"I have the scroll here, take it.",
@@ -19563,6 +19605,23 @@
                         "requireID":"brightport_scroll",
                         "value":1,
                         "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"Do you know who Bryma is?",
+                "nextPhraseID":"brightport_oswald27",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -20456,7 +20515,7 @@
             },
             {
                 "text":"Who are you?",
-                "nextPhraseID":"brightport_storemaster1"
+                "nextPhraseID":"brightport_eatloni_selector"
             }
         ]
     },
@@ -20561,7 +20620,7 @@
     },
     {
         "id":"brightport_delon13",
-        "message":"Zzz... huh? Er... wha, what?",
+        "message":"Zzz... Huh? Er... Wha, what?",
         "replies":[
             {
                 "text":"I finally finished sweeping the whole warehouse!",
@@ -20627,7 +20686,7 @@
     },
     {
         "id":"brightport_delon3",
-        "message":"Allares, my assistant, he did well acquiring me an underling. Hmm... now what work should I have you do?",
+        "message":"Allares, my assistant, he did well acquiring me an underling. Hmm... Now what work should I have you do?",
         "replies":[
             {
                 "text":"Huh aren't we working together?",
@@ -20720,7 +20779,7 @@
         "message":"No I can't that's not my job, go ask Allares if you want. Now, I'm glad you're finally getting off my back, I don't want you interrupting my important work. ",
         "replies":[
             {
-                "text":"Sure, whatever you say sleepyhead. [Leave.]",
+                "text":"Sure, whatever you say sleepyhead.",
                 "nextPhraseID":"X"
             }
         ],
@@ -21080,7 +21139,7 @@
     },
     {
         "id":"brightport_councilor",
-        "message":"Ho ho, younglin', how goes the day? [The old man coughs]  Don't mind me, just speak your piece."
+        "message":"Ho ho, younglin', how goes the day? [The old man coughs] Don't mind me, just speak your piece."
     },
     {
         "id":"brightport_stanwick_end",
@@ -21112,6 +21171,23 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_janwick2"
+            },
+            {
+                "text":"Do you know anyone by the name of Bryma?",
+                "nextPhraseID":"brightport_janwick3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -21990,6 +22066,7 @@
     {
         "id":"brightport_ghost1",
         "message":"You scoundrel dogs of Feygard, how dare you disturb the rest of a knight of Nor City!",
+        "switchToNPC":"brightport_ghost",
         "replies":[
             {
                 "text":"N",
@@ -22429,5 +22506,148 @@
     {
         "id":"brightport_wrong1",
         "message":"This statue is old, perhaps I could find a clue in a history book once I return to the library."
+    },
+    {
+        "id":"brightport_bakery_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bakery",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bakery_behindcounter",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery_behindcounter",
+        "message":"We don't serve people from behind the counter, please sit in front.",
+        "switchToNPC":"brightportbakery2"
+    },
+    {
+        "id":"brightport_bakery3_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bakery3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bakery3_behindcounter",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery3_behindcounter",
+        "message":"We don't serve people from behind the counter, please sit in front.",
+        "switchToNPC":"brightportbakery3"
+    },
+    {
+        "id":"brightport_behindcounter",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_behindcounter2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_behindcounter1",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":246
+            }
+        ]
+    },
+    {
+        "id":"brightport_behindcounter2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":246
+            }
+        ]
+    },
+    {
+        "id":"brightport_behindcounter0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_behindcounter1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":246
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_janwick3",
+        "message":"It sounds familiar, but I struggle a bit with my memory. Go and ask my friend Richimor, his house is right next to ours."
+    },
+    {
+        "id":"brightport_stanwick17",
+        "message":"What use do I have for it $Playername?! Return it to the headmaster at once!",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald27",
+        "message":"No. But how would that pertain to your investigation?",
+        "replies":[
+            {
+                "text":"Nothing, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

@@ -201,7 +201,7 @@
     },
     {
         "id":"brightport_broom",
-        "iconID":"items_misc_2:113",
+        "iconID":"items_misc_2:115",
         "name":"Broom",
         "displaytype":"ordinary",
         "hasManualPrice":1,
@@ -224,6 +224,8 @@
         "iconID":"items_newb:8",
         "name":"Deerskin gloves",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1172,
         "category":"hnd_lthr",
         "description":"A sturdy pair of gloves crafted out of the skin of an elder Elkdeer.",
         "equipEffect":{
@@ -435,21 +437,6 @@
         }
     },
     {
-        "id":"poisonland_protection",
-        "iconID":"items_japozero:236",
-        "name":"Lab gloves",
-        "displaytype":"ordinary",
-        "category":"hnd_lthr",
-        "equipEffect":{
-            "addedConditions":[
-                {
-                    "condition":"environmental_poisoning",
-                    "magnitude":-99
-                }
-            ]
-        }
-    },
-    {
         "id":"brightport_rice",
         "iconID":"items_japozero:591",
         "name":"Rice",
@@ -526,7 +513,7 @@
         "name":"Secret scroll",
         "displaytype":"quest",
         "category":"other",
-        "description":"A secret scroll kept in the library of Brightport. The headline reads: Concerning the mixture of kazarite dust within the foundational ingredients of a bonemeal potion. "
+        "description":"A secret document kept in the library of Brightport. The headline reads: Concerning the mixture of kazarite dust within the foundational ingredients of a bonemeal potion. "
     },
     {
         "id":"brightport_yellow",
@@ -559,6 +546,8 @@
         "iconID":"items_tometik2:77",
         "name":"King's hide",
         "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4792,
         "category":"bdy_hide",
         "description":"Torn off the Lizard king's body, the beast had lived for decades and its scales have grown thick.",
         "equipEffect":{
@@ -574,6 +563,8 @@
         "iconID":"items_omi2:5",
         "name":"Salamander gloves",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":455,
         "category":"hnd_lthr",
         "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
         "equipEffect":{
@@ -608,6 +599,8 @@
         "iconID":"items_japozero:235",
         "name":"Wraithguard",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":2599,
         "category":"gauntlet",
         "description":"\"Hands of the arhitect toil on the heart, they keen and sunder foe and friend alike\" - Inscription on the back of the gauntlet.",
         "equipEffect":{
@@ -630,5 +623,30 @@
         "name":"Bakery ledger",
         "displaytype":"ordinary",
         "description":"Random paper I found, while cleaning in the Brightport bakery."
+    },
+    {
+        "id":"brightport_trollhelmet",
+        "iconID":"items_newb:76",
+        "name":"Trollbone helmet",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":2670,
+        "category":"hd_lthr",
+        "equipEffect":{
+            "increaseAttackChance":-3,
+            "increaseCriticalSkill":-3,
+            "increaseBlockChance":16,
+            "increaseDamageResistance":1
+        },
+        "missEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightport_trollregen",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
